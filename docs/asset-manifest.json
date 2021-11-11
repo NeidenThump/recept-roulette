@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/recept-roulette/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/recept-roulette/static/js/main.c99702f6.chunk.js",
+    "main.js.map": "/recept-roulette/static/js/main.c99702f6.chunk.js.map",
+    "runtime-main.js": "/recept-roulette/static/js/runtime-main.f38d5843.js",
+    "runtime-main.js.map": "/recept-roulette/static/js/runtime-main.f38d5843.js.map",
+    "static/js/2.71a940da.chunk.js": "/recept-roulette/static/js/2.71a940da.chunk.js",
+    "static/js/2.71a940da.chunk.js.map": "/recept-roulette/static/js/2.71a940da.chunk.js.map",
+    "static/js/3.0ddd7b5c.chunk.js": "/recept-roulette/static/js/3.0ddd7b5c.chunk.js",
+    "static/js/3.0ddd7b5c.chunk.js.map": "/recept-roulette/static/js/3.0ddd7b5c.chunk.js.map",
+    "index.html": "/recept-roulette/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/recept-roulette/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.71a940da.chunk.js.LICENSE.txt": "/recept-roulette/static/js/2.71a940da.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/recept-roulette/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f38d5843.js",
+    "static/js/2.71a940da.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c99702f6.chunk.js"
+  ]
+}

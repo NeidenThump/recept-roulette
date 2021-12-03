@@ -15,24 +15,9 @@ export default function LabelBottomNavigation() {
 
   return (
     <BottomNavigation sx={{ width: 375, position: 'absolute', left: '50%', top: '96.5%', transform: 'translate(-50%, -50%)'}} value={value} onChange={handleChange}>
-      <BottomNavigationAction
-        label="Inställningar"
-        value="Settings"
-        icon={<SettingsIcon />}
-      />
-
-      <BottomNavigationAction
-        label="Hem"
-        value="Home"
-        icon={<HomeIcon />}
-      />
-      
-      <BottomNavigationAction
-        label="Favoriter"
-        value="Favorite"
-        icon={<FavoriteIcon />}
-      />
-
+      <BottomNavigationAction label="Inställningar" value="Settings" icon={<SettingsIcon />}/>
+      <BottomNavigationAction label="Hem" value="Home" icon={<HomeIcon />}/>
+      <BottomNavigationAction label="Favoriter" value="Favorite" icon={<FavoriteIcon />}/>
     </BottomNavigation>
   );
 }

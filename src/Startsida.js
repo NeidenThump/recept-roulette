@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Startsida() {
     return(
         <div className="startsida">
@@ -10,7 +12,7 @@ function Startsida() {
             <div className="startsidaBottom">
                 <p className="startsidaText">Redo för ett <span className="green">recept</span><br/>ingen annan har sett?</p>
                 <p className="startsidaTextGrey">Över 1000 ingredienser!</p>
-                <button>Let’s go!</button>
+                <Link to="/recept-roulette/Recept/"><button>Let’s go!</button></Link>
             </div>
         </div>
     );

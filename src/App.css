@@ -19,14 +19,15 @@
 }
 
 .startsida {
+  font-family: 'Roboto', sans-serif;
   background-image: url("backgroundStartsida.png");
-  height: 512px;
+  background-repeat: no-repeat;
+  max-width: 375px;
+  max-height: 812px;
   margin-top: -50px;
-  margin-right: -22px;
 }
 
 .startsidaTitle {
-  font-family: 'Roboto', sans-serif;
   -webkit-text-stroke: 5px #222165;
   color: white;
   font-size: 72px;
@@ -37,7 +38,6 @@
 /* Fixa title som figman */
 
 .startsidaText {
-  font-family: 'Roboto', sans-serif;
   padding-top: 50px;
   font-size: 26px;
   font-weight: bold;
@@ -45,6 +45,7 @@
 
 .startsidaBottom {
   background-image: url("backgroundWhite.png");
+  background-repeat: no-repeat;
   height: 272px;
   text-align: center;
 }
@@ -64,7 +65,6 @@
 }
 
 .startsidaTextGrey{
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #6A6A6A;
 }

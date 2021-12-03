@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 
 function Startsida() {
+    /* Ta bort scroll i både yled och xled */
     return(
         <div className="startsida">
             <link rel="preconnect" href="https://fonts.googleapis.com"/>

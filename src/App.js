@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Title from './Title';
 import ReceptVy from './ReceptVy';
 
 function App() {

@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 export default function LabelBottomNavigation() {
   const [value, setValue] = React.useState('recents');
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (newValue) => {
     setValue(newValue);
   };
 

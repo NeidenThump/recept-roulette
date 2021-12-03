@@ -1,6 +1,8 @@
 import Food from "./livsmedel.json";
 import Ordklasser from "./ordklasser.json";
 
+let nr = 1;
+        
 function createRandArr(min,max,amount){
     for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
     return a;
@@ -13,37 +15,10 @@ function getRandomArbitrary(min, max) {
 }
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
-    /*
-    Från 4- 6 ingredienser ska det skapas:
-    - En slumpad titel med några av de orden
-    - Slumpade portioner mellan 1-5
-    - Slumpad tid mellan 10 min - 120 min
-    - En lista med alla ingredienserna
-    - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
-    */
-
-    const randArr = createRandArr(1,1000,4);
-    const foods = Object.values(Food.filter(food => randArr.includes(food.Nummer)).map(food => food.Namn));
-    console.log(foods);
-
-    const prepos = Object.values(Ordklasser.prepos);
-    console.log(prepos);
-
-    let title = [];
-
-    for (let index = 0; index < foods.length; index++) {
-        console.log(foods[index]);
-        if(index%2===0){
-            title[index] = foods[index] + " ";
-        }else if((index+1)<foods.length && index < prepos.length){
-            title[index] = prepos[index] + " ";
-        }
-    }
-
-    console.log(title);
 
     function saveFavorite() {
-        let nr = 1;
+    
+        console.log(nr);
     
         var obj = {
             table: []
@@ -76,8 +51,8 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 } else {
                 obj = JSON.parse(data); //now it an object
                 obj.table.push({
-
-
+    
+    
                     "Favorit": {
                         "id": {
                             nr
@@ -97,8 +72,37 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
             }});
             
             // document.getElementById('btn').style.cssText = 'background-color: white; color: #F9545B';
-            nr++;
+            nr = nr + 1;
+        }
+        
+    /*
+    Från 4- 6 ingredienser ska det skapas:
+    - En slumpad titel med några av de orden
+    - Slumpade portioner mellan 1-5
+    - Slumpad tid mellan 10 min - 120 min
+    - En lista med alla ingredienserna
+    - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
+    */
+
+    const randArr = createRandArr(1,1000,4);
+    const foods = Object.values(Food.filter(food => randArr.includes(food.Nummer)).map(food => food.Namn));
+    console.log(foods);
+
+    const prepos = Object.values(Ordklasser.prepos);
+    console.log(prepos);
+
+    let title = [];
+
+    for (let index = 0; index < foods.length; index++) {
+        console.log(foods[index]);
+        if(index%2===0){
+            title[index] = foods[index] + " ";
+        }else if((index+1)<foods.length && index < prepos.length){
+            title[index] = prepos[index] + " ";
+        }
     }
+
+    console.log(title);
 
     return(
         <div>

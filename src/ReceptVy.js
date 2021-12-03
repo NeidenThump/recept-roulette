@@ -45,7 +45,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     function saveFavorite() {
         let nr = 1;
     
-    
         var obj = {
             table: []
          };
@@ -96,8 +95,8 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 json = JSON.stringify(obj); //convert it back to json
                 fs.writeFile('myjsonfile.json', json, 'utf8'); // write it back 
             }});
-    
-    
+            
+            // document.getElementById('btn').style.cssText = 'background-color: white; color: #F9545B';
             nr++;
     }
 
@@ -105,6 +104,9 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         <div>
             <h2 className="title">{title}</h2>
             {/* Kalla på style för h2 och basera på längd av title */}
+            <div className="Center">
+                <button className="saveButton" id="btn" onClick={saveFavorite()}>Spara</button>
+            </div>
                 <div className="tidPort">
                     Portioner: 4 Tid: 20 min
                 </div>
@@ -129,7 +131,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 <br/><br/><br/>
                 </p>
-            {saveFavorite()}
         </div>
 
     )

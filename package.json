@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
     "@mui/material": "^5.2.2",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -12,6 +13,7 @@
     "browserify-fs": "^1.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },

@@ -3,6 +3,8 @@
   width: 375px;
 }
 
+/* ReceptVy */
+
 .title{
   width: 320px;
   margin-left: 27.5px;
@@ -16,6 +18,23 @@
 
 .ingredienser{
   text-align: left;
+}
+
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveButton {
+  color: #F9545B;
+  background-color: white;
+  width: 110px;
+  height: 37px;
+  border-color: #F9545B;
+  border-width: 2px;
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 /* Startsida */

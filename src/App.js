@@ -2,7 +2,7 @@
 import './App.css';
 import ReceptVy from './ReceptVy';
 import Navbar from './Navbar';
-import { BrowserRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 export default function App() {
   return (

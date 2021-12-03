@@ -14,7 +14,7 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 360, position: 'absolute', left: '50%', top: '96.5%', transform: 'translate(-50%, -50%)'}} value={value} onChange={handleChange}>
+    <BottomNavigation sx={{ width: 375, position: 'absolute', left: '50%', top: '96.5%', transform: 'translate(-50%, -50%)'}} value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="Inställningar"
         value="Settings"

@@ -70,3 +70,38 @@
   font-size: 18px;
   color: #6A6A6A;
 }
+
+/* AddWord */
+
+.AddWord {
+  text-align: center;
+}
+
+.AddWord img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.AddWord p {
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.AddWordTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 314px;
+  height: 44px;
+  background-color: #EAEAEA;
+  border-style: none;
+}

@@ -7,7 +7,7 @@ function AddWord() {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"/>
             <h2 className="AddWordTitle">Egna ingredienser</h2>
-            <img src={icon}/>
+            <img src={icon} alt=""/>
             <input className="text" type="text" placeholder="Lägg till ord..."></input>
             <hr/><p>Föreslagna ord:</p><hr/>
         </div>

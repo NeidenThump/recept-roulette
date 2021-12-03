@@ -41,6 +41,66 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     }
 
     console.log(title);
+
+    function saveFavorite() {
+        let nr = 1;
+    
+    
+        var obj = {
+            table: []
+         };
+    
+            obj.table.push({
+                "Favorit": {
+                    "id": {
+                        nr
+                    },
+            
+                    "image": {
+                        
+                    },
+            
+                    "title":{
+                        title
+                    }
+                }
+            });
+    
+            var json = JSON.stringify(obj);
+    
+            var fs = require('browserify-fs');
+            fs.writeFile('Favoriter.json', json, 'utf8');
+    
+            fs.readFile('Favoriter.json', 'utf8', function readFileCallback(err, data){
+                if (err){
+                    console.log(err);
+                } else {
+                obj = JSON.parse(data); //now it an object
+                obj.table.push({
+
+
+                    "Favorit": {
+                        "id": {
+                            nr
+                        },
+                
+                        "image": {
+                            
+                        },
+                
+                        "title":{
+                            title
+                        }
+                    }
+                }); //add some data
+                json = JSON.stringify(obj); //convert it back to json
+                fs.writeFile('myjsonfile.json', json, 'utf8'); // write it back 
+            }});
+    
+    
+            nr++;
+    }
+
     return(
         <div>
             <h2 className="title">{title}</h2>
@@ -69,7 +129,9 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 <br/><br/><br/>
                 </p>
+            {saveFavorite()}
         </div>
+
     )
 }
 

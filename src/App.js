@@ -2,14 +2,20 @@
 import './App.css';
 import ReceptVy from './ReceptVy';
 import Navbar from './Navbar';
+import { BrowserRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-        <ReceptVy></ReceptVy>
-        <Navbar></Navbar>
+  <Router>
+    <div>
+      <Routes>
+        <Route path="/recept-roulette/Recept/" element={<div><ReceptVy/><Navbar/></div>} />
+        <Route path="/recept-roulette/Favoriter/" element={<div><Navbar/></div>} />
+        <Route path="/recept-roulette/" element={<div><Navbar/></div>} />
+      </Routes>
     </div>
-  );
+  </Router>
+);
 }
 
-export default App;
+

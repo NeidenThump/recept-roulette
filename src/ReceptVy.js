@@ -43,8 +43,8 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     console.log(title);
     return(
         <div>
-            <h2>{title}</h2>
-
+            <h2 className="title">{title}</h2>
+            {/* Kalla på style för h2 och basera på längd av title */}
                 <div className="tidPort">
                     Portioner: 4 Tid: 20 min
                 </div>

@@ -3,6 +3,11 @@
   width: 375px;
 }
 
+.title{
+  width: 300px;
+  margin-left: 35.5px;
+}
+
 .tidPort{
   background-color: gray;
 }

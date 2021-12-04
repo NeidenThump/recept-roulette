@@ -115,12 +115,31 @@
   font-size: 35px;
 }
 
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
 .text {
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
   padding-left: 10px;
-  width: 314px;
+  width: 298px;
   height: 44px;
   background-color: #EAEAEA;
   border-style: none;
+}
+
+.submit {
+  padding-bottom: -10px;
+  margin-top: 20px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  color: white;
+  background-color: #222165;
+  text-align: center;
 }

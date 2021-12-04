@@ -1,7 +1,5 @@
 import Food from "./livsmedel.json";
 import Ordklasser from "./ordklasser.json";
-
-let nr = 1;
         
 function createRandArr(min,max,amount){
     for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
@@ -15,65 +13,6 @@ function getRandomArbitrary(min, max) {
 }
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
-
-    function saveFavorite() {
-    
-        console.log(nr);
-    
-        var obj = {
-            table: []
-         };
-    
-            obj.table.push({
-                "Favorit": {
-                    "id": {
-                        nr
-                    },
-            
-                    "image": {
-                        
-                    },
-            
-                    "title":{
-                        title
-                    }
-                }
-            });
-    
-            var json = JSON.stringify(obj);
-    
-            var fs = require('browserify-fs');
-            fs.writeFile('Favoriter.json', json, 'utf8');
-    
-            fs.readFile('Favoriter.json', 'utf8', function readFileCallback(err, data){
-                if (err){
-                    console.log(err);
-                } else {
-                obj = JSON.parse(data); //now it an object
-                obj.table.push({
-    
-    
-                    "Favorit": {
-                        "id": {
-                            nr
-                        },
-                
-                        "image": {
-                            
-                        },
-                
-                        "title":{
-                            title
-                        }
-                    }
-                }); //add some data
-                json = JSON.stringify(obj); //convert it back to json
-                fs.writeFile('myjsonfile.json', json, 'utf8'); // write it back 
-            }});
-            
-            // document.getElementById('btn').style.cssText = 'background-color: white; color: #F9545B';
-            nr = nr + 1;
-        }
         
     /*
     Från 4- 6 ingredienser ska det skapas:

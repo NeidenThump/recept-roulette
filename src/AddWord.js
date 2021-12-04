@@ -1,4 +1,13 @@
 import icon from './spoonKnife.png';
+import ingrediens from './EgnaIngredienser.json';
+
+const taggar = (data) => {
+    return(
+        <div className="tag">
+            <p>{data.in}</p>
+        </div>
+    );
+}
 
 function AddWord() {
     return(
@@ -13,6 +22,7 @@ function AddWord() {
                 <input value="+" className="submit" type="submit"/>
             </div>
             <hr/><p>Föreslagna ord:</p><hr/>
+            {ingrediens.map((c) => (<taggar key={c} data={c} />))}
         </div>
     );
 }

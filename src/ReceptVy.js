@@ -48,7 +48,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
             <h2 className="title">{title}</h2>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <button className="saveButton" id="btn" onClick={saveFavorite()}>Spara</button>
+                <button className="saveButton" id="btn">Spara</button>
             </div>
                 <div className="tidPort">
                     Portioner: 4 Tid: 20 min

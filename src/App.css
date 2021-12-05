@@ -142,7 +142,7 @@
   height: 30px;
   background-color: #6A6A6A;
   color: white;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 5px;
   padding-left: -5px;
 }
@@ -150,4 +150,10 @@
 .tagTitle {
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;
+}
+
+.tagHolder {
+  margin-top: 20px;
+  width: 355px;
+  margin-left: 10px;
 }

@@ -8,7 +8,8 @@ function Set(){
     }
 
     function handleSubmit(Event) {
-        const save = Tag;
+        let retreivedObject = JSON.parse(window.localStorage.getItem('Tag'))
+        let save = [Tag];
         // Saving to storage
         window.localStorage.setItem('Tag', JSON.stringify(save))
         Event.preventDefault();
@@ -24,17 +25,21 @@ function Set(){
       );
 }
 
-
 function AddTag() {
     // Getting the storage
-    const retreivedObject = JSON.parse(window.localStorage.getItem('Tag'))
+    let retreivedObject = JSON.parse(window.localStorage.getItem('Tag'))
     console.log(retreivedObject)
 
     return(
         <div className="tag" onClick="">
-            <p>{retreivedObject}</p>
+            <p value={retreivedObject} onClick={remove}>{retreivedObject}</p>
         </div>
     );
+}
+
+function remove() {
+    let retreivedObject = JSON.parse(window.localStorage.getItem('Tag'))
+    retreivedObject.find();
 }
 
 function AddWord() {
@@ -47,7 +52,9 @@ function AddWord() {
             <h2 className="AddWordTitle">Egna ingredienser</h2>
             <h3 className="tagTitle">Taggar</h3>
             <Set/>
-            <AddTag/>
+            <div className="tagHolder">
+                <AddTag/>
+            </div>
         </div>
     );
 }

@@ -105,15 +105,14 @@
 
 .AddWordTitle {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
   font-size: 35px;
 }
 
 .input {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
 .text {
@@ -128,7 +127,7 @@
 
 .submit {
   padding-bottom: -10px;
-  margin-top: 20px;
+  margin-top: -10px;
   width: 44px;
   height: 44px;
   font-size: 20px;
@@ -138,13 +137,9 @@
 }
 
 .tag {
-  max-width: 80px;
-  height: 30px;
-  background-color: #6A6A6A;
-  color: white;
-  margin-left: 10px;
-  padding-top: 5px;
-  padding-left: -5px;
+  border-color: none;
+  border-width: 2px;
+  border-radius: 25px;
 }
 
 .tagTitle {

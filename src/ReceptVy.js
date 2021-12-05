@@ -1,6 +1,6 @@
 import Food from "./livsmedel.json";
 import Ordklasser from "./ordklasser.json";
-
+        
 function createRandArr(min,max,amount){
     for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
     return a;
@@ -13,6 +13,7 @@ function getRandomArbitrary(min, max) {
 }
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
+        
     /*
     Från 4- 6 ingredienser ska det skapas:
     - En slumpad titel med några av de orden
@@ -40,11 +41,16 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         }
     }
 
-    console.log(title);
+    const obj = title;
+    window.localStorage.setItem('favoriter', JSON.stringify(obj))
+
     return(
         <div>
-            <h2>{title}</h2>
-
+            <h2 className="title">{title}</h2>
+            {/* Kalla på style för h2 och basera på längd av title */}
+            <div className="Center">
+                <button className="saveButton" id="btn">Spara</button>
+            </div>
                 <div className="tidPort">
                     Portioner: 4 Tid: 20 min
                 </div>
@@ -66,8 +72,11 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <br/><br/><br/>
+                </p>
         </div>
+
     )
 }
 

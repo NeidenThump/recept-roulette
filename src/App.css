@@ -1,46 +1,159 @@
 .App {
   text-align: center;
+  width: 375px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ReceptVy */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.title{
+  width: 320px;
+  margin-left: 27.5px;
+  text-align: center;
 }
 
 .tidPort{
   background-color: gray;
+  padding-left: 27.5px;
 }
 
 .ingredienser{
   text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveButton {
+  color: #F9545B;
+  background-color: white;
+  width: 110px;
+  height: 37px;
+  border-color: #F9545B;
+  border-width: 2px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+/* Startsida */
+
+.startsida {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("backgroundStartsida.png");
+  background-repeat: no-repeat;
+  max-width: 375px;
+  max-height: 812px;
+  margin-top: -50px;
+}
+
+.startsidaTitle {
+  -webkit-text-stroke: 5px #222165;
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* Fixa title som figman */
+
+.startsidaText {
+  padding-top: 50px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.startsidaBottom {
+  background-image: url("backgroundWhite.png");
+  background-repeat: no-repeat;
+  height: 272px;
+  text-align: center;
+}
+
+.startsidaBottom button {
+  width: 217px;
+  height: 62px;
+  background-color: #F9545B;
+  color: white;
+  font-size: 24px;
+  border-radius: 25px;
+  border-style: none;
+}
+
+.green {
+  color: #22BF32;
+}
+
+.startsidaTextGrey{
+  font-size: 18px;
+  color: #6A6A6A;
+}
+
+/* AddWord */
+
+.AddWord h2{
+  text-align: center;
+}
+
+.AddWord p {
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.AddWordTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 298px;
+  height: 44px;
+  background-color: #EAEAEA;
+  border-style: none;
+}
+
+.submit {
+  padding-bottom: -10px;
+  margin-top: 20px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  color: white;
+  background-color: #222165;
+  text-align: center;
+}
+
+.tag {
+  max-width: 80px;
+  height: 30px;
+  background-color: #6A6A6A;
+  color: white;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-left: -5px;
+}
+
+.tagTitle {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+}
+
+.tagHolder {
+  margin-top: 20px;
+  width: 355px;
+  margin-left: 10px;
 }

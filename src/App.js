@@ -1,28 +1,25 @@
+//import logo from './logo.svg';
 import './App.css';
 import ReceptVy from './ReceptVy';
-import Start from './Start';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import Navbar from './Navbar';
+import Startsida from './Startsida';
+import AddWord from './Settings';
+import Favoriter from './Favoriter';
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <div>
-            
-            
-            <Routes>
-              <Route path="/receptvy" element={<ReceptVy/>} ></Route>
-              <Route path="/" element={<Start/>}></Route>
-
-            </Routes>
-          
-      </div>
-    </Router> 
-  );
+  <Router>
+    <div>
+      <Routes>
+        <Route path="/recept-roulette/Settings/" element={<div><AddWord/><Navbar/></div>} />
+        <Route path="/recept-roulette/Recept/" element={<div><ReceptVy/><Navbar/></div>} />
+        <Route path="/recept-roulette/Favoriter/" element={<div><Favoriter/><Navbar/></div>} />
+        <Route path="/recept-roulette/" element={<div><Startsida/><Navbar/></div>} />
+      </Routes>
+    </div>
+  </Router>
+);
 }
 
-export default App;
+

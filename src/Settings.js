@@ -32,7 +32,7 @@ function AddTag() {
 
     return(
         <div className="tag" onClick="">
-            <p value={retreivedObject} onClick={remove}>{retreivedObject}</p>
+            <p onClick={remove}>{retreivedObject}</p>
         </div>
     );
 }

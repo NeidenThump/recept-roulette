@@ -1,27 +1,6 @@
-[
-    {
-        "Ingrediens": {
-            "in": "a"
-        }
-    },
-    {
-        "Ingrediens": {
-            "in": "b"
-        }
-    },
-    {
-        "Ingrediens": {
-            "in": "c"
-        }
-    },
-    {
-        "Ingrediens": {
-            "in": "d"
-        }
-    },
-    {
-        "Ingrediens": {
-            "in": "e"
-        }
-    }
-]
+{
+    "ingrediens": [
+        "dsd",
+        "sd"
+    ]
+}

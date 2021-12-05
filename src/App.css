@@ -92,15 +92,8 @@
 
 /* AddWord */
 
-.AddWord {
+.AddWord h2{
   text-align: center;
-}
-
-.AddWord img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 .AddWord p {
@@ -148,4 +141,9 @@
   width: 60px;
   height: 20px;
   background-color: #6A6A6A;
+}
+
+.tagTitle {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
 }

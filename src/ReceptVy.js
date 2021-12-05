@@ -41,7 +41,8 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         }
     }
 
-    console.log(title);
+    const obj = title;
+    window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
     return(
         <div>

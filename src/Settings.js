@@ -1,49 +1,40 @@
-import ingrediens from './EgnaIngredienser.json';
 import React, { useState } from "react";
 
 function Set(){
-    const [Tags, setTags] = useState("");
+    const [Tag, setTag] = useState('');
 
-    // Getting the storage
-    const retreivedObject = JSON.parse(window.localStorage.getItem('EgnaIngredienser'))
-    console.log(retreivedObject)
-
-
-    // const b = ",";
-    const word = "Tags";
-
-
-    const obj = {
-        "ingrediens": [
-             word
-        ]
-    };
-
-
-    const save = obj;
-    // Saving to storage
-    window.localStorage.setItem('EgnaIngredienser', JSON.stringify(save))
-
-    function changeInput(event) {
-        setTags(event.target.value);
-      }
-      
-        const taggar = ({data}) => {
-        return(
-            <div className="tag">
-                <p>{data}</p>
-            </div>
-        );
+    function handleChange(Event) {
+        setTag(Event.target.value);
     }
+
+    function handleSubmit(Event) {
+        const save = Tag;
+        // Saving to storage
+        window.localStorage.setItem('Tag', JSON.stringify(save))
+        Event.preventDefault();
+    }
+    
       return(
             <div>
-                <form className="input">
-                    <input className="text" type="text" placeholder="Lägg till ord..."></input>
-                    {/* <input value="+" className="submit" type="submit" onClick={changeInput()}/> */}
+                <form onSubmit={handleSubmit} className="input">
+                    <input value={Tag} onChange={handleChange} className="text" type="text" placeholder="Lägg till ord..."></input>
+                    <input value="+" className="submit" type="submit"/>
                 </form>
-                {/* {ingrediens.map((c) => (<taggar key={c} data={c} />))} */}
             </div>
       );
+}
+
+
+function AddTag() {
+    // Getting the storage
+    const retreivedObject = JSON.parse(window.localStorage.getItem('Tag'))
+    console.log(retreivedObject)
+
+    return(
+        <div className="tag" onClick="">
+            <p>{retreivedObject}</p>
+        </div>
+    );
 }
 
 function AddWord() {
@@ -56,6 +47,7 @@ function AddWord() {
             <h2 className="AddWordTitle">Egna ingredienser</h2>
             <h3 className="tagTitle">Taggar</h3>
             <Set/>
+            <AddTag/>
         </div>
     );
 }

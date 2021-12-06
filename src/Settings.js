@@ -1,6 +1,5 @@
-// import React, { useState } from "react";
-import { Cancel, Tag } from "@mui/icons-material";
-import { FormControl, Stack, TextField, Typography } from "@mui/material";
+import { Cancel } from "@mui/icons-material";
+import { Stack, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { useRef, useState } from "react";
 
@@ -34,12 +33,22 @@ const Tags = ({ data, handleDelete }) => {
 export default function InputTags() {
   const [tags, SetTags] = useState([]);
   const tagRef = useRef();
+  const p = [];
+  let t = JSON.parse(window.localStorage.getItem('Tag'))
 
-  const handleDelete = (value) => {
+  const handleDelete = (value, key) => {
     const newtags = tags.filter((val) => val !== value);
     SetTags(newtags);
+    console.log(t.length)
+    //const s = t.indexOf();
+    t = t.splice(t[key],1);
+    console.log(t)
+    console.log("---------------")
   };
   const handleOnSubmit = (e) => {
+    //   Saving to storage
+    p.push(tags);
+    window.localStorage.setItem('Tag', JSON.stringify(p));
     e.preventDefault();
     SetTags([...tags, tagRef.current.value]);
     tagRef.current.value = "";

@@ -4,36 +4,6 @@ import { useState, useEffect } from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
-/*
-function createRandArr(min,max,amount){
-    for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
-    return a;
-}
-
-function getRandomArbitrary(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-}
-
-    const randArr = createRandArr(1,1000,4);
-    const foods = Object.values(Food.filter(food => randArr.includes(food.Nummer)).map(food => food.Namn));
-    console.log(foods);
-
-    const prepos = Object.values(Ordklasser.prepos);
-    console.log(prepos);
-
-    let title = [];
-
-    for (let index = 0; index < foods.length; index++) {
-        console.log(foods[index]);
-        if(index%2===0){
-            title[index] = foods[index] + " ";
-        }else if((index+1)<foods.length && index < prepos.length){
-            title[index] = prepos[index] + " ";
-        }
-    }
-*/
 function ReceptVy({ingredienser, ordklasser,receptMall}){
 
     // Pull to refresh function does not refresh generate?
@@ -42,6 +12,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         onRefresh() {
             console.log("r");
             generate("livs");
+            window.location.reload();
         }
     });
     
@@ -54,8 +25,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
     */
 
-    
-
     //const obj = title;
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
@@ -63,15 +32,13 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     const spara = (e) =>{
         setHarSparat(!harSparat);
     }
-
-    
     
     const title = window.localStorage.getItem("title");
     const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
     const time = window.localStorage.getItem('time');
     const port = window.localStorage.getItem('port');
     return(
-        <div>
+        <div id="recipe">
             <Typography align="center" variant="h4">{title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
@@ -113,3 +80,35 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
 }
 
 export default ReceptVy;
+
+
+/*
+function createRandArr(min,max,amount){
+    for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
+    return a;
+}
+
+function getRandomArbitrary(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+    const randArr = createRandArr(1,1000,4);
+    const foods = Object.values(Food.filter(food => randArr.includes(food.Nummer)).map(food => food.Namn));
+    console.log(foods);
+
+    const prepos = Object.values(Ordklasser.prepos);
+    console.log(prepos);
+
+    let title = [];
+
+    for (let index = 0; index < foods.length; index++) {
+        console.log(foods[index]);
+        if(index%2===0){
+            title[index] = foods[index] + " ";
+        }else if((index+1)<foods.length && index < prepos.length){
+            title[index] = prepos[index] + " ";
+        }
+    }
+*/

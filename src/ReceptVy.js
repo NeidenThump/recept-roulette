@@ -1,6 +1,6 @@
 import { Typography, Button, Stack ,Chip, ListItem } from "@mui/material";
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
@@ -10,7 +10,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     PullToRefresh.init({
         mainElement: 'body',
         onRefresh() {
-            console.log("r");
             generate("livs");
             window.location.reload();
         }

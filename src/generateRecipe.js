@@ -33,7 +33,7 @@ export default function createRecipe(dataBaseType){
     let title = ord_mallar.adjektiv[getRandomIntInclusive(0,ord_mallar.adjektiv.length-1)] + " "; //First word is cooking method
     let time = getRandomIntInclusive(2,900) + " " + ord_mallar.tidsenhet[getRandomIntInclusive(0,ord_mallar.tidsenhet.length-1)];
     let portion = getRandomIntInclusive(0,500);
-    let recipe = [];
+    //let recipe = [];
 
     //Check what kind of database. Databasetype should be "livs", "egen" or "blanda"
     //Get the ingredients from the right database

@@ -1,6 +1,8 @@
 import { Typography, Button, Stack ,Chip, ListItem } from "@mui/material";
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import generate from './generateRecipe.js';
+import PullToRefresh from 'pulltorefreshjs';
 
 /*
 function createRandArr(min,max,amount){
@@ -33,7 +35,16 @@ function getRandomArbitrary(min, max) {
     }
 */
 function ReceptVy({ingredienser, ordklasser,receptMall}){
-        
+
+    // Pull to refresh function does not refresh generate?
+    PullToRefresh.init({
+        mainElement: 'body',
+        onRefresh() {
+            console.log("r");
+            generate("livs");
+        }
+    });
+    
     /*
     Från 4- 6 ingredienser ska det skapas:
     - En slumpad titel med några av de orden
@@ -52,9 +63,16 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     const spara = (e) =>{
         setHarSparat(!harSparat);
     }
+
+    
+    
+    const title = window.localStorage.getItem("title");
+    const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
+    const time = window.localStorage.getItem('time');
+    const port = window.localStorage.getItem('port');
     return(
         <div>
-            <Typography align="center" variant="h4">Titel</Typography>
+            <Typography align="center" variant="h4">{title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
                 <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
@@ -62,24 +80,22 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
 
             <div className="Center">
                 <Stack align="center" direction="row" spacing={1}>
-                    <Chip size="" label="Portioner" />
-                    <Chip label="Chip Outlined" variant="outlined" />
+                    <Chip size="" label={"Portioner: " + port} />
+                    <Chip label={time} variant="outlined" />
                 </Stack>
             </div>
                 <Typography variant="h5">Ingredienser</Typography>
 
                 <Stack>
-                    {}
-                    <ListItem divider="true">test</ListItem>
+                    {
+                        ingr.map(element => (<ListItem divider="true">{element}</ListItem>))
+                    }
+                    
                 </Stack>
                 <ul className="ingredienser">
                     {
                         
                     }
-                    <li>Sak 1</li>
-                    <li>Sak 2</li>
-                    <li>Sak 3</li>
-                    <li>Sak 4</li>
                 </ul>
 
                 <h2>Gör så här</h2>

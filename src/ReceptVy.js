@@ -1,6 +1,6 @@
-import { Typography, Button, Stack ,Chip, ListItem, Divider} from "@mui/material";
-import {Favorite, FavoriteBorder} from '@mui/icons-material';
-import {useState} from 'react';
+import { Typography, Button, Stack ,Chip, ListItem } from "@mui/material";
+import { Favorite, FavoriteBorder } from '@mui/icons-material';
+import { useState } from 'react';
 
 /*
 function createRandArr(min,max,amount){

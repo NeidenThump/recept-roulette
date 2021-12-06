@@ -1,7 +1,9 @@
 import {Link} from "react-router-dom";
+import generate from './generateRecipe.js';
 
 function Startsida() {
     /* Ta bort scroll i både yled och xled - css fel?*/
+    generate("livs");
     return(
         
         <div className="startsida">

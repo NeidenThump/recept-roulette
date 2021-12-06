@@ -41,5 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "recept-roulette/"
+  "homepage": "recept-roulette/",
+  "devDependencies": {
+    "pulltorefreshjs": "^0.1.22"
+  }
 }

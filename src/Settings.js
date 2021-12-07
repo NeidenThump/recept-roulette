@@ -76,7 +76,7 @@ export default function InputTags() {
                   <Tags data={data} handleDelete={handleDelete} key={index} />
                 );
               })}
-            </Box>
+        </Box>
   </Box>
   </div>
   );

@@ -41,7 +41,7 @@ export default function createRecipe(dataBaseType){
         //Database's ID set ranges from 1 to (a little bit over) 1000
         case "livs":
             foodID = createRandArr(1, 1000, MAX_INGREDIENTS);
-            ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn.replace(/[^A-Za-z0-9]/g, ' ')));
+            ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn.replace(/[^A-Öa-ö0-9]/g, ' ')));
             break;
         
         //We don't know how big "egna ingredienser" is. Must be minimum of 3

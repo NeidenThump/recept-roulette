@@ -40,7 +40,6 @@ export default function InputTags() {
     const newtags = tags.filter((val) => val !== value);
     SetTags(newtags);
     console.log(t.length)
-    //const s = t.indexOf();
     t = t.splice(t[key],1);
     console.log(t)
     console.log("---------------")

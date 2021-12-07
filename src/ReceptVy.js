@@ -32,7 +32,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         setHarSparat(!harSparat);
     }
     
-    const title = window.localStorage.getItem("title");
+    const title = window.localStorage.getItem('title');
     const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
     const time = window.localStorage.getItem('time');
     const port = window.localStorage.getItem('port');
@@ -47,22 +47,24 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
             <div className="Center">
                 <Stack align="center" direction="row" spacing={1}>
                     <Chip size="" label={"Portioner: " + port} />
-                    <Chip label={time} variant="outlined" />
+                    <Chip label={time} variant="outlined" /> 
                 </Stack>
             </div>
                 <Typography variant="h5">Ingredienser</Typography>
-
                 <Stack>
-                    {
-                        ingr.map(element => (<ListItem divider="true">{element}</ListItem>))
-                    }
-                    
+                    {ingr.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
                 </Stack>
-                <ul className="ingredienser">
+                
+                {window.localStorage.setItem('title', JSON.stringify(title))}
+                {window.localStorage.setItem('port', JSON.stringify(port))}
+                {window.localStorage.setItem('time', JSON.stringify(time))}
+                {window.localStorage.setItem('ingredients', JSON.stringify(ingr))}
+                
+                {/* <ul className="ingredienser">
                     {
                         
                     }
-                </ul>
+                </ul> */}
 
                 <h2>Gör så här</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

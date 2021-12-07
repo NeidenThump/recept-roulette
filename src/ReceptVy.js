@@ -7,7 +7,7 @@ import PullToRefresh from 'pulltorefreshjs';
 function ReceptVy({ingredienser, ordklasser,receptMall}){
 
     // Variabel skapa
-    const nr = 0;
+    let nr = 0;
     window.localStorage.setItem('nr', JSON.stringify(nr))
     const n = (nr == null);
 

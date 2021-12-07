@@ -6,6 +6,12 @@ import PullToRefresh from 'pulltorefreshjs';
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
 
+    // Variabel skapa
+    const nr = 0;
+    window.localStorage.setItem('nr', JSON.stringify(nr))
+    const n = (nr == null);
+
+
     // Pull to refresh function does not refresh generate?
     PullToRefresh.init({
         mainElement: 'body',
@@ -27,9 +33,23 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //const obj = title;
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
+    function save() {
+        window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
+        window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
+        window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
+        window.localStorage.setItem('FavIngredients'+nr, JSON.stringify(ingr))
+    }
+
     const [harSparat, setHarSparat] = useState(false);
     const spara = (e) =>{
         setHarSparat(!harSparat);
+
+        window.localStorage.getItem('nr')
+        harSparat ? nr++: nr--;
+        window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
+        window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
+        window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
+        window.localStorage.setItem('FavIngredients'+nr, JSON.stringify(ingr))
     }
     
     const title = window.localStorage.getItem('title');
@@ -41,7 +61,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
             <Typography align="center" variant="h4">{title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
+                <Button onClick={n ? console.log("nr finns inte") : spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
             </div>
 
             <div className="Center">

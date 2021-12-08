@@ -159,3 +159,25 @@
   height: 50px;
   width: 375px;
 }
+
+/* Menu */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 160px;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuButton p {
+  margin-top: -2px;
+  margin-bottom: -5px;
+}

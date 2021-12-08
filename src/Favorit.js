@@ -16,13 +16,13 @@ export default function Favorit({nr}) {
             <Card sx={{ alignContent: 'center', marginTop: 1, marginLeft: 1, width: 355, backgroundColor: '#F8CE7A', color: 'white'}}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">{title}</Typography>
-                    <Stack align="center" direction="row" spacing={1}>
+                    <Stack sx={{ color: 'white' }} align="center" direction="row" spacing={1}>
                         <Chip size="" label={"Portioner: " + port} />
                         <Chip label={time} variant="outlined" /> 
                     </Stack>
                     <Typography variant="body2">
                         <Typography gutterBottom variant="h4">Ingredienser</Typography>
-                            {ingr.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
+                            {ingr.map((element, index) => (<ListItem divider={true} key={index}>{element}</ListItem>))}
                     </Typography>
                 </CardContent>
             </Card>

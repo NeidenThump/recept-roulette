@@ -5,16 +5,10 @@ import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
-
-    // Variabel skapa
-    //let nr = 0;
     if (typeof nr === 'undefined') {
         var nr = (typeof nr === 'undefined') ? 0 : nr;
-        // window.localStorage.setItem('nr', JSON.stringify(nr))
-        // nr = window.localStorage.getItem('nr');
     }
     else {
-        // nr = window.localStorage.getItem('nr');
         if(nr == null){
             nr = 0;
         }

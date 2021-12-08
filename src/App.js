@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Startsida from './Startsida';
 import AddWord from './Settings';
 import Favoriter from './Favoriter';
+import Remove from './FavRemove';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
   <Router>
     <div>
       <Routes>
+        <Route path="/recept-roulette/Favoriter/:nr" element={<Remove/>}/>
         <Route path="/recept-roulette/Settings/" element={<div><AddWord/><Navbar/></div>} />
         <Route path="/recept-roulette/Recept/" element={<div><ReceptVy/><Navbar/></div>} />
         <Route path="/recept-roulette/Favoriter/" element={<div><Favoriter/><Navbar/></div>} />

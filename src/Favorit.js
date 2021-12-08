@@ -12,7 +12,7 @@ export default function Favorit({nr}) {
     const ingr = JSON.parse(window.localStorage.getItem('FavIngredients'+nr))
   return(
     <div>
-        <Link style={{ textDecoration: 'none'}} to="/recept-roulette/Recept/">
+        <Link style={{ textDecoration: 'none'}} to={"/recept-roulette/Favoriter/"+nr}>
             <Card sx={{ alignContent: 'center', marginTop: 1, marginLeft: 1, width: 355, backgroundColor: '#F8CE7A', color: 'white'}}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">{title}</Typography>

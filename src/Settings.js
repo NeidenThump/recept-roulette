@@ -66,6 +66,8 @@ function BasicMenu() {
 }
 
 
+
+
 const Tags = ({ data, handleDelete }) => {
   return (
     <Box
@@ -101,15 +103,25 @@ export default function InputTags() {
     t = t.splice(t[key],1);
     console.log(t)
     console.log("---------------")
+
+
   };
   const handleOnSubmit = (e) => {
     //Saving to storage
     e.preventDefault();
     SetTags([...tags, tagRef.current.value]);
     tagRef.current.value = "";
-    p.push(tags);
     window.localStorage.setItem('Tag', JSON.stringify(p));
   };
+  
+  function Output() {
+    let tagger = JSON.parse(window.localStorage.getItem('Tag'))
+    const test = (tagger == null)
+    // test ? console.log("tag är null") : console.log("tag är fylld")
+    return (
+      test ? console.log("sdad") : tagger[0].map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})
+      )
+  }
   return (
     <div>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -132,13 +144,10 @@ export default function InputTags() {
         placeholder={tags.length < 5 ? "Enter tags" : ""}/>
         <input value="+" className="submit" type="submit"/>
     </form>
-    <Box className="input">
-              {tags.map((data, index) => {
-                return (
-                  <Tags data={data} handleDelete={handleDelete} key={index} />
-                );
-              })}
-        </Box>
+    <Box className="tagHolder">
+      {/* <Output/> */}
+      {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})}
+    </Box>
   </Box>
   </div>
   );

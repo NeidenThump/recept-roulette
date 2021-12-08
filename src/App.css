@@ -41,15 +41,14 @@
 
 .startsida {
   font-family: 'Roboto', sans-serif;
-  background-image: url("backgroundStartsida.png");
-  background-repeat: no-repeat;
+  background-color: #F8CE7A;
   max-width: 375px;
   max-height: 812px;
   margin-top: -50px;
 }
 
 .startsidaTitle {
-  -webkit-text-stroke: 5px #222165;
+  /*-webkit-text-stroke: 5px #222165;*/
   color: white;
   font-size: 72px;
   text-align: center;
@@ -149,9 +148,18 @@
 
 .tagHolder {
   margin-top: 20px;
-  width: 355px;
   margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 375px;
+  width: 355px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #F8CE7A;
 }
+
+
 
 /* Favoriter */
 

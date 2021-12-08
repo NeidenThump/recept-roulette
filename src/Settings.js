@@ -82,12 +82,7 @@ const Tags = ({ data, handleDelete }) => {
     >
       <Stack direction='row' gap={1}>
         <Typography>{data}</Typography>
-        <Cancel
-          sx={{ cursor: "pointer" }}
-          onClick={() => {
-            handleDelete(data);
-          }}
-        />
+        <Cancel sx={{ cursor: "pointer" }} onClick={() => { handleDelete(data); }}/>
       </Stack>
     </Box>
   );

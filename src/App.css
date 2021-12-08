@@ -160,6 +160,11 @@
   width: 375px;
 }
 
+.Center Button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 /* Menu */
 
 .menu {

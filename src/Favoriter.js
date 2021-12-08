@@ -4,16 +4,16 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Stack ,Chip, ListItem } from "@mui/material";
 
-export default function MediaCard() {
-  const nr = window.localStorage.getItem('nr')
 
+function Favorit(i) {
+  const nr = JSON.parse(window.localStorage.getItem('nr'))
 
-  const title = window.localStorage.getItem('FavTitle'+nr)
-  const port = window.localStorage.getItem('FavPort'+nr)
-  const time = window.localStorage.getItem('FAvTime'+nr)
-  const ingr = JSON.parse(window.localStorage.getItem('FavIngredients'+nr))
-
-  return (
+    const title = window.localStorage.getItem('FavTitle'+i)
+    const port = window.localStorage.getItem('FavPort'+i)
+    const time = window.localStorage.getItem('FavTime'+i)
+    const ingr = JSON.parse(window.localStorage.getItem('FavIngredients'+i))
+  return(
+    <div>
     <Card sx={{ maxWidth: 375, backgroundColor: '#222165', color: 'white'}}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -29,5 +29,14 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
     </Card>
+    </div>
+  );
+}
+
+
+export default function MediaCard() {
+
+  return (
+    <Favorit/>
   );
 }

@@ -33,7 +33,7 @@ const Tags = ({ data, handleDelete }) => {
 export default function InputTags() {
   const [tags, SetTags] = useState([]);
   const tagRef = useRef();
-  const p = [];
+  let p = [];
   let t = JSON.parse(window.localStorage.getItem('Tag'))
 
   const handleDelete = (value, key) => {

@@ -7,9 +7,20 @@ import PullToRefresh from 'pulltorefreshjs';
 function ReceptVy({ingredienser, ordklasser,receptMall}){
 
     // Variabel skapa
-    let nr = 0;
-    window.localStorage.setItem('nr', JSON.stringify(nr))
+    //let nr = 0;
+    if (typeof nr === 'undefined') {
+        var nr = (typeof nr === 'undefined') ? 0 : nr;
+        // window.localStorage.setItem('nr', JSON.stringify(nr))
+        // nr = window.localStorage.getItem('nr');
+    }
+    else {
+        // nr = window.localStorage.getItem('nr');
+        if(nr == null){
+            nr = 0;
+        }
+    }
     const n = (nr == null);
+    
 
 
     // Pull to refresh function does not refresh generate?
@@ -34,6 +45,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
     function save() {
+        window.localStorage.setItem('nr', JSON.stringify(nr))
         window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
         window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
         window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
@@ -44,12 +56,9 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     const spara = (e) =>{
         setHarSparat(!harSparat);
 
-        window.localStorage.getItem('nr')
-        harSparat ? nr++: nr--;
-        window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
-        window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
-        window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
-        window.localStorage.setItem('FavIngredients'+nr, JSON.stringify(ingr))
+        nr = JSON.parse(window.localStorage.getItem('nr'));
+        harSparat ? nr = nr - 1: nr = nr + 1;
+        save();
     }
     
     const title = window.localStorage.getItem('title');
@@ -74,11 +83,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
                 <Stack>
                     {ingr.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
                 </Stack>
-                
-                {window.localStorage.setItem('title', JSON.stringify(title))}
-                {window.localStorage.setItem('port', JSON.stringify(port))}
-                {window.localStorage.setItem('time', JSON.stringify(time))}
-                {window.localStorage.setItem('ingredients', JSON.stringify(ingr))}
                 
                 {/* <ul className="ingredienser">
                     {

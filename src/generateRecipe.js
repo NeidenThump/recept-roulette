@@ -17,6 +17,7 @@ function createRandArr(min,max,amount){
 
 //Generate a new recipe from a food database, words (adjectives, verbs etc), and recipe template
 export default function createRecipe(dataBaseType){
+    console.log("sadsa")
     const MAX_INGREDIENTS = 7;
     const TITLE_ITERATIONS = getRandomIntInclusive(1,2); //One iteration = TILLAGNINGSSÄTT INGREDIENS#1 PREPOSITION INGREDIENS#2
     const CUSTOM_DB_MINIMUM = 3;
@@ -94,12 +95,10 @@ export default function createRecipe(dataBaseType){
         title[index] = prepos[index] + " ";
     }
     */
-
-
+    
+    const recept = { title: title, time: time, portion: portion, ingredients: ingredients}
+    console.log(recept)
     //Write out the result in web storage
-    window.localStorage.setItem("title", title);
-    window.localStorage.setItem("time", time);
-    window.localStorage.setItem("port", portion);
-    window.localStorage.setItem("ingredients", JSON.stringify(ingredients));
+    window.localStorage.setItem("recept", JSON.stringify(recept));
     //return[title, timeString, portion, ingredients, recipe];
 }

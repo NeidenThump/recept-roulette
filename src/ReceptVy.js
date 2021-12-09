@@ -20,7 +20,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         mainElement: 'body',
         onRefresh() {
             generate("livs");
-            window.location.reload();
         }
     });
     
@@ -36,12 +35,14 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //const obj = title;
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
-    function save() {
-        window.localStorage.setItem('nr', JSON.stringify(nr))
-        window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
-        window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
-        window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
-        window.localStorage.setItem('FavIngredients'+nr, JSON.stringify(ingr))
+     function save() {
+         const recept = window.localStorage.getItem("recept")
+        let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
+        receptlist = Array.isArray(receptlist) ? receptlist : []
+        receptlist.push(recept)
+        console.log(recept)
+        //Write out the result in web storage
+        window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
 
     const [harSparat, setHarSparat] = useState(false);
@@ -53,13 +54,11 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         save();
     }
     
-    const title = window.localStorage.getItem('title');
-    const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
-    const time = window.localStorage.getItem('time');
-    const port = window.localStorage.getItem('port');
+    const recept = JSON.parse(window.localStorage.getItem('recept'));
+    console.log(recept)
     return(
         <div id="recipe">
-            <Typography align="center" variant="h4">{title}</Typography>
+            <Typography align="center" variant="h4">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
                 <Button onClick={n ? console.log("nr finns inte") : spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
@@ -67,13 +66,13 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
 
             <div className="Center">
                 <Stack align="center" direction="row" spacing={1}>
-                    <Chip size="" label={"Portioner: " + port} />
-                    <Chip label={time} variant="outlined" /> 
+                    <Chip size="" label={"Portioner: " + recept.port} />
+                    <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
                 <Typography variant="h5">Ingredienser</Typography>
                 <Stack>
-                    {ingr.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
+                    {recept.ingredients.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
                 </Stack>
                 
                 {/* <ul className="ingredienser">

@@ -5,24 +5,20 @@ import Typography from '@mui/material/Typography';
 import { Stack ,Chip, ListItem } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export default function Favorit({nr}) {
-    const title = window.localStorage.getItem('FavTitle'+nr)
-    const port = window.localStorage.getItem('FavPort'+nr)
-    const time = window.localStorage.getItem('FavTime'+nr)
-    const ingr = JSON.parse(window.localStorage.getItem('FavIngredients'+nr))
+export default function Favorit({recipe, key}) {
   return(
     <div>
-        <Link style={{ textDecoration: 'none'}} to={"/recept-roulette/Favoriter/"+nr}>
+        <Link style={{ textDecoration: 'none'}} to={"/recept-roulette/Favoriter/"+key}>
             <Card sx={{ alignContent: 'center', marginTop: 1, marginLeft: 1, width: 355, backgroundColor: '#F8CE7A', color: 'white'}}>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">{title}</Typography>
+                    <Typography gutterBottom variant="h5" component="div">{recipe.title}</Typography>
                     <Stack sx={{ color: 'white' }} align="center" direction="row" spacing={1}>
-                        <Chip size="" label={"Portioner: " + port} />
-                        <Chip label={time} variant="outlined" /> 
+                        <Chip size="" label={"Portioner: " + recipe.portion} />
+                        <Chip label={recipe.time} variant="outlined" /> 
                     </Stack>
                     <Typography variant="body2">
                         <Typography gutterBottom variant="h4">Ingredienser</Typography>
-                            {ingr.map((element, index) => (<ListItem divider={true} key={index}>{element}</ListItem>))}
+                        {recipe.ingredients && (recipe.ingredients.map((element, index) => (<ListItem divider={true} key={index}>{element}</ListItem>)))}     
                     </Typography>
                 </CardContent>
             </Card>

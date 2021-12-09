@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import generateRecipe from './generateRecipe';
 
 function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -14,26 +15,10 @@ function BasicMenu() {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
+  const handleClose = (id) => {
     setAnchorEl(null);
+    generateRecipe(id);
   };
-
-  // function setDatabase(dataBaseType) {
-  //   const checker = dataBaseType;
-  //   let database = "";
-  //   if(checker === 0) {
-  //     database = "livs";
-  //     console.log(database)
-  //   }
-  //   else if(checker === 1) {
-  //     database = "egen";
-  //     console.log(database)
-  //   }
-  //   else {
-  //     database = "blanda";
-  //     console.log(database)
-  //   }
-  //}
 
   return (
     <div>
@@ -57,9 +42,9 @@ function BasicMenu() {
         MenuListProps={{
           'aria-labelledby': 'basic-button',
         }}>
-        <MenuItem onClick={handleClose/*, setDatabase(0)*/}>Standard databas</MenuItem>
-        <MenuItem onClick={handleClose/*, setDatabase(1)*/}>Egna ingredienser</MenuItem>
-        <MenuItem onClick={handleClose/*, setDatabase(2)*/}>Blanda</MenuItem>
+        <MenuItem onClick={() => handleClose("livs")}>Standard databas</MenuItem>
+        <MenuItem onClick={() => handleClose("egen")}>Egna ingredienser</MenuItem>
+        <MenuItem onClick={() => handleClose("blanda")}>Blanda</MenuItem>
       </Menu>
     </div>
   );
@@ -91,10 +76,11 @@ const Tags = ({ data, handleDelete }) => {
 };
 
 export default function InputTags() {
-  const [tags, SetTags] = useState([]);
-  const tagRef = useRef();
-  let p = [];
   let t = JSON.parse(window.localStorage.getItem('Tag'))
+  const [tags, SetTags] = useState(Array.isArray(t) ? t : []);
+  const tagRef = useRef();
+  const [inputText, SetinputText] = useState("");
+
 
   const handleDelete = (value, key) => {
     const newtags = tags.filter((val) => val !== value);
@@ -109,11 +95,15 @@ export default function InputTags() {
   const handleOnSubmit = (e) => {
     //Saving to storage
     e.preventDefault();
-    SetTags([...tags, tagRef.current.value]);
+    SetTags([...tags, inputText]);
+    window.localStorage.setItem('Tag', JSON.stringify([...tags, inputText]));
+    SetinputText("");
     tagRef.current.value = "";
-    p.push(tags);
-    window.localStorage.setItem('Tag', JSON.stringify(p));
   };
+
+  const handleChange = (e) => {
+    SetinputText(e.target.value)
+  }
   
   function Output() {
     let tagger = JSON.parse(window.localStorage.getItem('Tag'))
@@ -136,7 +126,7 @@ export default function InputTags() {
             <h2 className="AddWordTitle">Egna ingredienser</h2>
             <h3 className="tagTitle">Taggar</h3>
         <Box sx={{ flexGrow: 1 }}>
-        <form className="input" onSubmit={handleOnSubmit}>
+        <form className="input" onChange={handleChange} onSubmit={handleOnSubmit}>
         <TextField
         inputRef={tagRef}
         variant='standard'

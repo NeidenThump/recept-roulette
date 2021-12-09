@@ -54,30 +54,27 @@ function ReceptVy(){
     const [harSparat, setHarSparat] = useState(false);
     const spara = (e) =>{
         setHarSparat(!harSparat);
-
-        nr = JSON.parse(window.localStorage.getItem('nr'));
-        harSparat ? nr = nr - 1: nr = nr + 1;
         save();
     }
     
     //const recept = JSON.parse(window.localStorage.getItem('recept'));
     return(
         <div id="recipe">
-            <Typography align="center" variant="h4">{title}</Typography>
+            <Typography align="center" variant="h4">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button onClick={n ? console.log("nr finns inte") : spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
+                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
             </div>
 
             <div className="Center">
                 <Stack align="center" direction="row" spacing={1}>
-                    <Chip size="" label={"Portioner: " + port} />
-                    <Chip label={time} variant="outlined" /> 
+                    <Chip size="" label={"Portioner: " + recept.port} />
+                    <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
                 <Typography variant="h5">Ingredienser</Typography>
                 <Stack>
-                    {ingr.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
+                    {recept.ingredients.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
                 </Stack>
                 
                 {/* <ul className="ingredienser">

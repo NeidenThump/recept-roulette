@@ -94,8 +94,8 @@ export default function createRecipe(dataBaseType){
         title[index] = prepos[index] + " ";
     }
     */
-
-
+    
+    const recept = { title: title, time: time, portion: portion, ingredients: ingredients}
     //Write out the result in web storage
     window.localStorage.setItem("recept", JSON.stringify(recept));
     return recept;

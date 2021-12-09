@@ -9,7 +9,7 @@ export default function Remove () {
     window.localStorage.removeItem('FavIngredients'+nr);
   
     let nummer = JSON.parse(window.localStorage.getItem('nr'));
-    nummer = nummer +1
+    nummer = nummer -1;
     window.localStorage.setItem('nr', JSON.parse(nummer));
 
     return (

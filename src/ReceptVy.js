@@ -47,7 +47,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
             <Typography align="center" variant="h4">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button onClick={n ? console.log("nr finns inte") : spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
+                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
             </div>
 
             <div className="Center">

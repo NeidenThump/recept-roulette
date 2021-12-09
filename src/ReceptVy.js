@@ -4,7 +4,10 @@ import { useState } from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
-function ReceptVy({ingredienser, ordklasser,receptMall}){
+function ReceptVy(){
+    const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
+    const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
+    
     if (typeof nr === 'undefined') {
         var nr = (typeof nr === 'undefined') ? 0 : nr;
     }
@@ -19,8 +22,10 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     PullToRefresh.init({
         mainElement: 'body',
         onRefresh() {
-            generate("livs");
-            window.location.reload();
+            let newRec = generate("livs");
+            setRecept(newRec);
+            
+            console.log(recept);
         }
     });
     
@@ -36,12 +41,14 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //const obj = title;
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
-    function save() {
-        window.localStorage.setItem('nr', JSON.stringify(nr))
-        window.localStorage.setItem('FavTitle'+nr, JSON.stringify(title))
-        window.localStorage.setItem('FavPort'+nr, JSON.stringify(port))
-        window.localStorage.setItem('FavTime'+nr, JSON.stringify(time))
-        window.localStorage.setItem('FavIngredients'+nr, JSON.stringify(ingr))
+     function save() {
+        //const recept = window.localStorage.getItem("recept")
+        let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
+        receptlist = Array.isArray(receptlist) ? receptlist : []
+        receptlist.push(recept)
+        console.log(recept)
+        //Write out the result in web storage
+        window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
 
     const [harSparat, setHarSparat] = useState(false);
@@ -53,10 +60,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         save();
     }
     
-    const title = window.localStorage.getItem('title');
-    const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
-    const time = window.localStorage.getItem('time');
-    const port = window.localStorage.getItem('port');
+    //const recept = JSON.parse(window.localStorage.getItem('recept'));
     return(
         <div id="recipe">
             <Typography align="center" variant="h4">{title}</Typography>

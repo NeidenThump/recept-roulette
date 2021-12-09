@@ -97,9 +97,6 @@ export default function createRecipe(dataBaseType){
 
 
     //Write out the result in web storage
-    window.localStorage.setItem("title", title);
-    window.localStorage.setItem("time", time);
-    window.localStorage.setItem("port", portion);
-    window.localStorage.setItem("ingredients", JSON.stringify(ingredients));
-    //return[title, timeString, portion, ingredients, recipe];
+    window.localStorage.setItem("recept", JSON.stringify(recept));
+    return recept;
 }

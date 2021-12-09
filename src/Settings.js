@@ -111,6 +111,7 @@ export default function InputTags() {
     e.preventDefault();
     SetTags([...tags, tagRef.current.value]);
     tagRef.current.value = "";
+    p.push(tags);
     window.localStorage.setItem('Tag', JSON.stringify(p));
   };
   

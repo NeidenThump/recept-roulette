@@ -15,8 +15,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     }
     const n = (nr == null);
     
-
-
     // Pull to refresh function does not refresh generate?
     PullToRefresh.init({
         mainElement: 'body',

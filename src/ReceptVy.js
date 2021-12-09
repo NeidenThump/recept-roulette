@@ -5,16 +5,6 @@ import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
 function ReceptVy({ingredienser, ordklasser,receptMall}){
-    if (typeof nr === 'undefined') {
-        var nr = (typeof nr === 'undefined') ? 0 : nr;
-    }
-    else {
-        if(nr == null){
-            nr = 0;
-        }
-    }
-    const n = (nr == null);
-    
     // Pull to refresh function does not refresh generate?
     PullToRefresh.init({
         mainElement: 'body',
@@ -47,9 +37,6 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     const [harSparat, setHarSparat] = useState(false);
     const spara = (e) =>{
         setHarSparat(!harSparat);
-
-        nr = JSON.parse(window.localStorage.getItem('nr'));
-        harSparat ? nr = nr - 1: nr = nr + 1;
         save();
     }
     

@@ -85,11 +85,8 @@ export default function InputTags() {
   const handleDelete = (value, key) => {
     const newtags = tags.filter((val) => val !== value);
     SetTags(newtags);
-    console.log(t.length)
     t.splice(t.indexOf(value),1);
     window.localStorage.setItem('Tag', JSON.stringify(t));
-    console.log(t)
-    console.log("---------------")
   };
   const handleOnSubmit = (e) => {
     //Saving to storage

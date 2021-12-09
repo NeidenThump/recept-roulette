@@ -39,9 +39,7 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         setHarSparat(!harSparat);
         save();
     }
-    
     const recept = JSON.parse(window.localStorage.getItem('recept'));
-    console.log(recept)
     return(
         <div id="recipe">
             <Typography align="center" variant="h4">{recept.title}</Typography>

@@ -89,8 +89,6 @@ export default function InputTags() {
     t = t.splice(t[key],1);
     console.log(t)
     console.log("---------------")
-
-
   };
   const handleOnSubmit = (e) => {
     //Saving to storage

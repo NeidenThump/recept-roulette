@@ -104,15 +104,6 @@ export default function InputTags() {
   const handleChange = (e) => {
     SetinputText(e.target.value)
   }
-  
-  function Output() {
-    let tagger = JSON.parse(window.localStorage.getItem('Tag'))
-    const test = (tagger == null)
-    // test ? console.log("tag är null") : console.log("tag är fylld")
-    return (
-      test ? console.log("sdad") : tagger[0].map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})
-      )
-  }
   return (
     <div>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

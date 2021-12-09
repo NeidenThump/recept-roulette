@@ -36,11 +36,10 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
      function save() {
-         const recept = window.localStorage.getItem("recept")
+        const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
         receptlist.push(recept)
-        console.log(recept)
         //Write out the result in web storage
         window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }

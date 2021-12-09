@@ -5,10 +5,9 @@ import Typography from '@mui/material/Typography';
 import { Stack ,Chip, ListItem } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export default function Favorit({recipe, key}) {
+export default function Favorit({recipe, nr}) {
   return(
-    <div>
-        <Link style={{ textDecoration: 'none'}} to={"/recept-roulette/Favoriter/"+key}>
+        <Link style={{ textDecoration: 'none'}} to={"/recept-roulette/Favoriter/"+nr}>
             <Card sx={{ alignContent: 'center', marginTop: 1, marginLeft: 1, width: 355, backgroundColor: '#F8CE7A', color: 'white'}}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">{recipe.title}</Typography>
@@ -23,6 +22,5 @@ export default function Favorit({recipe, key}) {
                 </CardContent>
             </Card>
         </Link>
-    </div>
   );
 }

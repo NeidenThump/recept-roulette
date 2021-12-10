@@ -53,14 +53,13 @@
 }
 
 .img {
-  padding-top: 250px;
+  margin-top: 120px;
   display: block;
-  width: 375px;
+  width: 100%;
   height: 100%;
 }
 
 .img2 {
-  width: 375px;
 }
 
 .startsidaTitle {
@@ -82,6 +81,8 @@
 }
 
 .startsidaBottom {
+  /* background-image: url("./bilder/background.png"); */
+  /*background-repeat: no-repeat;*/
   width: 375px;
   height: 60px;
   position: relative;
@@ -98,7 +99,7 @@
   border-style: none;
   margin: 0;
   position: absolute;
-  top: 380%;
+  top: 400%;
   left: 85px;
 }
 

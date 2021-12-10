@@ -56,7 +56,7 @@ function ReceptVy(){
 
             <div className="Center">
                 <Stack align="center" direction="row" spacing={1}>
-                    <Chip size="" label={"Portioner: " + recept.port} />
+                    <Chip size="" label={"Portioner: " + recept.portion} />
                     <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>

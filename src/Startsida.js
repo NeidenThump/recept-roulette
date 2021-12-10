@@ -1,12 +1,11 @@
 import {Link} from "react-router-dom";
 import generate from './generateRecipe.js';
+import backgroundTitle from './bilder/backgroundTitle.png';
+import background from './bilder/background.png';
 
 function Startsida() {
-    const title = window.localStorage.getItem('title');
-    const ingr = JSON.parse(window.localStorage.getItem('ingredients'));
-    const time = window.localStorage.getItem('time');
-    const port = window.localStorage.getItem('port');
-    const finns = ((title == null) && (ingr == null) && (time == null) && (port == null));
+    const recept = JSON.parse(window.localStorage.getItem('recept'));
+    const finns = (recept == null);
     finns ? generate("livs") : console.log("Array finns");
 
     return(
@@ -14,14 +13,14 @@ function Startsida() {
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"/>
-            <div>
-                <h1 className="startsidaTitle">Recept Roulette</h1>
-            </div>
+            <img className="img" src={backgroundTitle} alt="Title startsida"/>
+
             <div className="startsidaBottom">
-                <p className="startsidaText">Redo för ett <span className="green">recept</span><br/>ingen annan har sett?</p>
-                <p className="startsidaTextGrey">Över 1000 ingredienser!</p>
+                <img className="img2" src={background} alt=""/>
+                <p className="startsidaText"><b>Tusentals </b>ingredienser,<br/><b>Miljontals </b>kombinationer!</p>
                 <Link to="/recept-roulette/Recept/"><button>Let’s go!</button></Link>
             </div>
+            {/* <div className="white"/> */}
         </div>
     );
 }

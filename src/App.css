@@ -41,33 +41,51 @@
 
 .startsida {
   font-family: 'Roboto', sans-serif;
-  background-color: #F8CE7A;
+  background-color: #FCEECB;
+  width: 375px;
   max-width: 375px;
   max-height: 812px;
   margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.img {
+  margin-top: 120px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
 }
 
 .startsidaTitle {
-  /*-webkit-text-stroke: 5px #222165;*/
   color: white;
   font-size: 72px;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-/* Fixa title som figman */
 
 .startsidaText {
   padding-top: 50px;
   font-size: 26px;
-  font-weight: bold;
+  width: 375px;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .startsidaBottom {
-  background-image: url("backgroundWhite.png");
-  background-repeat: no-repeat;
+  /* background-image: url("./bilder/background.png"); */
+  /*background-repeat: no-repeat;*/
   width: 375px;
-  height: 270px;
+  height: 60px;
+  position: relative;
   text-align: center;
 }
 
@@ -79,15 +97,16 @@
   font-size: 24px;
   border-radius: 25px;
   border-style: none;
+  margin: 0;
+  position: absolute;
+  top: 400%;
+  left: 85px;
 }
 
-.green {
-  color: #22BF32;
-}
-
-.startsidaTextGrey{
-  font-size: 18px;
-  color: #6A6A6A;
+.white {
+  background-color: white;
+  width: 375px;
+  height: 140px;
 }
 
 /* AddWord */

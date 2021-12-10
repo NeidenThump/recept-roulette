@@ -26,15 +26,11 @@ function ReceptVy(){
     - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
     */
 
-    //const obj = title;
-    //window.localStorage.setItem('favoriter', JSON.stringify(obj))
-
      function save() {
         //const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
         receptlist.push(recept)
-        console.log(recept)
         //Write out the result in web storage
         window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
@@ -44,8 +40,6 @@ function ReceptVy(){
         setHarSparat(!harSparat);
         save();
     }
-    
-    //const recept = JSON.parse(window.localStorage.getItem('recept'));
     return(
         <div id="recipe">
             <Typography align="center" variant="h4">{recept.title}</Typography>

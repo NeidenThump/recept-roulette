@@ -79,35 +79,3 @@ function ReceptVy(){
 }
 
 export default ReceptVy;
-
-
-/*
-function createRandArr(min,max,amount){
-    for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomArbitrary(min, max);
-    return a;
-}
-
-function getRandomArbitrary(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-}
-
-    const randArr = createRandArr(1,1000,4);
-    const foods = Object.values(Food.filter(food => randArr.includes(food.Nummer)).map(food => food.Namn));
-    console.log(foods);
-
-    const prepos = Object.values(Ordklasser.prepos);
-    console.log(prepos);
-
-    let title = [];
-
-    for (let index = 0; index < foods.length; index++) {
-        console.log(foods[index]);
-        if(index%2===0){
-            title[index] = foods[index] + " ";
-        }else if((index+1)<foods.length && index < prepos.length){
-            title[index] = prepos[index] + " ";
-        }
-    }
-*/

@@ -8,24 +8,12 @@ function ReceptVy(){
     const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
     const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
     
-    if (typeof nr === 'undefined') {
-        var nr = (typeof nr === 'undefined') ? 0 : nr;
-    }
-    else {
-        if(nr == null){
-            nr = 0;
-        }
-    }
-    const n = (nr == null);
-    
     // Pull to refresh function does not refresh generate?
     PullToRefresh.init({
         mainElement: 'body',
         onRefresh() {
             let newRec = generate("livs");
             setRecept(newRec);
-            
-            console.log(recept);
         }
     });
     

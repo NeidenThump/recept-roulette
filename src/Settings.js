@@ -8,6 +8,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import generateRecipe from './generateRecipe';
+import CardContent from '@mui/material/CardContent';
 
 function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -122,10 +123,11 @@ export default function InputTags() {
         placeholder={tags.length < 5 ? "Enter tags" : ""}/>
         <input value="+" className="submit" type="submit"/>
     </form>
-    <Box className="tagHolder">
-      {/* <Output/> */}
-      {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})}
-    </Box>
+    <CardContent sx={{ width: 325, height: 270, marginTop: 3, marginLeft: 1.2, backgroundColor: '#FCEECB', borderRadius: 2 }}>
+      <Box className="tagHolder">
+        {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})}
+      </Box>
+    </CardContent>
   </Box>
   </div>
   );

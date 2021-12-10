@@ -30,7 +30,7 @@ function ReceptVy(){
         //const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
-        receptlist.push(recept)
+        receptlist.push(storedRecipe)
         //Write out the result in web storage
         window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }

@@ -98,5 +98,5 @@ export default function createRecipe(dataBaseType){
     const recept = { title: title, time: time, portion: portion, ingredients: ingredients}
     //Write out the result in web storage
     window.localStorage.setItem("recept", JSON.stringify(recept));
-    //return[title, timeString, portion, ingredients, recipe];
+    return recept;
 }

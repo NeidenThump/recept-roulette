@@ -4,12 +4,28 @@ import { useState } from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 
-function ReceptVy({ingredienser, ordklasser,receptMall}){
+function ReceptVy(){
+    const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
+    const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
+    
+    if (typeof nr === 'undefined') {
+        var nr = (typeof nr === 'undefined') ? 0 : nr;
+    }
+    else {
+        if(nr == null){
+            nr = 0;
+        }
+    }
+    const n = (nr == null);
+    
     // Pull to refresh function does not refresh generate?
     PullToRefresh.init({
         mainElement: 'body',
         onRefresh() {
-            generate("livs");
+            let newRec = generate("livs");
+            setRecept(newRec);
+            
+            console.log(recept);
         }
     });
     
@@ -26,10 +42,11 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
     //window.localStorage.setItem('favoriter', JSON.stringify(obj))
 
      function save() {
-        const recept = window.localStorage.getItem("recept")
+        //const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
         receptlist.push(recept)
+        console.log(recept)
         //Write out the result in web storage
         window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
@@ -39,7 +56,8 @@ function ReceptVy({ingredienser, ordklasser,receptMall}){
         setHarSparat(!harSparat);
         save();
     }
-    const recept = JSON.parse(window.localStorage.getItem('recept'));
+    
+    //const recept = JSON.parse(window.localStorage.getItem('recept'));
     return(
         <div id="recipe">
             <Typography align="center" variant="h4">{recept.title}</Typography>

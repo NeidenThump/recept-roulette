@@ -14,7 +14,7 @@ function ReceptVy(){
     const [harSparat, setHarSparat] = useState(false);
     const spara = (e) =>{
         setHarSparat(!harSparat);
-        save();
+        saveToStorage();
     }
 
     useEffect(()=>{
@@ -27,6 +27,7 @@ function ReceptVy(){
             onRefresh() {
                 let newRecipe = generate("livs");
                 setRecept(newRecipe);
+                setHarSparat(false);
             }
         });
 
@@ -47,7 +48,7 @@ function ReceptVy(){
     - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
     */
 
-     function save() {
+     function saveToStorage() {
         //const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
@@ -59,7 +60,7 @@ function ReceptVy(){
     return(
         <div id="recipe">
             <KeyboardArrowDownRounded id="pullSignifier" color="primary" sx={{ fontSize: 80, ml: '40%'}}/>
-            <Typography align="center" variant="h4">{recept.title}</Typography>
+            <Typography align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
                 <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
@@ -71,7 +72,7 @@ function ReceptVy(){
                     <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
-                <Typography variant="h5">Ingredienser</Typography>
+                <Typography variant="h5" fontWeight="bold" sx={{ml: "10px"}}>Ingredienser</Typography>
                 <Stack>
                     {recept.ingredients.map((element, index) => (<ListItem divider="true" key={element}>{element}</ListItem>))}
                 </Stack>

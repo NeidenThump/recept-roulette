@@ -8,7 +8,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import {Link} from "react-router-dom";
 
 export default function LabelBottomNavigation() {
-  const [value, setValue] = React.useState('recents');
+  const [value, setValue] = React.useState('Home');
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

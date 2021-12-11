@@ -5,6 +5,14 @@
 
 /* ReceptVy */
 
+#pullSignifier{
+  animation: upDown 0.5s alternate infinite ease-in-out
+}
+
+@keyframes upDown {
+  to { transform: translatey(10%);}
+}
+
 .title{
   width: 320px;
   margin-left: 27.5px;

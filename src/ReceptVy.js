@@ -1,21 +1,42 @@
 import { Typography, Button, Stack ,Chip, ListItem } from "@mui/material";
-import { Favorite, FavoriteBorder } from '@mui/icons-material';
-import { useState } from 'react';
+import { Favorite, FavoriteBorder, KeyboardArrowDownRounded, Refresh } from '@mui/icons-material';
+import { useState, useEffect} from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
+import { textAlign } from "@mui/system";
+
 
 function ReceptVy(){
     const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
     const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
-    
-    // Pull to refresh function does not refresh generate?
-    PullToRefresh.init({
-        mainElement: 'body',
-        onRefresh() {
-            let newRec = generate("livs");
-            setRecept(newRec);
-        }
+    console.log("State recipe: " + recept);
+
+    const [harSparat, setHarSparat] = useState(false);
+    const spara = (e) =>{
+        setHarSparat(!harSparat);
+        save();
+    }
+
+    useEffect(()=>{
+        // Pull to refresh function does not refresh generate?
+        PullToRefresh.init({
+            mainElement: '#recipe',
+            instructionsPullToRefresh: "Drag ner för ett nytt recept",
+            instructionsReleaseToRefresh: "Släpp för ett nytt recept",
+            instructionsRefreshing: "Genererar recept",
+            onRefresh() {
+                let newRecipe = generate("livs");
+                setRecept(newRecipe);
+            }
+        });
+
+        return () =>{
+            // Don't forget to destroy all instances on unmout
+            // or you will get some glitches.
+            PullToRefresh.destroyAll();
+        };
     });
+
     
     /*
     Från 4- 6 ingredienser ska det skapas:
@@ -30,22 +51,18 @@ function ReceptVy(){
         //const recept = window.localStorage.getItem("recept")
         let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
         receptlist = Array.isArray(receptlist) ? receptlist : []
-        receptlist.push(storedRecipe)
+        receptlist.push(recept)
         //Write out the result in web storage
         window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
 
-    const [harSparat, setHarSparat] = useState(false);
-    const spara = (e) =>{
-        setHarSparat(!harSparat);
-        save();
-    }
     return(
         <div id="recipe">
+            <KeyboardArrowDownRounded id="pullSignifier" color="primary" sx={{ fontSize: 80, ml: '40%'}}/>
             <Typography align="center" variant="h4">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>Spara</Button>
+                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
             </div>
 
             <div className="Center">
@@ -56,7 +73,7 @@ function ReceptVy(){
             </div>
                 <Typography variant="h5">Ingredienser</Typography>
                 <Stack>
-                    {recept.ingredients.map((element, index) => (<ListItem divider="true" key={index}>{element}</ListItem>))}
+                    {recept.ingredients.map((element, index) => (<ListItem divider="true" key={element}>{element}</ListItem>))}
                 </Stack>
                 
                 {/* <ul className="ingredienser">

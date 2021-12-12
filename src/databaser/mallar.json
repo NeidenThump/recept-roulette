@@ -5,12 +5,25 @@
       "i",
       "utan",
       "över",
-      "och"
+      "och",
+      "med smak av",
+      "marinerade med",
+      "kompletteras med",
+      "kryddade"
     ],
     "adjektiv" : [
         "stuvad",
         "mosad",
-        "stekt"
+        "stekt",
+        "marinerade",
+        "kokt",
+        "krossad",
+        "karamelliserad",
+        "ugnsbakad",
+        "wokad",
+        "rökt",
+        "friterad",
+        "diskmaskinlagad"
     ],
     "tidsenhet" : [
       "ljusår",
@@ -23,8 +36,22 @@
       "skottår",
       "nanosekunder"
     ],
+    "början_mallar": [
+      "Sätt ugnen på 175 grader.",
+      "Dela upp # i 10 lika stora delar.",
+      "Skölj # i kallt vatten och låt dem stå i 5 min."
+    ]
+    ,
     "mallar" : [
       "Smula ner # i en bunke och tillsätt lite salt. Rör runt tills # löst sig. Rör ner resten av vätskan, socker, kvarg eller crème fraiche, smör och mjöl, spara lite till utbakningen. Arbeta in mjölet tills du har en smidig deg. Låt jäsa under en kökshandduk i 40 minuter."
+      , "Häll upp # i en kastrull. Dela # och skrapa ur fröna. Tillsätt både frön och stång till #. Blanda i alla andra ingredienserna utom rom, låt koka upp och ställ åt sidan till nästa dag."
+      , "Rör ihop # och # och stryk ut över #."
+      , "Smält # och vispa sedan smör och socker luftigt i en bunke. Tillsätt äggen och rör om. Tillsätt filmjölken, rör om."
+    ],
+    "avslut_mallar" : [
+      "Pudra florsocker över dem och toppa med några lingon.",
+      "Serveras kallt till fiket.",
+      "Ta ut # och låt dem svalna på ett galler."
     ],
     "enhet" : [
       "g",

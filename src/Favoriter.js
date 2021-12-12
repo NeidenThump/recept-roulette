@@ -9,7 +9,7 @@ export default function MediaCard() {
   console.log(favoriter)
   return (
     <div>
-      {favoriter.length === 0 ? 
+      {favoriter == null || favoriter.length === 0 ? 
       <div>
         <SentimentDissatisfiedRoundedIcon color="disabled" sx={{ fontSize: 80,mt:'40vh', ml: '40vw'}}/><Typography sx={{color:"#BDBDBD"}} align="center" variant="h5">Finns inga sparade recept...</Typography>
       </div> 

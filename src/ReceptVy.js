@@ -18,10 +18,37 @@ function ReceptVy(){
     const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
     console.log("State recipe: " + recept);
 
-    const [harSparat, setHarSparat] = useState(false);
-    const spara = (e) =>{
-        setHarSparat(!harSparat);
+    const savedOnce = window.localStorage.getItem('savedOnce');
+    const [harSparat, setHarSparat] = useState(savedOnce == 1 ? true : false);
+    console.log(savedOnce);
+    const save = (e) =>{
+        setHarSparat(true);
+        window.localStorage.setItem('savedOnce',1);
         saveToStorage();
+    }
+
+    function saveToStorage() {
+        //const recept = window.localStorage.getItem("recept")
+        let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
+        receptlist = Array.isArray(receptlist) ? receptlist : []
+        receptlist.push(recept)
+        //Write out the result in web storage
+        window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
+    }
+
+    const undo = (e) =>{
+        setHarSparat(false);
+        window.localStorage.setItem('savedOnce',0);
+        removeFromStorage();
+    }
+
+    function removeFromStorage() {
+        //const recept = window.localStorage.getItem("recept")
+        let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
+        receptlist.pop();
+
+        //Write out the result in web storage
+        window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
     }
 
     useEffect(()=>{
@@ -35,6 +62,7 @@ function ReceptVy(){
                 let newRecipe = generate("livs");
                 setRecept(newRecipe);
                 setHarSparat(false);
+                window.localStorage.setItem('savedOnce',false);
             }
         });
 
@@ -54,23 +82,13 @@ function ReceptVy(){
     - En lista med alla ingredienserna
     - En steg för steg guide som skriver in ingredienserna. Detta ska ske med någon slags förbestämd mall.
     */
-
-     function saveToStorage() {
-        //const recept = window.localStorage.getItem("recept")
-        let receptlist = JSON.parse(window.localStorage.getItem("favoriter"))
-        receptlist = Array.isArray(receptlist) ? receptlist : []
-        receptlist.push(recept)
-        //Write out the result in web storage
-        window.localStorage.setItem("favoriter", JSON.stringify(receptlist));
-    }
-
     return(
         <div id="recipe">
             <KeyboardArrowDownRounded id="pullSignifier" color="primary" sx={{ fontSize: 80, ml: '40%'}}/>
             <Typography sx={{mb:3}} align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button sx={{m: 10}} onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
+                <Button sx={{m: 10}} onClick={harSparat ? undo : save} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
             </div>
 
             <hr class="dotted"></hr>

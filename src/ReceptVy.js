@@ -4,7 +4,14 @@ import { useState, useEffect} from 'react';
 import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 import { textAlign } from "@mui/system";
+import ord_mallar from './databaser/mallar.json';
 
+// Get random number between min max
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+}
 
 function ReceptVy(){
     const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
@@ -60,21 +67,26 @@ function ReceptVy(){
     return(
         <div id="recipe">
             <KeyboardArrowDownRounded id="pullSignifier" color="primary" sx={{ fontSize: 80, ml: '40%'}}/>
-            <Typography align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>
+            <Typography sx={{mb:3}} align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">
-                <Button onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
+                <Button sx={{m: 10}} onClick={spara} variant="contained" startIcon={harSparat ? <Favorite /> : <FavoriteBorder /> }>{harSparat ? "Sparat!" : "Spara" }</Button>
             </div>
 
+            <hr class="dotted"></hr>
+
             <div className="Center">
-                <Stack align="center" direction="row" spacing={1}>
+                <Stack sx={{mb: 2}} align="center" direction="row" spacing={1}>
                     <Chip size="" label={"Portioner: " + recept.portion} />
                     <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
-                <Typography variant="h5" fontWeight="bold" sx={{ml: "10px"}}>Ingredienser</Typography>
-                <Stack>
-                    {recept.ingredients.map((element, index) => (<ListItem divider="true" key={element}>{element}</ListItem>))}
+                <Typography variant="h5" fontWeight="bold" sx={{mb: 1, ml: "10px"}}>Ingredienser</Typography>
+                <Stack >
+                    {recept.ingredients.map((element, index) => (
+                    <ListItem divider={index !== recept.ingredients.length-1 ? "true" : ""} key={index}>
+                        {getRandomIntInclusive(1,100)+ " " + ord_mallar.enhet[getRandomIntInclusive(0,ord_mallar.enhet.length-1)] +  " "+element}
+                    </ListItem>))}
                 </Stack>
                 
                 {/* <ul className="ingredienser">
@@ -82,15 +94,21 @@ function ReceptVy(){
                         
                     }
                 </ul> */}
+            <hr class="dotted"></hr>
+        
+            <Typography variant="h5" fontWeight="bold" sx={{ml: "10px"}}>Gör så här:</Typography>
 
-                <h2>Gör så här</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div className="spaceBottom"/>
+            
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+
+            <div className="spaceBottom"/>
         </div>
 
     )

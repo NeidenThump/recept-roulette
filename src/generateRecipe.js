@@ -95,6 +95,9 @@ export default function createRecipe(dataBaseType){
     }
     */
     
+    //Formating
+    title = title.charAt(0).toUpperCase() + title.toLowerCase().slice(1);
+
     const recept = { title: title, time: time, portion: portion, ingredients: ingredients}
     //Write out the result in web storage
     window.localStorage.setItem("recept", JSON.stringify(recept));

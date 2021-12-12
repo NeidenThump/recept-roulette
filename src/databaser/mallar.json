@@ -25,5 +25,12 @@
     ],
     "mallar" : [
       "Smula ner # i en bunke och tillsätt lite salt. Rör runt tills # löst sig. Rör ner resten av vätskan, socker, kvarg eller crème fraiche, smör och mjöl, spara lite till utbakningen. Arbeta in mjölet tills du har en smidig deg. Låt jäsa under en kökshandduk i 40 minuter."
+    ],
+    "enhet" : [
+      "g",
+      "tsk",
+      "l",
+      "lådor",
+      "flaskor"
     ]
   }

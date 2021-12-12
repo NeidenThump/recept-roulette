@@ -5,6 +5,12 @@
 
 /* ReceptVy */
 
+/* Dotted border */
+hr.dotted {
+  border-top: 5px dashed #bbb;
+  margin: 6% 0 6% 0;
+}
+
 #pullSignifier{
   animation: upDown 0.5s alternate infinite ease-in-out
 }

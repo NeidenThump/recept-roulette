@@ -8,6 +8,7 @@ import Favoriter from './Favoriter';
 import Remove from './FavRemove';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
+
 export default function App() {
   return (
   <Router>

@@ -16,7 +16,6 @@ function getRandomIntInclusive(min, max) {
 function ReceptVy(){
     const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
     const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
-    console.log("State recipe: " + recept);
 
     const savedOnce = window.localStorage.getItem('savedOnce');
     const [harSparat, setHarSparat] = useState(savedOnce == 1 ? true : false);
@@ -95,7 +94,7 @@ function ReceptVy(){
 
             <div className="Center">
                 <Stack sx={{mb: 2}} align="center" direction="row" spacing={1}>
-                    <Chip size="" label={"Portioner: " + recept.portion} />
+                    <Chip variant="outlined" label={"Portioner: " + recept.portion} />
                     <Chip label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
@@ -117,12 +116,16 @@ function ReceptVy(){
             <Typography variant="h5" fontWeight="bold" sx={{ml: "10px"}}>Gör så här:</Typography>
 
             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <ol className="steg" type="1">
+                {recept.recipe.map((element, i) => (
+                    <li key={i}>
+                        <ListItem className="stegItem" key={i}>
+                            {element}
+                        </ListItem>
+                    </li>
+                ))}
+                
+            </ol>
 
 
 

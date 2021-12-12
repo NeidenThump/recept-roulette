@@ -5,6 +5,15 @@
 
 /* ReceptVy */
 
+.steg li{
+  font-size:20px;
+  font-weight: bold;
+ }
+
+.steg li > .stegItem{
+  font-weight: normal;
+}
+
 /* Dotted border */
 hr.dotted {
   border-top: 5px dashed #bbb;

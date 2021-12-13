@@ -56,7 +56,7 @@ function BasicMenu() {
         <MenuItem onClick={() => handleClose("blanda")}>Blanda</MenuItem>
       </Menu>
       */}
-      <Typography sx={{mb:2, mt: 10}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
+      <Typography sx={{mb:2, mt: 5}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
       <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas från för att skapa recept.</Typography>
       <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
         <FormControl fullWidth >

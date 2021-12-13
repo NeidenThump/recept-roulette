@@ -51,13 +51,16 @@
     "avslut_mallar" : [
       "Pudra florsocker över dem och toppa med några lingon.",
       "Serveras kallt till fiket.",
-      "Ta ut # och låt dem svalna på ett galler."
+      "Ta ut # och låt dem svalna på ett galler.",
+      "Häll upp # i en stor kastrull med mjölk"
     ],
     "enhet" : [
       "g",
       "tsk",
       "l",
       "lådor",
-      "flaskor"
+      "flaskor",
+      "klassrum",
+      "Km/h"
     ]
   }

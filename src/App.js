@@ -7,10 +7,12 @@ import AddWord from './Settings.js';
 import Favoriter from './Favoriter';
 import Remove from './FavRemove';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
+import generate from './generateRecipe.js';
 
 export default function App() {
-  window.localStorage.setItem("getFromDB", "livs")
+  window.localStorage.setItem("getFromDB", "livs");
+  window.localStorage.setItem("recept", JSON.stringify(generate("livs")));
+
   return (
   <Router>
     <div>

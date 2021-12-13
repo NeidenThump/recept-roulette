@@ -17,7 +17,7 @@ function createRandArr(min,max,amount){
 
 //Generate a new recipe from a food database, words (adjectives, verbs etc), and recipe template
 export default function createRecipe(dataBaseType){
-    const MAX_INGREDIENTS = 7;
+    const MAX_INGREDIENTS = 8;
     const TITLE_ITERATIONS = getRandomIntInclusive(1,2); //One iteration = TILLAGNINGSSÄTT INGREDIENS#1 PREPOSITION INGREDIENS#2
     const CUSTOM_DB_MINIMUM = 3;
     const prepos = Object.values(ord_mallar.prepos);
@@ -31,6 +31,7 @@ export default function createRecipe(dataBaseType){
     // Mix if "egna ingredienser" is too small
     if(dataBaseType==="egen" && tags.length < CUSTOM_DB_MINIMUM){
         dataBaseType = "blanda";
+        window.localStorage.setItem("getFromDB", "blanda");
     }
     console.log(dataBaseType + "DB");
 
@@ -47,15 +48,13 @@ export default function createRecipe(dataBaseType){
     switch (dataBaseType) {
         //Database's ID set ranges from 1 to (a little bit over) 1000
         case "livs":
-            foodID = createRandArr(1, 1000, MAX_INGREDIENTS);
+            foodID = createRandArr(1, 6000, MAX_INGREDIENTS);
             ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
             
             break;
         
         //We don't know how big "egna ingredienser" is. Must be minimum of 3
         case "egen":
-            foodID = createRandArr(1, egen.length, MAX_INGREDIENTS);
-
             //copying arrays
             for (let i = 0; i < tags.length; i++) {
                 ingredients.push(tags[i].toString());
@@ -64,7 +63,17 @@ export default function createRecipe(dataBaseType){
             break;
         
         case "blanda":
+            let ingredientsAmount = Math.floor(MAX_INGREDIENTS/2);
+            foodID = createRandArr(1, 6000, ingredientsAmount);
+            ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
+            
+            if(tags.length < ingredientsAmount){
+                ingredientsAmount = tags.length;
+            }
 
+            for (let i = 0; i < ingredientsAmount; i++) {
+                ingredients.push(tags[getRandomIntInclusive(0,tags.length-1)].toString());
+            }
             break;
         default:
             break;

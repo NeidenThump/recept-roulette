@@ -58,6 +58,8 @@ export default function Favorit({recipe, nr}) {
                     <IconButton component={Link} to={"/recept-roulette/Favoriter/"+nr} size="large" aria-label='remove' color="error">
                         <DeleteForeverIcon sx={{}} fontSize="inherit"/>
                     </IconButton>
+                    <Typography sx={{mr:8}}>Ta bort</Typography>
+                    <Typography sx={{ml:2}}>Förhandsgranska</Typography>
                     <ExpandMore
                         expand={expanded}
                         onClick={handleExpandClick}

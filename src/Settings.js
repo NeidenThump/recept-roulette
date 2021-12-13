@@ -25,6 +25,7 @@ function BasicMenu() {
   const [getIngr, setGetIngr] = useState("livs");
   const handleChange = (event) => {
     setGetIngr(event.target.value);
+    window.localStorage.setItem("getFromDB", event.target.value)
   };
 
   return (
@@ -55,9 +56,9 @@ function BasicMenu() {
         <MenuItem onClick={() => handleClose("blanda")}>Blanda</MenuItem>
       </Menu>
       */}
-      <Typography sx={{mb:3, mt: 10}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
-      <Typography sx={{mb:3, mt: 10}}>detalj texts</Typography>
-      <Box sx={{ minWidth: 300 }}>
+      <Typography sx={{mb:2, mt: 10}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
+      <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas från för att skapa recept.</Typography>
+      <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
         <FormControl fullWidth >
           <InputLabel>Hämta från</InputLabel>
           <Select
@@ -115,12 +116,18 @@ export default function InputTags() {
   };
 
   const handleOnSubmit = (e) => {
-    //Saving to storage
-    e.preventDefault();
-    SetTags([...tags, inputText]);
-    window.localStorage.setItem('Tag', JSON.stringify([...tags, inputText]));
-    SetinputText("");
-    tagRef.current.value = "";
+    if(inputText !== ""){
+      //Saving to storage
+      e.preventDefault();
+      SetTags([...tags, inputText]);
+      window.localStorage.setItem('Tag', JSON.stringify([...tags, inputText]));
+      SetinputText("");
+      tagRef.current.value = "";
+    }else{
+      e.preventDefault();
+      SetinputText("");
+      tagRef.current.value = "";
+    }
   };
 
   const handleChange = (e) => {
@@ -144,8 +151,8 @@ export default function InputTags() {
               inputRef={tagRef}
               variant='standard'
               size='small'
-              sx={{width: 290, height: 44, marginRight: 5}}
-              placeholder={tags.length < 5 ? "Enter tags" : ""}
+              sx={{width: 270, ml:3, mr:2, height: 5}}
+              placeholder="Skriv ingrediens och tryck på ENTER"
             />
 
             <input value="+" className="submit" type="submit"/>
@@ -159,7 +166,7 @@ export default function InputTags() {
             : ""}
             
             <Box className="tagHolder">
-              {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)})}
+              {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)}).reverse()}
             </Box>
 
           </CardContent>

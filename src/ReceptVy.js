@@ -14,8 +14,9 @@ function getRandomIntInclusive(min, max) {
 }
 
 function ReceptVy(){
+    const DB_TYPE = window.localStorage.getItem("getFromDB").toString();
     const storedRecipe = JSON.parse(window.localStorage.getItem('recept'));
-    const [recept, setRecept] = useState(storedRecipe == null ? generate("livs") : storedRecipe);
+    const [recept, setRecept] = useState(storedRecipe == null ? generate(DB_TYPE) : storedRecipe);
 
     const savedOnce = window.localStorage.getItem('savedOnce');
     const [harSparat, setHarSparat] = useState(savedOnce == 1 ? true : false);
@@ -58,7 +59,7 @@ function ReceptVy(){
             instructionsReleaseToRefresh: "Släpp för ett nytt recept",
             instructionsRefreshing: "Genererar recept",
             onRefresh() {
-                let newRecipe = generate("livs");
+                let newRecipe = generate(DB_TYPE);
                 setRecept(newRecipe);
                 setHarSparat(false);
                 window.localStorage.setItem('savedOnce',false);

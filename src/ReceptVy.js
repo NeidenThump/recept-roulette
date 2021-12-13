@@ -85,7 +85,7 @@ function ReceptVy(){
     return(
         <div id="recipe">
             <div id="pullSignifier">
-                <Typography sx={{ ml: 21.5, color:"#a3a3a3"}}>Drag</Typography>
+                <Typography sx={{ ml: 19.5, color:"#a3a3a3"}}>Drag ned</Typography>
                 <KeyboardArrowDownRounded   sx={{ fontSize: 70, ml: '41%', color:"#a3a3a3"}}/>
             </div>
             <Typography sx={{mb:3}} align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>

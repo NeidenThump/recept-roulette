@@ -5,6 +5,8 @@ import generate from './generateRecipe.js';
 import PullToRefresh from 'pulltorefreshjs';
 import { textAlign } from "@mui/system";
 import ord_mallar from './databaser/mallar.json';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 
 // Get random number between min max
 function getRandomIntInclusive(min, max) {
@@ -98,8 +100,8 @@ function ReceptVy(){
 
             <div className="Center">
                 <Stack sx={{mb: 2}} align="center" direction="row" spacing={1}>
-                    <Chip variant="outlined" label={"Portioner: " + recept.portion} />
-                    <Chip label={recept.time} variant="outlined" /> 
+                    <Chip icon={<RestaurantIcon/>} sx={{fontSize: 17, height: 35}} variant="outlined" label={"Port. " + recept.portion} />
+                    <Chip icon={<AccessTimeIcon/>} sx={{fontSize: 17, height: 35}} label={recept.time} variant="outlined" /> 
                 </Stack>
             </div>
                 <Typography variant="h5" fontWeight="bold" sx={{mb: 1, ml: "10px"}}>Ingredienser</Typography>

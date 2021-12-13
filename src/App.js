@@ -8,12 +8,23 @@ import Favoriter from './Favoriter';
 import Remove from './FavRemove';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import generate from './generateRecipe.js';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#F9545B",
+    },
+  },
+});
+
 
 export default function App() {
   window.localStorage.setItem("getFromDB", "livs");
   window.localStorage.setItem("recept", JSON.stringify(generate("livs")));
 
   return (
+    <ThemeProvider theme={theme}>
   <Router>
     <div>
       <Routes>
@@ -26,6 +37,7 @@ export default function App() {
       <Navbar/>
     </div>
   </Router>
+  </ThemeProvider>
 );
 }
 

@@ -10,11 +10,18 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import generate from './generateRecipe.js';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
+//F9545B red  0AC850 green   25263A dark blue
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#F9545B",
+      main: "#F9545B"
     },
+    secondary:{
+      main: "#0AC850"
+    },
+    info: {
+      main: "#25263A"
+    }
   },
 });
 

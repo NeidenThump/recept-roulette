@@ -1,5 +1,5 @@
-import { Cancel } from "@mui/icons-material";
-import { Stack, TextField, Typography, InputLabel, FormControl, Select, Alert, AlertTitle} from "@mui/material";
+import { Cancel } from "@mui/icons-material/Cancel";
+import { Stack, TextField, Typography, InputLabel, FormControl, Select, Alert, AlertTitle, IconButton, Chip } from "@mui/material";
 import { Box } from "@mui/system";
 import { useRef, useState } from "react";
 import * as React from 'react';
@@ -9,6 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import generateRecipe from './generateRecipe';
 import CardContent from '@mui/material/CardContent';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 //Dropdown
 function BasicMenu() {
@@ -83,19 +84,17 @@ const Tags = ({ data, handleDelete }) => {
   return (
     <Box
       sx={{
-        background: "#283240",
         height: "100%",
         display: "flex",
         padding: "0.4rem",
-        margin: "10px 0 0 10px",
+        margin: "10px 0 0 5px",
         justifyContent: "center",
         alignContent: "center",
         color: "#ffffff",
       }}
     >
       <Stack direction='row' gap={1}>
-        <Typography>{data}</Typography>
-        <Cancel sx={{ cursor: "pointer" }} onClick={() => { handleDelete(data); }}/>
+        <Chip sx={{fontSize: 20, height: 40}} color="info" label={data} onDelete={() => handleDelete(data) } />
       </Stack>
     </Box>
   );
@@ -151,11 +150,15 @@ export default function InputTags() {
               inputRef={tagRef}
               variant='standard'
               size='small'
-              sx={{width: 270, ml:3, mr:2, height: 5}}
+              sx={{width: 270, ml:3, mr:2, height: 5, mt: 1}}
               placeholder="Skriv ingrediens och tryck på ENTER"
             />
-
-            <input value="+" className="submit" type="submit"/>
+            <IconButton className="submit" type="submit">
+              <AddCircleIcon fontSize="large" color="secondary"/>
+            </IconButton>
+            
+            {//<input value="+" className="submit" type="submit"/>
+            } 
           </form>
           
           <CardContent sx={{ width: 325, height: 270, marginTop: 3, marginLeft: 1.2, backgroundColor: '#E2ECEA', borderRadius: 2 }}>

@@ -55,12 +55,14 @@ function BasicMenu() {
         <MenuItem onClick={() => handleClose("blanda")}>Blanda</MenuItem>
       </Menu>
       */}
+      <Typography sx={{mb:3, mt: 10}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
+      <Typography sx={{mb:3, mt: 10}}>detalj texts</Typography>
       <Box sx={{ minWidth: 300 }}>
         <FormControl fullWidth >
-          <Typography>tet</Typography>
+          <InputLabel>Hämta från</InputLabel>
           <Select
             value={getIngr}
-            label="Age"
+            label="Hämta från"
             onChange={handleChange}
           >
             <MenuItem value={"livs"}>Standard databas</MenuItem>
@@ -134,11 +136,9 @@ export default function InputTags() {
           <BasicMenu/>
         </div>
 
-        <Typography>Lägg till egna ingredienser</Typography>
-        <h2 className="AddWordTitle">Egna ingredienser</h2>
-        <h3 className="tagTitle">Taggar</h3>
+        <Typography sx={{mb:3, mt: 10}} align="center" variant="h5" fontWeight="bold">Lägg till egna ingredienser</Typography>
 
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{  }}>
           <form className="input" onChange={handleChange} onSubmit={handleOnSubmit}>
             <TextField
               inputRef={tagRef}

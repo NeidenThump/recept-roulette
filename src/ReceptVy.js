@@ -83,7 +83,7 @@ function ReceptVy(){
     */
     return(
         <div id="recipe">
-            <KeyboardArrowDownRounded id="pullSignifier" color="primary" sx={{ fontSize: 80, ml: '40%'}}/>
+            <KeyboardArrowDownRounded id="pullSignifier"  sx={{ fontSize: 80, ml: '40%', color:"#a3a3a3"}}/>
             <Typography sx={{mb:3}} align="center" variant="h5" fontWeight="bold">{recept.title}</Typography>
             {/* Kalla på style för h2 och basera på längd av title */}
             <div className="Center">

@@ -25,7 +25,7 @@ export default function LabelBottomNavigation() {
   )
 
   return (
-    <BottomNavigation sx={{ display: 'flex', justifyContent: 'space-around', width: 375, position: 'fixed', left: '50%', top: '97.2%', transform: 'translate(-50%, -50%)'}} value={value} onChange={handleChange}>
+    <BottomNavigation sx={{ boxShadow: 2,display: 'flex', justifyContent: 'space-around', width: 375, position: 'fixed', left: '50%', top: '97.2%', transform: 'translate(-50%, -50%)'}} value={value} onChange={handleChange}>
       <BottomNavigationAction component={Link} to="/recept-roulette/Settings/" sx={{width: 125}} label="Inställningar" value="Inställningar" icon={<SettingsIcon />}/>
       <BottomNavigationAction component={Link} to="/recept-roulette/Recept/" sx={{width: 125}} label="Recept" value="Recept" icon={<ArticleIcon />}/>
       <BottomNavigationAction component={Link} to="/recept-roulette/Favoriter/" sx={{width: 125}} label="Favoriter" value="Favoriter" icon={<FavoriteIcon />}/>

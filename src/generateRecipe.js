@@ -91,7 +91,7 @@ export default function createRecipe(dataBaseType){
         for (let i = 0; i < 6; i++) {
             if(i===4){ //even number
                 title += ord_mallar.adjektiv[getRandomIntInclusive(0,ord_mallar.adjektiv.length-1)] + " ";
-            }else if(i%2===0){
+            }else if(i%2===0 || i===5){
                 title += ingredients[getRandomIntInclusive(0,ingredients.length-1)] + " ";
             }
             else{

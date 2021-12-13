@@ -22,7 +22,7 @@ function BasicMenu() {
     generateRecipe(id);
   };
 
-  const [getIngr, setGetIngr] = useState("livs");
+  const [getIngr, setGetIngr] = useState(window.localStorage.getItem("getFromDB").toString());
   const handleChange = (event) => {
     setGetIngr(event.target.value);
     window.localStorage.setItem("getFromDB", event.target.value)

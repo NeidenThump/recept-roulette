@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/recept-roulette/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/recept-roulette/static/js/main.c99702f6.chunk.js",
-    "main.js.map": "/recept-roulette/static/js/main.c99702f6.chunk.js.map",
-    "runtime-main.js": "/recept-roulette/static/js/runtime-main.f38d5843.js",
-    "runtime-main.js.map": "/recept-roulette/static/js/runtime-main.f38d5843.js.map",
-    "static/js/2.71a940da.chunk.js": "/recept-roulette/static/js/2.71a940da.chunk.js",
-    "static/js/2.71a940da.chunk.js.map": "/recept-roulette/static/js/2.71a940da.chunk.js.map",
-    "static/js/3.0ddd7b5c.chunk.js": "/recept-roulette/static/js/3.0ddd7b5c.chunk.js",
-    "static/js/3.0ddd7b5c.chunk.js.map": "/recept-roulette/static/js/3.0ddd7b5c.chunk.js.map",
+    "main.css": "/recept-roulette/static/css/main.3f15a4ac.chunk.css",
+    "main.js": "/recept-roulette/static/js/main.d8a12595.chunk.js",
+    "main.js.map": "/recept-roulette/static/js/main.d8a12595.chunk.js.map",
+    "runtime-main.js": "/recept-roulette/static/js/runtime-main.64309d2f.js",
+    "runtime-main.js.map": "/recept-roulette/static/js/runtime-main.64309d2f.js.map",
+    "static/js/2.5eac7ee4.chunk.js": "/recept-roulette/static/js/2.5eac7ee4.chunk.js",
+    "static/js/2.5eac7ee4.chunk.js.map": "/recept-roulette/static/js/2.5eac7ee4.chunk.js.map",
+    "static/js/3.96366e33.chunk.js": "/recept-roulette/static/js/3.96366e33.chunk.js",
+    "static/js/3.96366e33.chunk.js.map": "/recept-roulette/static/js/3.96366e33.chunk.js.map",
     "index.html": "/recept-roulette/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/recept-roulette/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.71a940da.chunk.js.LICENSE.txt": "/recept-roulette/static/js/2.71a940da.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/recept-roulette/static/media/logo.6ce24c58.svg"
+    "static/css/main.3f15a4ac.chunk.css.map": "/recept-roulette/static/css/main.3f15a4ac.chunk.css.map",
+    "static/js/2.5eac7ee4.chunk.js.LICENSE.txt": "/recept-roulette/static/js/2.5eac7ee4.chunk.js.LICENSE.txt",
+    "static/media/background.ad452cc6.png": "/recept-roulette/static/media/background.ad452cc6.png",
+    "static/media/backgroundTitle.06061528.png": "/recept-roulette/static/media/backgroundTitle.06061528.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f38d5843.js",
-    "static/js/2.71a940da.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c99702f6.chunk.js"
+    "static/js/runtime-main.64309d2f.js",
+    "static/js/2.5eac7ee4.chunk.js",
+    "static/css/main.3f15a4ac.chunk.css",
+    "static/js/main.d8a12595.chunk.js"
   ]
 }

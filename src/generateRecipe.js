@@ -1,6 +1,5 @@
 import livs from './databaser/livsmedel.json';
 import ord_mallar from './databaser/mallar.json';
-import egen from './databaser/egnaIngredienser.json';
 
 // Get random number between min max
 function getRandomIntInclusive(min, max) {
@@ -11,13 +10,14 @@ function getRandomIntInclusive(min, max) {
 
 // Creates an array filled with random numbers
 function createRandArr(min,max,amount){
-    for (var a=[],i=0;i<amount+1;++i) a[i]=getRandomIntInclusive(min, max);
+    for (var a=[],i=0;i<amount;++i) a[i]=getRandomIntInclusive(min, max);
     return a;
 }
 
 //Generate a new recipe from a food database, words (adjectives, verbs etc), and recipe template
 export default function createRecipe(dataBaseType){
     const MAX_INGREDIENTS = 8;
+    const MIN_INGREDIENTS = 4;
     const TITLE_ITERATIONS = getRandomIntInclusive(1,2); //One iteration = TILLAGNINGSSÄTT INGREDIENS#1 PREPOSITION INGREDIENS#2
     const CUSTOM_DB_MINIMUM = 3;
     const prepos = Object.values(ord_mallar.prepos);
@@ -48,8 +48,10 @@ export default function createRecipe(dataBaseType){
     switch (dataBaseType) {
         //Database's ID set ranges from 1 to (a little bit over) 1000
         case "livs":
-            foodID = createRandArr(1, 6000, MAX_INGREDIENTS);
-            ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
+            while(ingredients.length < MIN_INGREDIENTS){
+                foodID = createRandArr(1, 6000, MAX_INGREDIENTS);
+                ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
+            }
             
             break;
         
@@ -64,8 +66,11 @@ export default function createRecipe(dataBaseType){
         
         case "blanda":
             let ingredientsAmount = Math.floor(MAX_INGREDIENTS/2);
-            foodID = createRandArr(1, 6000, ingredientsAmount);
-            ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
+
+            while(ingredients.length < ingredientsAmount){
+                foodID = createRandArr(1, 6000, ingredientsAmount);
+                ingredients = Object.values(livs.filter(foodElement => foodID.includes(foodElement.Nummer)).map(foodElement => foodElement.Namn));
+            }
             
             if(tags.length < ingredientsAmount){
                 ingredientsAmount = tags.length;
@@ -144,6 +149,11 @@ export default function createRecipe(dataBaseType){
 
     recipe.push(finalSteps[getRandomIntInclusive(0,finalSteps.length-1)].replaceAll("#",()=>{return ingredients[getRandomIntInclusive(0,ingredients.length-1)].toLowerCase()}));
     
+    //adding units to ingredients
+    for(let i = 0; i < ingredients.length; i++){
+        ingredients[i] = getRandomIntInclusive(1,100)+ " " + ord_mallar.enhet[getRandomIntInclusive(0,ord_mallar.enhet.length-1)] +  " "+ ingredients[i];
+    }
+
 
     const recept = { title: title, time: time, portion: portion, ingredients: ingredients, recipe: recipe}
     //Write out the result in web storage

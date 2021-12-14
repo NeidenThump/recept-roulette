@@ -107,8 +107,8 @@ function ReceptVy(){
                 <Typography variant="h5" fontWeight="bold" sx={{mb: 1, ml: "10px"}}>Ingredienser</Typography>
                 <Stack >
                     {recept.ingredients.map((element, index) => (
-                    <ListItem divider={index !== recept.ingredients.length-1 ? "true" : ""} key={index}>
-                        {getRandomIntInclusive(1,100)+ " " + ord_mallar.enhet[getRandomIntInclusive(0,ord_mallar.enhet.length-1)] +  " "+element}
+                    <ListItem sx={{fontSize: 19}} divider={index !== recept.ingredients.length-1 ? "true" : ""} key={index}>
+                        {element}
                     </ListItem>))}
                 </Stack>
                 

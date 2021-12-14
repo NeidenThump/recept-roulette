@@ -1,7 +1,7 @@
 import { Cancel } from "@mui/icons-material/Cancel";
-import { Stack, TextField, Typography, InputLabel, FormControl, Select, Alert, AlertTitle, IconButton, Chip } from "@mui/material";
+import { Fade, Stack, TextField, Typography, InputLabel, FormControl, Select, Alert, AlertTitle, IconButton, Chip } from "@mui/material";
 import { Box } from "@mui/system";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
@@ -10,9 +10,10 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import generateRecipe from './generateRecipe';
 import CardContent from '@mui/material/CardContent';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
+import { Shake, ShakeHorizontal } from 'reshake';
 
 //Dropdown
-function BasicMenu({setOption}) {
+function BasicMenu({option, handleChangeOption}) {
   /*
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -26,8 +27,27 @@ function BasicMenu({setOption}) {
 */
   
   return (
-    
-      {/*
+
+    <div>
+          <Typography sx={{mb:2, mt: 5}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
+          <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas för att skapa recepten.</Typography>
+          <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
+            <FormControl fullWidth >
+              <InputLabel>Hämta från</InputLabel>
+              <Select
+                value={option}
+                label="Hämta från"
+                onChange={handleChangeOption}
+              >
+                <MenuItem value={"livs"}>Standard (6000 ingredienser)</MenuItem>
+                <MenuItem value={"egen"}>Egna ingredienser</MenuItem>
+                <MenuItem value={"blanda"}>Både egna och standard</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
+    </div>
+
+      /*
         <div>
       <Button
         sx={{ backgroundColor: '#222165', color: "white"}}
@@ -70,7 +90,7 @@ function BasicMenu({setOption}) {
           </Select>
         </FormControl>
       </Box>
-      </div>*/}
+      </div>*/
   )
 }
 
@@ -132,15 +152,36 @@ export default function InputTags() {
     }
   };
 
-  const [getIngr, setGetIngr] = useState(option);
+  const [shake, setShake] = useState(true);
   const handleChangeOption = (event) => {
-    setGetIngr(event.target.value);
-    window.localStorage.setItem("getFromDB", event.target.value)
+    if(!(tags.length<3 && event.target.value !== "livs")){
+      setOption(event.target.value);
+      window.localStorage.setItem("getFromDB", event.target.value);
+    }
+    else{
+      console.log("Error: too few ingredients!");
+      setShake(false);
+    }
   };
 
+  useEffect(()=>{
+    setShake(true);
+  }, [shake])
+
+  const handleActiveShake = (e) =>{
+    if(shake){
+      setShake(false)
+      console.log("handleActive tru" );
+      return true;
+    }
+    else{
+      console.log("handleActive false");
+      return false;
+    }  
+  }
 
   const handleChange = (e) => {
-    SetinputText(e.target.value)
+    SetinputText(e.target.value);
   }
   return (
     <div>
@@ -149,24 +190,7 @@ export default function InputTags() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"/>
         
         <div className="menu">
-          <div>
-          <Typography sx={{mb:2, mt: 5}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
-          <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas från för att skapa recept.</Typography>
-          <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
-            <FormControl fullWidth >
-              <InputLabel>Hämta från</InputLabel>
-              <Select
-                value={getIngr}
-                label="Hämta från"
-                onChange={handleChangeOption}
-              >
-                <MenuItem value={"livs"}>Standard databas</MenuItem>
-                <MenuItem value={"egen"}>Egna ingredienser</MenuItem>
-                <MenuItem value={"blanda"}>Både egna och standard</MenuItem>
-              </Select>
-            </FormControl>
-          </Box>
-          </div>
+          <BasicMenu option={option} handleChangeOption={handleChangeOption}></BasicMenu>
         </div>
 
         <Typography sx={{mb:3, mt: 10}} align="center" variant="h5" fontWeight="bold">Lägg till egna ingredienser</Typography>
@@ -189,12 +213,18 @@ export default function InputTags() {
           </form>
           
           <CardContent sx={{ width: 325, height: 270, marginTop: 3, marginLeft: 1.2, backgroundColor: '#E2ECEA', borderRadius: 2 }}>
-            {tags.length < 3 ? <Alert severity="warning" >
+             
+             <ShakeHorizontal h="20" dur="400" q="1" active={shake &&inputText===""} fixed="true">
+            <Fade in={tags.length < 3} mountOnEnter unmountOnExit>
+              
+              <Alert severity="warning" >
                 <AlertTitle>Varning!</AlertTitle>
                 Det måste finnas minst 3 ingredienser <strong>annars hämtas ingredienser från standard databasen!</strong>
-            </Alert>
-            : ""}
-            
+              </Alert>
+              
+            </Fade>
+            </ShakeHorizontal>
+
             <Box className="tagHolder">
               {tags.map((data, index) => { return (<Tags data={data} handleDelete={handleDelete} key={index}/>)}).reverse()}
             </Box>

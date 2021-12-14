@@ -1,38 +1,233 @@
 .App {
   text-align: center;
+  width: 375px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ReceptVy */
+
+.steg li{
+  font-size:20px;
+  font-weight: bold;
+ }
+
+.steg li > .stegItem{
+  font-weight: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Dotted border */
+hr.dotted {
+  border-top: 5px dashed #bbb;
+  margin: 6% 0 6% 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#pullSignifier{
+  animation: upDown 0.5s alternate infinite ease-in-out
+}
+
+@keyframes upDown {
+  to { transform: translatey(10%);}
+}
+
+.title{
+  width: 320px;
+  margin-left: 27.5px;
+  text-align: center;
+}
+
+.tidPort{
+  background-color: gray;
+  padding-left: 27.5px;
+}
+
+.ingredienser{
+  text-align: left;
+}
+
+.Center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.saveButton {
+  color: #F9545B;
+  background-color: white;
+  width: 110px;
+  height: 37px;
+  border-color: #F9545B;
+  border-width: 2px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+/* Startsida */
+
+.startsida {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FCEECB;
+  width: 375px;
+  max-width: 375px;
+  max-height: 812px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.img {
+  margin-top: 150px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
+  margin-top: 50px;
+}
+
+.startsidaTitle {
   color: white;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.startsidaText {
+  padding-top: 50px;
+  font-size: 26px;
+  width: 375px;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.startsidaBottom {
+  /* background-image: url("./bilder/background.png"); */
+  /*background-repeat: no-repeat;*/
+  width: 375px;
+  height: 60px;
+  position: relative;
+  text-align: center;
+}
+
+.startsidaBottom button {
+  width: 217px;
+  height: 62px;
+  background-color: #F9545B;
+  color: white;
+  font-size: 24px;
+  border-radius: 25px;
+  border-style: none;
+  margin: 0;
+  position: absolute;
+  top: 500%;
+  left: 85px;
+}
+
+.white {
+  background-color: white;
+  width: 375px;
+  height: 140px;
+}
+
+/* AddWord */
+
+.AddWord h2{
+  text-align: center;
+}
+
+.AddWord p {
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.AddWordTitle {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 298px;
+  height: 44px;
+  background-color: #EAEAEA;
+  border-style: none;
+}
+
+.submit {
+  padding-bottom: -10px;
+  margin-top: -10px;
+  width: 44px;
+  height: 44px;
+}
+
+.tag {
+  border-color: none;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.tagTitle {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+}
+
+.tagHolder {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 375px;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+/* Favoriter */
+
+.spaceBottom {
+  height: 60px;
+  width: 375px;
+}
+
+.Center Button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuButton p {
+  margin-top: -2px;
+  margin-bottom: -5px;
 }

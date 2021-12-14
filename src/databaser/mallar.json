@@ -1,0 +1,108 @@
+{
+    "prepos": [
+      "med",
+      "på",
+      "i",
+      "utan",
+      "över",
+      "och",
+      "med smak av",
+      "marinerade med",
+      "kompletteras med",
+      "blandat med",
+      "under"
+    ],
+    "adjektiv" : [
+      "kryddade",
+        "stuvad",
+        "mosad",
+        "stekt",
+        "marinerade",
+        "kokt",
+        "krossad",
+        "karamelliserad",
+        "ugnsbakad",
+        "wokad",
+        "rökt",
+        "friterad",
+        "diskmaskinlagad",
+        "styckad",
+        "tryckt",
+        "hackad",
+        "kastat",
+        "sparkad",
+        "klämd",
+        "stressad",
+        "penslad",
+        "förbränningsmotoruppvärmd",
+        "labbodlad",
+        "hemlagad"
+    ],
+    "tidsenhet" : [
+      "tentor",
+      "minuter",
+      "sekunder", 
+      "timmar",
+      "kvartal",
+      "sekel",
+      "dagar",
+      "skottår",
+      "nanosekunder",
+      "högskolepoäng",
+      "år"
+    ],
+    "början_mallar": [
+      "Sätt ugnen på 175 grader.",
+      "Dela upp # i 10 lika stora delar.",
+      "Skölj # i kallt vatten och låt dem stå i 5 min.",
+      "Ring din mamma och fråga hur man lagar #"
+      , "Sätt på ugnen på 200 grader."
+      , "Koka upp saltat vatten."
+    ]
+    ,
+    "mallar" : [
+      "Smula ner # i en bunke och tillsätt lite salt. Rör runt tills # löst sig. Rör ner resten av vätskan, #, # eller crème fraiche, smör och mjöl, spara lite till utbakningen. Arbeta in # tills du har en smidig deg. Låt jäsa under en kökshandduk i 40 minuter."
+      , "Häll upp # i en kastrull. Dela # och skrapa ur det hårda. Tillsätt både # och stång till #. Blanda i alla andra ingredienserna utom #, låt koka upp och ställ åt sidan till nästa dag."
+      , "Rör ihop # och # och stryk ut över #."
+      , "Smält # och vispa sedan # och # luftigt i en bunke. Tillsätt # och rör om. Tillsätt #, rör om."
+      , "Stanna och reflektera över vad du nyss gjort. Kasta sedan hälften av # i en påse, skaka ordentligt."
+      , "Hacka # och blanda alla delar med #. Tillsätt därefter # under omrörning."
+      , "Repetera det förgående steget 7 gånger."
+      , "Andas."
+      , "Tryck in # i # medan # svalnar."
+      , "Rulla # till små bollar. Lägg på en smord plåt."
+      , "Stek i ugnen på 225-250 grader, tills # har fått fin färg."
+      , "Lägg smeten i spritspåsar och spritsa ut på bakplåtspappersklädd plåt. Grädda i 250 grader ugn tills # fått fin färg, ca 8 minuter. Använd gärna både varmlufts- och grillfunktionen om det går, annars bara varmluft."
+      , "Dela # på mitten och lägg upp #, #, # och # på en plåt. Ringla över # och salta. ”Osthyvla” # och lägg på # plåten. Rosta av i ugnen i 10-15 minuter till # fått lite färg."
+      , "Skär bort torra delar av # och ta bort de yttersta delen."
+    ],
+    "avslut_mallar" : [
+      "Pudra florsocker över dem och toppa med några lingon.",
+      "Serveras kallt till fiket.",
+      "Ta ut # och låt dem svalna på ett galler.",
+      "Häll upp # i en stor kastrull med mjölk, serveras med varm dryck."
+      , "Ringla över vit balsamico. Bon appétit!"
+      , "Serveras omedelbart för bästa smak."
+      , "Toppa med socker och njut!"
+      , "Sådär, nu har du begått krigsbrott mot mänskligheten!"
+      , "Drick upp allt och stapla # på en macka."
+      
+    ],
+    "enhet" : [
+      "g",
+      "tsk",
+      "liter",
+      "lådor",
+      "flaskor",
+      "klassrum av",
+      "km",
+      "påsar",
+      "campus",
+      "universa",
+      "glas",
+      "hinkar",
+      "badkar",
+      "kg",
+      "ton"
+    ]
+  }

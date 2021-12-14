@@ -1,0 +1,8982 @@
+[
+  {
+    "Nummer": 1,
+    "Namn": "Nöt talg"
+  },
+  {
+    "Nummer": 2,
+    "Namn": "Gris späck"
+  },
+  {
+    "Nummer": 3,
+    "Namn": "Gris ister"
+  },
+  {
+    "Nummer": 4,
+    "Namn": "Kokos"
+  },
+  {
+    "Nummer": 5,
+    "Namn": "Matsblandning havssaltat Bregott"
+  },
+  {
+    "Nummer": 6,
+    "Namn": "Matsblandning Bregott mellan"
+  },
+  {
+    "Nummer": 10,
+    "Namn": "Flytande margarin Milda culinesse"
+  },
+  {
+    "Nummer": 12,
+    "Namn": "Hushållsmargarin Melba"
+  },
+  {
+    "Nummer": 13,
+    "Namn": "Hushållsmargarin Milda"
+  },
+  {
+    "Nummer": 17,
+    "Namn": "margarin Becel"
+  },
+  {
+    "Nummer": 20,
+    "Namn": "margarin ampom"
+  },
+  {
+    "Nummer": 21,
+    "Namn": "Majonnäs"
+  },
+  {
+    "Nummer": 22,
+    "Namn": "Sesamsås med grädde"
+  },
+  {
+    "Nummer": 23,
+    "Namn": "Gravlaxsås hovmästarsås"
+  },
+  {
+    "Nummer": 24,
+    "Namn": "Gravlaxsås"
+  },
+  {
+    "Nummer": 25,
+    "Namn": "Remouladsås"
+  },
+  {
+    "Nummer": 26,
+    "Namn": "Dressing vinägrett"
+  },
+  {
+    "Nummer": 29,
+    "Namn": "Smör"
+  },
+  {
+    "Nummer": 30,
+    "Namn": "Smör extrasaltat"
+  },
+  {
+    "Nummer": 31,
+    "Namn": "Smör osaltat"
+  },
+  {
+    "Nummer": 33,
+    "Namn": "Druvkärnolja"
+  },
+  {
+    "Nummer": 34,
+    "Namn": "Majsolja"
+  },
+  {
+    "Nummer": 35,
+    "Namn": "Olivolja"
+  },
+  {
+    "Nummer": 37,
+    "Namn": "Tistelolja"
+  },
+  {
+    "Nummer": 38,
+    "Namn": "Sesamolja"
+  },
+  {
+    "Nummer": 39,
+    "Namn": "Sojaolja"
+  },
+  {
+    "Nummer": 40,
+    "Namn": "Solrosolja"
+  },
+  {
+    "Nummer": 41,
+    "Namn": "Vetegroddsolja"
+  },
+  {
+    "Nummer": 42,
+    "Namn": "Dressing konserv"
+  },
+  {
+    "Nummer": 45,
+    "Namn": "Dressing till sallad med majonnäs"
+  },
+  {
+    "Nummer": 49,
+    "Namn": "Dressing"
+  },
+  {
+    "Nummer": 50,
+    "Namn": "Majonnäs"
+  },
+  {
+    "Nummer": 51,
+    "Namn": "Gurkmajonnäs gurksallad gatukök"
+  },
+  {
+    "Nummer": 52,
+    "Namn": "Räkmajonnäs räksallad gatukök"
+  },
+  {
+    "Nummer": 53,
+    "Namn": "Majonnäs"
+  },
+  {
+    "Nummer": 55,
+    "Namn": "Mimosasallad"
+  },
+  {
+    "Nummer": 56,
+    "Namn": "Rödbetssallad med gräddfil"
+  },
+  {
+    "Nummer": 57,
+    "Namn": "Sallad med skaldjur majonnäsdressing"
+  },
+  {
+    "Nummer": 58,
+    "Namn": "Bearnaisesås"
+  },
+  {
+    "Nummer": 59,
+    "Namn": "Hollandaisesås"
+  },
+  {
+    "Nummer": 60,
+    "Namn": "Rhode Islandsås"
+  },
+  {
+    "Nummer": 62,
+    "Namn": "Dressing vinägrett"
+  },
+  {
+    "Nummer": 63,
+    "Namn": "Bearnaisesås pulver"
+  },
+  {
+    "Nummer": 64,
+    "Namn": "Hollandaisesås pulver"
+  },
+  {
+    "Nummer": 66,
+    "Namn": "Mesost"
+  },
+  {
+    "Nummer": 68,
+    "Namn": "Messmör"
+  },
+  {
+    "Nummer": 69,
+    "Namn": "Messmör"
+  },
+  {
+    "Nummer": 70,
+    "Namn": "Färskost cottage cheese naturell"
+  },
+  {
+    "Nummer": 71,
+    "Namn": "Färskost cottage cheese med frukt"
+  },
+  {
+    "Nummer": 72,
+    "Namn": "Färskost cottage cheese med grönsaker"
+  },
+  {
+    "Nummer": 73,
+    "Namn": "Färskost med filmjölk"
+  },
+  {
+    "Nummer": 74,
+    "Namn": "Färskost med filmjölk gräddfil"
+  },
+  {
+    "Nummer": 75,
+    "Namn": "Kvarg färskost"
+  },
+  {
+    "Nummer": 76,
+    "Namn": "Kvarg färskost"
+  },
+  {
+    "Nummer": 77,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 78,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 79,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 80,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 81,
+    "Namn": "Camembert vitmögelost"
+  },
+  {
+    "Nummer": 82,
+    "Namn": "Ädelost grönmögelost"
+  },
+  {
+    "Nummer": 83,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 84,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 85,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 86,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 87,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 92,
+    "Namn": "Brieost vitmögelost"
+  },
+  {
+    "Nummer": 93,
+    "Namn": "Ädelost grönmögelost"
+  },
+  {
+    "Nummer": 94,
+    "Namn": "Salladsost"
+  },
+  {
+    "Nummer": 95,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 96,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 97,
+    "Namn": "Ost hårdost"
+  },
+  {
+    "Nummer": 98,
+    "Namn": "Brieost vitmögelost"
+  },
+  {
+    "Nummer": 100,
+    "Namn": "Ost halloumi rå"
+  },
+  {
+    "Nummer": 101,
+    "Namn": "Färskost"
+  },
+  {
+    "Nummer": 102,
+    "Namn": "Grönmögelost"
+  },
+  {
+    "Nummer": 103,
+    "Namn": "Ost hårdost parmesan"
+  },
+  {
+    "Nummer": 104,
+    "Namn": "Färskost med vitlök"
+  },
+  {
+    "Nummer": 105,
+    "Namn": "Camembert vitmögelost"
+  },
+  {
+    "Nummer": 106,
+    "Namn": "Mjukost smältost"
+  },
+  {
+    "Nummer": 107,
+    "Namn": "Färskost cream cheese"
+  },
+  {
+    "Nummer": 108,
+    "Namn": "Färskost cream cheese"
+  },
+  {
+    "Nummer": 109,
+    "Namn": "Färskost cream cheese extra light"
+  },
+  {
+    "Nummer": 110,
+    "Namn": "Camembert vitmögelost friterad"
+  },
+  {
+    "Nummer": 111,
+    "Namn": "Getost chèvre vitmögelost"
+  },
+  {
+    "Nummer": 113,
+    "Namn": "Bröstmjölk humanmjölk"
+  },
+  {
+    "Nummer": 114,
+    "Namn": "Filmjölk"
+  },
+  {
+    "Nummer": 115,
+    "Namn": "Kondenserad mjölk konserv"
+  },
+  {
+    "Nummer": 116,
+    "Namn": "Kondenserad mjölk konserv konc med socker"
+  },
+  {
+    "Nummer": 118,
+    "Namn": "Mjölkpulver"
+  },
+  {
+    "Nummer": 119,
+    "Namn": "Filmjölk långfil"
+  },
+  {
+    "Nummer": 120,
+    "Namn": "fil"
+  },
+  {
+    "Nummer": 122,
+    "Namn": "Milkshake choklad jordgubb"
+  },
+  {
+    "Nummer": 123,
+    "Namn": "Mjölk"
+  },
+  {
+    "Nummer": 124,
+    "Namn": "Yoghurt naturell"
+  },
+  {
+    "Nummer": 125,
+    "Namn": "Fruktyoghurt"
+  },
+  {
+    "Nummer": 126,
+    "Namn": "Fruktyoghurt"
+  },
+  {
+    "Nummer": 127,
+    "Namn": "Mjölk lantmjölk"
+  },
+  {
+    "Nummer": 128,
+    "Namn": "Filmjölk Afil"
+  },
+  {
+    "Nummer": 130,
+    "Namn": "Mellanfil"
+  },
+  {
+    "Nummer": 133,
+    "Namn": "Mjölkdryck jordgubb"
+  },
+  {
+    "Nummer": 135,
+    "Namn": "Yoghurt naturell"
+  },
+  {
+    "Nummer": 136,
+    "Namn": "Fruktyoghurt"
+  },
+  {
+    "Nummer": 137,
+    "Namn": "Fruktyoghurt delikatessyoghurt"
+  },
+  {
+    "Nummer": 138,
+    "Namn": "Fruktyoghurt lt"
+  },
+  {
+    "Nummer": 139,
+    "Namn": "Fruktyoghurt"
+  },
+  {
+    "Nummer": 140,
+    "Namn": "Fruktyoghurt"
+  },
+  {
+    "Nummer": 142,
+    "Namn": "Kefir"
+  },
+  {
+    "Nummer": 147,
+    "Namn": "Yoghurt mild vanilj"
+  },
+  {
+    "Nummer": 150,
+    "Namn": "Mellanmjölk"
+  },
+  {
+    "Nummer": 151,
+    "Namn": "mjölk"
+  },
+  {
+    "Nummer": 152,
+    "Namn": "Vassle flytande"
+  },
+  {
+    "Nummer": 154,
+    "Namn": "Filbunke med grädde"
+  },
+  {
+    "Nummer": 156,
+    "Namn": "Varm choklad med mjölk"
+  },
+  {
+    "Nummer": 157,
+    "Namn": "Varm choklad med mjölk"
+  },
+  {
+    "Nummer": 158,
+    "Namn": "Varm choklad med mjölk"
+  },
+  {
+    "Nummer": 162,
+    "Namn": "Hårt bröd fullkorn råg fibrer Husman"
+  },
+  {
+    "Nummer": 163,
+    "Namn": "Hårt bröd fullkorn råg fibrer Ryvita mörkt"
+  },
+  {
+    "Nummer": 164,
+    "Namn": "Hårt bröd fullkorn vete med vallmofrö fibrer"
+  },
+  {
+    "Nummer": 165,
+    "Namn": "Hårt bröd fullkorn råg fibrer Vika"
+  },
+  {
+    "Nummer": 166,
+    "Namn": "Hårt bröd fullkorn råg fibrer Finn crisp"
+  },
+  {
+    "Nummer": 167,
+    "Namn": "Hårt bröd fullkorn råg fibrer flatbröd"
+  },
+  {
+    "Nummer": 168,
+    "Namn": "Hårt bröd glutenfritt fibrer"
+  },
+  {
+    "Nummer": 169,
+    "Namn": "Hårt bröd fullkorn råg fibrer"
+  },
+  {
+    "Nummer": 170,
+    "Namn": "Hårt bröd fullkorn råg kli fibrer"
+  },
+  {
+    "Nummer": 171,
+    "Namn": "Hårt bröd fullkorn råg fibrer rutknäcke"
+  },
+  {
+    "Nummer": 172,
+    "Namn": "Hårt bröd fullkorn råg fibrer brungräddat"
+  },
+  {
+    "Nummer": 173,
+    "Namn": "Hårt bröd fullkorn råg fibrer sport"
+  },
+  {
+    "Nummer": 174,
+    "Namn": "Hårt bröd fullkorn råg med sesamfrö vetekli vetegroddar fibrer"
+  },
+  {
+    "Nummer": 175,
+    "Namn": "Hårt bröd fullkorn råg fibrer delikatess"
+  },
+  {
+    "Nummer": 178,
+    "Namn": "Hårt bröd fullkorn havre vete råg med mjölk fibrer"
+  },
+  {
+    "Nummer": 180,
+    "Namn": "Hårt bröd vete med vallmofrö fibrer frukost"
+  },
+  {
+    "Nummer": 181,
+    "Namn": "Hårt bröd vete med socker kanel fibrer"
+  },
+  {
+    "Nummer": 182,
+    "Namn": "Hårt bröd glutenfritt fibrer"
+  },
+  {
+    "Nummer": 183,
+    "Namn": "Hårt bröd fullkorn vete havre kli med socker örtkryddor fibrer"
+  },
+  {
+    "Nummer": 185,
+    "Namn": "Bröd fullkorn korn fibrer"
+  },
+  {
+    "Nummer": 186,
+    "Namn": "Bröd vitt fullkorn graham scones"
+  },
+  {
+    "Nummer": 187,
+    "Namn": "Bröd fullkorn råg fibrer pumpernickel"
+  },
+  {
+    "Nummer": 188,
+    "Namn": "Ströbröd malt hårt bröd fullkorn vete råg socker fibrer"
+  },
+  {
+    "Nummer": 190,
+    "Namn": "Hårt bröd fullkorn råg fibrer normalgräddat"
+  },
+  {
+    "Nummer": 191,
+    "Namn": "Hårt bröd fullkorn råg vete majs med surdeg fibrer spisbröd"
+  },
+  {
+    "Nummer": 193,
+    "Namn": "Bröd vitt vete fibrer pitabröd"
+  },
+  {
+    "Nummer": 194,
+    "Namn": "Korvbröd"
+  },
+  {
+    "Nummer": 195,
+    "Namn": "Hårt bröd fullkorn råg fibrer brungräddat"
+  },
+  {
+    "Nummer": 198,
+    "Namn": "Bröd vitt osötat fibrer italienskt"
+  },
+  {
+    "Nummer": 200,
+    "Namn": "Bröd vitt vete fibrer baguette"
+  },
+  {
+    "Nummer": 201,
+    "Namn": "Bröd vitt fullkorn surdeg fibrer bakad i butik grov baguette"
+  },
+  {
+    "Nummer": 202,
+    "Namn": "Bröd vitt fibrer"
+  },
+  {
+    "Nummer": 204,
+    "Namn": "Bröd vitt mjölk fibrer Hönökaka"
+  },
+  {
+    "Nummer": 205,
+    "Namn": "Bröd vitt vete scones"
+  },
+  {
+    "Nummer": 206,
+    "Namn": "Bröd vitt vete ojäst fibrer chapati"
+  },
+  {
+    "Nummer": 207,
+    "Namn": "Bröd fullkorn rågsikt fibrer kavring"
+  },
+  {
+    "Nummer": 208,
+    "Namn": "Bröd osötat rågsikt fibrer"
+  },
+  {
+    "Nummer": 209,
+    "Namn": "Bröd rågsikt fibrer"
+  },
+  {
+    "Nummer": 210,
+    "Namn": "Bröd fullkorn graham med mjölk fibrer"
+  },
+  {
+    "Nummer": 213,
+    "Namn": "Bröd fullkorn råg rallarhalvor"
+  },
+  {
+    "Nummer": 214,
+    "Namn": "Bröd fullkorn råg osötat fibrer"
+  },
+  {
+    "Nummer": 216,
+    "Namn": "Hårt bröd tunnbröd fullkorn vete råg korn havre"
+  },
+  {
+    "Nummer": 217,
+    "Namn": "Bröd vitt mjukt med mjölk fibrer tunnbröd"
+  },
+  {
+    "Nummer": 219,
+    "Namn": "Bröd fullkorn råg med potatis fibrer"
+  },
+  {
+    "Nummer": 222,
+    "Namn": "Bröd vitt fibrer ostfralla"
+  },
+  {
+    "Nummer": 224,
+    "Namn": "Riskaka fullkorn solrosfrön majs"
+  },
+  {
+    "Nummer": 225,
+    "Namn": "Riskaka fullkorn smaksatt"
+  },
+  {
+    "Nummer": 226,
+    "Namn": "Bröd vitt glutenfritt"
+  },
+  {
+    "Nummer": 227,
+    "Namn": "Bröd mörkt glutenfritt"
+  },
+  {
+    "Nummer": 229,
+    "Namn": "Bröd vitt croissant fransk giffel"
+  },
+  {
+    "Nummer": 230,
+    "Namn": "Potatis höst rå"
+  },
+  {
+    "Nummer": 231,
+    "Namn": "Potatis höst kokt med salt"
+  },
+  {
+    "Nummer": 233,
+    "Namn": "Potatis med skal bakadsalt"
+  },
+  {
+    "Nummer": 234,
+    "Namn": "Potatis med skal bakadsalt i aluminiumfolie"
+  },
+  {
+    "Nummer": 235,
+    "Namn": "Potatis tärnad"
+  },
+  {
+    "Nummer": 237,
+    "Namn": "Potatis konservlag"
+  },
+  {
+    "Nummer": 238,
+    "Namn": "Klyftpotatisskal ugnsstekt med rapsolja"
+  },
+  {
+    "Nummer": 241,
+    "Namn": "Potatis råstekt"
+  },
+  {
+    "Nummer": 242,
+    "Namn": "Potatis kokt stekt med salt"
+  },
+  {
+    "Nummer": 244,
+    "Namn": "Pommes frites friterad potatis värmd i ugn"
+  },
+  {
+    "Nummer": 245,
+    "Namn": "Pommes frites friterad potatis"
+  },
+  {
+    "Nummer": 246,
+    "Namn": "Pommes frites friterad potatis på restaurang"
+  },
+  {
+    "Nummer": 248,
+    "Namn": "Kroppkakorpotatispalt med fläsk"
+  },
+  {
+    "Nummer": 250,
+    "Namn": "Sjömansbiff"
+  },
+  {
+    "Nummer": 252,
+    "Namn": "Lapskojs"
+  },
+  {
+    "Nummer": 253,
+    "Namn": "Pitepalt"
+  },
+  {
+    "Nummer": 254,
+    "Namn": "Bakad potatis med kycklingcurryröra sallad"
+  },
+  {
+    "Nummer": 255,
+    "Namn": "Pytt i panna"
+  },
+  {
+    "Nummer": 256,
+    "Namn": "Sjömansbiff"
+  },
+  {
+    "Nummer": 257,
+    "Namn": "Janssons frestelse"
+  },
+  {
+    "Nummer": 258,
+    "Namn": "Laxpudding"
+  },
+  {
+    "Nummer": 259,
+    "Namn": "Sillpudding"
+  },
+  {
+    "Nummer": 260,
+    "Namn": "Bakad potatis med skagenröra sallad"
+  },
+  {
+    "Nummer": 261,
+    "Namn": "Potatissallad med gräddfil majonnäs"
+  },
+  {
+    "Nummer": 262,
+    "Namn": "Potatissoppa med purjolök"
+  },
+  {
+    "Nummer": 263,
+    "Namn": "Pytt i panna med rotfrukt svamp"
+  },
+  {
+    "Nummer": 264,
+    "Namn": "Potatissallad med vinägrettsås"
+  },
+  {
+    "Nummer": 265,
+    "Namn": "Potatismospulver"
+  },
+  {
+    "Nummer": 266,
+    "Namn": "Potatispalt"
+  },
+  {
+    "Nummer": 268,
+    "Namn": "Potatis råstuvad"
+  },
+  {
+    "Nummer": 270,
+    "Namn": "Potatisgratäng med mjölk kaffegrädde ost"
+  },
+  {
+    "Nummer": 271,
+    "Namn": "Raggmunk potatisp potatispannkaka"
+  },
+  {
+    "Nummer": 272,
+    "Namn": "Potatis stuvad"
+  },
+  {
+    "Nummer": 273,
+    "Namn": "Potatisbullar stekta"
+  },
+  {
+    "Nummer": 274,
+    "Namn": "Potatismos"
+  },
+  {
+    "Nummer": 275,
+    "Namn": "Potatisgratäng med mjölk ost"
+  },
+  {
+    "Nummer": 277,
+    "Namn": "Potatisgratäng med vispgrädde ost"
+  },
+  {
+    "Nummer": 278,
+    "Namn": "Potatismos med mjölk"
+  },
+  {
+    "Nummer": 279,
+    "Namn": "Potatisgratäng med mjölk ost"
+  },
+  {
+    "Nummer": 280,
+    "Namn": "Bakad potatis med färskoströra paprika"
+  },
+  {
+    "Nummer": 281,
+    "Namn": "Schweizisk potatiskaka rösti värmd"
+  },
+  {
+    "Nummer": 282,
+    "Namn": "Potatiskrokett värmd"
+  },
+  {
+    "Nummer": 283,
+    "Namn": "Potatismos pulver tillagat"
+  },
+  {
+    "Nummer": 284,
+    "Namn": "Potatisgratäng med grädde ost värmd"
+  },
+  {
+    "Nummer": 286,
+    "Namn": "Grönsaksblandning med morot palsternacka purjolök rotselleri"
+  },
+  {
+    "Nummer": 287,
+    "Namn": "Jordärtskocka"
+  },
+  {
+    "Nummer": 288,
+    "Namn": "Kålrot"
+  },
+  {
+    "Nummer": 289,
+    "Namn": "Morot"
+  },
+  {
+    "Nummer": 290,
+    "Namn": "Palsternacka"
+  },
+  {
+    "Nummer": 291,
+    "Namn": "Pepparrot"
+  },
+  {
+    "Nummer": 292,
+    "Namn": "Rotselleri"
+  },
+  {
+    "Nummer": 293,
+    "Namn": "Rädisa"
+  },
+  {
+    "Nummer": 294,
+    "Namn": "Rödbeta"
+  },
+  {
+    "Nummer": 295,
+    "Namn": "Rättika"
+  },
+  {
+    "Nummer": 296,
+    "Namn": "Rotpersilja"
+  },
+  {
+    "Nummer": 297,
+    "Namn": "Majrova"
+  },
+  {
+    "Nummer": 298,
+    "Namn": "Svartrot"
+  },
+  {
+    "Nummer": 299,
+    "Namn": "Morot konserv med"
+  },
+  {
+    "Nummer": 300,
+    "Namn": "Morot konservlag"
+  },
+  {
+    "Nummer": 301,
+    "Namn": "Morotsjuice"
+  },
+  {
+    "Nummer": 302,
+    "Namn": "Rotmos"
+  },
+  {
+    "Nummer": 304,
+    "Namn": "Jordärtskockssoppa"
+  },
+  {
+    "Nummer": 305,
+    "Namn": "Morot kokt med salt"
+  },
+  {
+    "Nummer": 306,
+    "Namn": "Morot stuvad"
+  },
+  {
+    "Nummer": 307,
+    "Namn": "Morotssoppa"
+  },
+  {
+    "Nummer": 308,
+    "Namn": "Ärtsoppa med morot"
+  },
+  {
+    "Nummer": 310,
+    "Namn": "Jordärtskocka kokt med salt"
+  },
+  {
+    "Nummer": 314,
+    "Namn": "Rotfrukter stekta glacerade med honung"
+  },
+  {
+    "Nummer": 315,
+    "Namn": "Grönsaksbiff rotfruktsbiff stekt"
+  },
+  {
+    "Nummer": 316,
+    "Namn": "Rödbeta koktsalt"
+  },
+  {
+    "Nummer": 317,
+    "Namn": "Borsjtj rödbetssoppa"
+  },
+  {
+    "Nummer": 319,
+    "Namn": "Rödbeta inlagdlag"
+  },
+  {
+    "Nummer": 320,
+    "Namn": "Avokado"
+  },
+  {
+    "Nummer": 321,
+    "Namn": "Stjälkselleri"
+  },
+  {
+    "Nummer": 322,
+    "Namn": "Blomkål"
+  },
+  {
+    "Nummer": 323,
+    "Namn": "Blomkål"
+  },
+  {
+    "Nummer": 324,
+    "Namn": "Bondbönor färska koktasalt"
+  },
+  {
+    "Nummer": 325,
+    "Namn": "Broccoli"
+  },
+  {
+    "Nummer": 326,
+    "Namn": "Broccoli"
+  },
+  {
+    "Nummer": 327,
+    "Namn": "Brysselkål"
+  },
+  {
+    "Nummer": 328,
+    "Namn": "Brysselkål"
+  },
+  {
+    "Nummer": 329,
+    "Namn": "Mungbönsgroddar"
+  },
+  {
+    "Nummer": 330,
+    "Namn": "Sojabönsgroddar"
+  },
+  {
+    "Nummer": 331,
+    "Namn": "Gröna bönor"
+  },
+  {
+    "Nummer": 332,
+    "Namn": "Gröna bönor"
+  },
+  {
+    "Nummer": 333,
+    "Namn": "Champinjon"
+  },
+  {
+    "Nummer": 334,
+    "Namn": "Friséesallat"
+  },
+  {
+    "Nummer": 335,
+    "Namn": "Endivesallat"
+  },
+  {
+    "Nummer": 336,
+    "Namn": "Fänkål"
+  },
+  {
+    "Nummer": 337,
+    "Namn": "Grönkål"
+  },
+  {
+    "Nummer": 338,
+    "Namn": "Grönkål"
+  },
+  {
+    "Nummer": 339,
+    "Namn": "Gurka"
+  },
+  {
+    "Nummer": 340,
+    "Namn": "Isbergssallat"
+  },
+  {
+    "Nummer": 342,
+    "Namn": "Kronärtskocka"
+  },
+  {
+    "Nummer": 343,
+    "Namn": "Kålrabbi"
+  },
+  {
+    "Nummer": 344,
+    "Namn": "Lök gul"
+  },
+  {
+    "Nummer": 345,
+    "Namn": "Majskolv"
+  },
+  {
+    "Nummer": 346,
+    "Namn": "Majskolv"
+  },
+  {
+    "Nummer": 347,
+    "Namn": "Majskorn"
+  },
+  {
+    "Nummer": 348,
+    "Namn": "Mangold"
+  },
+  {
+    "Nummer": 349,
+    "Namn": "Nässlor förvällda"
+  },
+  {
+    "Nummer": 350,
+    "Namn": "Paprika grön"
+  },
+  {
+    "Nummer": 351,
+    "Namn": "Paprika röd"
+  },
+  {
+    "Nummer": 352,
+    "Namn": "Persilja blad"
+  },
+  {
+    "Nummer": 353,
+    "Namn": "Pumpa"
+  },
+  {
+    "Nummer": 354,
+    "Namn": "Purjolök"
+  },
+  {
+    "Nummer": 355,
+    "Namn": "Rödkål"
+  },
+  {
+    "Nummer": 356,
+    "Namn": "Huvudsallat"
+  },
+  {
+    "Nummer": 357,
+    "Namn": "Savojkål"
+  },
+  {
+    "Nummer": 358,
+    "Namn": "Salladskål"
+  },
+  {
+    "Nummer": 359,
+    "Namn": "Sockerärtor"
+  },
+  {
+    "Nummer": 361,
+    "Namn": "Spenat"
+  },
+  {
+    "Nummer": 362,
+    "Namn": "Squash"
+  },
+  {
+    "Nummer": 364,
+    "Namn": "Tomat"
+  },
+  {
+    "Nummer": 365,
+    "Namn": "Tomat torkad med olja"
+  },
+  {
+    "Nummer": 366,
+    "Namn": "Trädgårdskrasse"
+  },
+  {
+    "Nummer": 367,
+    "Namn": "krasse"
+  },
+  {
+    "Nummer": 368,
+    "Namn": "Vaxbönor"
+  },
+  {
+    "Nummer": 369,
+    "Namn": "Vaxbönor"
+  },
+  {
+    "Nummer": 370,
+    "Namn": "Vitkål"
+  },
+  {
+    "Nummer": 371,
+    "Namn": "Vitlök"
+  },
+  {
+    "Nummer": 372,
+    "Namn": "Aubergine"
+  },
+  {
+    "Nummer": 374,
+    "Namn": "Gröna ärtor"
+  },
+  {
+    "Nummer": 375,
+    "Namn": "Sparris grönvit färsk kokt"
+  },
+  {
+    "Nummer": 376,
+    "Namn": "Alfalfagroddar"
+  },
+  {
+    "Nummer": 377,
+    "Namn": "Dill färsk"
+  },
+  {
+    "Nummer": 378,
+    "Namn": "Gräslök"
+  },
+  {
+    "Nummer": 379,
+    "Namn": "Basilika färsk"
+  },
+  {
+    "Nummer": 380,
+    "Namn": "Chilipeppar färsk"
+  },
+  {
+    "Nummer": 381,
+    "Namn": "Paprika gul"
+  },
+  {
+    "Nummer": 382,
+    "Namn": "Paprika grön röd"
+  },
+  {
+    "Nummer": 383,
+    "Namn": "Champinjon skivad"
+  },
+  {
+    "Nummer": 384,
+    "Namn": "Linsgroddar"
+  },
+  {
+    "Nummer": 385,
+    "Namn": "Lök gul"
+  },
+  {
+    "Nummer": 386,
+    "Namn": "Grönsaksblandning med ärtor bönor majs morot amerikansk"
+  },
+  {
+    "Nummer": 387,
+    "Namn": "Grönsaksblandning med ärtor bönor morot blomkål sommargrönsaker"
+  },
+  {
+    "Nummer": 388,
+    "Namn": "Grönsaksblandning med ärtor morot"
+  },
+  {
+    "Nummer": 389,
+    "Namn": "Grönsaksblandning med ärtor majs paprika"
+  },
+  {
+    "Nummer": 390,
+    "Namn": "Sallad med grönsallat gurka tomatdressing"
+  },
+  {
+    "Nummer": 392,
+    "Namn": "Paprika grön gul röd"
+  },
+  {
+    "Nummer": 393,
+    "Namn": "Bambuskott konservlag"
+  },
+  {
+    "Nummer": 395,
+    "Namn": "Gröna bönor konservlag"
+  },
+  {
+    "Nummer": 397,
+    "Namn": "Champinjon konserv med"
+  },
+  {
+    "Nummer": 400,
+    "Namn": "Majskorn konservlag"
+  },
+  {
+    "Nummer": 401,
+    "Namn": "Oliver gröna med paprikafyllning avrunna"
+  },
+  {
+    "Nummer": 402,
+    "Namn": "Oliver svarta med olja avrunna"
+  },
+  {
+    "Nummer": 403,
+    "Namn": "Grönsaksblandningpickels sockrad inlagdlag"
+  },
+  {
+    "Nummer": 404,
+    "Namn": "Sparris vit konservlag"
+  },
+  {
+    "Nummer": 405,
+    "Namn": "Sparrissoppa konserv"
+  },
+  {
+    "Nummer": 406,
+    "Namn": "Surkål konserv med"
+  },
+  {
+    "Nummer": 407,
+    "Namn": "Tomat hel konserv med"
+  },
+  {
+    "Nummer": 408,
+    "Namn": "Tomatjuice konserv drickf"
+  },
+  {
+    "Nummer": 410,
+    "Namn": "Tomatpuré konc konserv"
+  },
+  {
+    "Nummer": 411,
+    "Namn": "Vaxbönor konservlag"
+  },
+  {
+    "Nummer": 412,
+    "Namn": "Gröna ärtor konserv med"
+  },
+  {
+    "Nummer": 413,
+    "Namn": "Gröna ärtor konservlag"
+  },
+  {
+    "Nummer": 414,
+    "Namn": "Mungbönsgroddar konservlag"
+  },
+  {
+    "Nummer": 415,
+    "Namn": "Sojabönsgroddar konservlag"
+  },
+  {
+    "Nummer": 416,
+    "Namn": "Paprikasallad inlagdlag"
+  },
+  {
+    "Nummer": 417,
+    "Namn": "Ajvar relish"
+  },
+  {
+    "Nummer": 418,
+    "Namn": "Svamp konservlag"
+  },
+  {
+    "Nummer": 419,
+    "Namn": "Kantarell konservlag"
+  },
+  {
+    "Nummer": 420,
+    "Namn": "Syltlök inlagd"
+  },
+  {
+    "Nummer": 421,
+    "Namn": "Tomater gröna syltade"
+  },
+  {
+    "Nummer": 422,
+    "Namn": "Tomat krossad konserv med"
+  },
+  {
+    "Nummer": 423,
+    "Namn": "Fefferoni konserv inlagd"
+  },
+  {
+    "Nummer": 424,
+    "Namn": "Wokgrönsaker Asiatiska wokade med rapsolja"
+  },
+  {
+    "Nummer": 425,
+    "Namn": "Wokgrönsaker Classic wokade med rapsolja"
+  },
+  {
+    "Nummer": 426,
+    "Namn": "Grönsaksblandning ärtor morot konserv med"
+  },
+  {
+    "Nummer": 427,
+    "Namn": "Grönsaksjuice konservpastöriserad drickf"
+  },
+  {
+    "Nummer": 428,
+    "Namn": "Champinjon konservlag"
+  },
+  {
+    "Nummer": 429,
+    "Namn": "Pumpasallad med paprika inlagd sockradlag"
+  },
+  {
+    "Nummer": 430,
+    "Namn": "Grönsakssoppa"
+  },
+  {
+    "Nummer": 431,
+    "Namn": "Spenatsoppa"
+  },
+  {
+    "Nummer": 432,
+    "Namn": "Vitkål stuvad"
+  },
+  {
+    "Nummer": 433,
+    "Namn": "Blomkål gratinerad"
+  },
+  {
+    "Nummer": 434,
+    "Namn": "Blomkål kokt med salt"
+  },
+  {
+    "Nummer": 435,
+    "Namn": "Blomkål stuvad"
+  },
+  {
+    "Nummer": 436,
+    "Namn": "Gröna bönor stuvade"
+  },
+  {
+    "Nummer": 437,
+    "Namn": "Grönkålssoppa"
+  },
+  {
+    "Nummer": 438,
+    "Namn": "Grönsakssoppa ängamat"
+  },
+  {
+    "Nummer": 439,
+    "Namn": "Grönsaksbiff stekt"
+  },
+  {
+    "Nummer": 440,
+    "Namn": "Grönsallat med vinägrettsås"
+  },
+  {
+    "Nummer": 441,
+    "Namn": "Sallad med grönsallat gurka tomat vinägrettsås"
+  },
+  {
+    "Nummer": 442,
+    "Namn": "Grönsallat med gräddfilsås"
+  },
+  {
+    "Nummer": 443,
+    "Namn": "Sallad med grönsallat gurka tomat gräddfilsås"
+  },
+  {
+    "Nummer": 444,
+    "Namn": "Sallad med grönsallat gurka tomat paprikadressing"
+  },
+  {
+    "Nummer": 445,
+    "Namn": "Gurka inlagd"
+  },
+  {
+    "Nummer": 446,
+    "Namn": "Lök stekt med oljaflytande margarin salt"
+  },
+  {
+    "Nummer": 447,
+    "Namn": "Löksås"
+  },
+  {
+    "Nummer": 448,
+    "Namn": "Lök gul kokt med salt"
+  },
+  {
+    "Nummer": 450,
+    "Namn": "Nässelsoppa"
+  },
+  {
+    "Nummer": 451,
+    "Namn": "Paprika förvälld"
+  },
+  {
+    "Nummer": 452,
+    "Namn": "Purjolök kokt med salt"
+  },
+  {
+    "Nummer": 453,
+    "Namn": "Rödkål"
+  },
+  {
+    "Nummer": 454,
+    "Namn": "Sparris stuvad"
+  },
+  {
+    "Nummer": 455,
+    "Namn": "Spenat fräst med oljaflytande margarin salt"
+  },
+  {
+    "Nummer": 456,
+    "Namn": "Spenat stuvad"
+  },
+  {
+    "Nummer": 457,
+    "Namn": "Champinjon stekt"
+  },
+  {
+    "Nummer": 458,
+    "Namn": "Champinjon stuvad"
+  },
+  {
+    "Nummer": 459,
+    "Namn": "Champinjonsås"
+  },
+  {
+    "Nummer": 460,
+    "Namn": "Tomatsallad med vinägrett"
+  },
+  {
+    "Nummer": 461,
+    "Namn": "Tomatsås italiensk"
+  },
+  {
+    "Nummer": 462,
+    "Namn": "Tomatsalsa kall"
+  },
+  {
+    "Nummer": 464,
+    "Namn": "Vitkålssoppa"
+  },
+  {
+    "Nummer": 465,
+    "Namn": "Vitkål kokt med salt"
+  },
+  {
+    "Nummer": 466,
+    "Namn": "Brunkål"
+  },
+  {
+    "Nummer": 467,
+    "Namn": "Vitkålssallad pizzasallad"
+  },
+  {
+    "Nummer": 468,
+    "Namn": "Vitkålssallad med lingonsylt"
+  },
+  {
+    "Nummer": 469,
+    "Namn": "Aubergine kokt med salt"
+  },
+  {
+    "Nummer": 470,
+    "Namn": "Aubergine stekt med oljaflytande margarin salt"
+  },
+  {
+    "Nummer": 471,
+    "Namn": "Ärtor morot kokta med salt"
+  },
+  {
+    "Nummer": 472,
+    "Namn": "Ärtor morot stuvade"
+  },
+  {
+    "Nummer": 473,
+    "Namn": "Ärtpurésoppa gröna ärtor"
+  },
+  {
+    "Nummer": 478,
+    "Namn": "Gryta kikärtsgryta grönsaksgryta"
+  },
+  {
+    "Nummer": 479,
+    "Namn": "Gratäng med grönsaker rotfrukter"
+  },
+  {
+    "Nummer": 480,
+    "Namn": "Grönsakssoppa med pasta pulver"
+  },
+  {
+    "Nummer": 481,
+    "Namn": "Löksoppa fransk pulver med"
+  },
+  {
+    "Nummer": 482,
+    "Namn": "Grönsakssoppa konserv"
+  },
+  {
+    "Nummer": 484,
+    "Namn": "Grönsakssoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 486,
+    "Namn": "Grönsakssoppa pulver"
+  },
+  {
+    "Nummer": 487,
+    "Namn": "Gurka inlagd"
+  },
+  {
+    "Nummer": 488,
+    "Namn": "Bostongurka"
+  },
+  {
+    "Nummer": 489,
+    "Namn": "Gurka fermenteradlag"
+  },
+  {
+    "Nummer": 490,
+    "Namn": "Saltgurkalag"
+  },
+  {
+    "Nummer": 491,
+    "Namn": "Ättiksgurkalag"
+  },
+  {
+    "Nummer": 492,
+    "Namn": "Kronärtskocka kokt"
+  },
+  {
+    "Nummer": 493,
+    "Namn": "Champinjonsoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 494,
+    "Namn": "Champinjonsoppa med mjölk konserv"
+  },
+  {
+    "Nummer": 495,
+    "Namn": "Majskolv kokt"
+  },
+  {
+    "Nummer": 496,
+    "Namn": "Blomkålssoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 497,
+    "Namn": "Tomatsoppa pulver med"
+  },
+  {
+    "Nummer": 498,
+    "Namn": "Tomatsoppa konserv med mjölk"
+  },
+  {
+    "Nummer": 499,
+    "Namn": "Sparrissoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 500,
+    "Namn": "Rödkål konserv"
+  },
+  {
+    "Nummer": 501,
+    "Namn": "Champinjonsås pulver med mjölk smör"
+  },
+  {
+    "Nummer": 502,
+    "Namn": "Grönsaker blandade fermenterade"
+  },
+  {
+    "Nummer": 503,
+    "Namn": "Grönsaksjuice fermenterad"
+  },
+  {
+    "Nummer": 504,
+    "Namn": "Kåldolmar råasås"
+  },
+  {
+    "Nummer": 505,
+    "Namn": "Vitkålssoppa med fläskkorv"
+  },
+  {
+    "Nummer": 506,
+    "Namn": "Minestronesoppa"
+  },
+  {
+    "Nummer": 508,
+    "Namn": "Vitkålssoppa med frikadeller"
+  },
+  {
+    "Nummer": 510,
+    "Namn": "Gryta får i kål"
+  },
+  {
+    "Nummer": 511,
+    "Namn": "Kåldolmar stekta e"
+  },
+  {
+    "Nummer": 512,
+    "Namn": "Kålpudding"
+  },
+  {
+    "Nummer": 513,
+    "Namn": "Sallad Caesarsalladkycklingsallad med dressing"
+  },
+  {
+    "Nummer": 515,
+    "Namn": "Moussaka ugnsstekt"
+  },
+  {
+    "Nummer": 518,
+    "Namn": "Wokgrönsaker med nudlar kyckling"
+  },
+  {
+    "Nummer": 519,
+    "Namn": "Kycklingsallad med ananas paprika vitlöksdressing"
+  },
+  {
+    "Nummer": 520,
+    "Namn": "Granatäpple"
+  },
+  {
+    "Nummer": 521,
+    "Namn": "Grapefrukt"
+  },
+  {
+    "Nummer": 522,
+    "Namn": "Guava"
+  },
+  {
+    "Nummer": 523,
+    "Namn": "Hallon"
+  },
+  {
+    "Nummer": 524,
+    "Namn": "Hallon med socker"
+  },
+  {
+    "Nummer": 525,
+    "Namn": "Hjortron"
+  },
+  {
+    "Nummer": 526,
+    "Namn": "Jordgubbar"
+  },
+  {
+    "Nummer": 527,
+    "Namn": "Jordgubbar hela med socker"
+  },
+  {
+    "Nummer": 528,
+    "Namn": "Gratäng broccoligratäng"
+  },
+  {
+    "Nummer": 529,
+    "Namn": "Sallad grekisk med salladsost oliver"
+  },
+  {
+    "Nummer": 530,
+    "Namn": "Grönsakssufflé"
+  },
+  {
+    "Nummer": 531,
+    "Namn": "Gratäng grönsaksgratäng"
+  },
+  {
+    "Nummer": 532,
+    "Namn": "Grekisk sallad med fetaost"
+  },
+  {
+    "Nummer": 535,
+    "Namn": "Grönsaksbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 537,
+    "Namn": "Agar torkad"
+  },
+  {
+    "Nummer": 538,
+    "Namn": "Svampprotein färs bitar filé"
+  },
+  {
+    "Nummer": 539,
+    "Namn": "Gratäng broccoligratäng med skinka"
+  },
+  {
+    "Nummer": 543,
+    "Namn": "Wokgrönsaker med nudlar"
+  },
+  {
+    "Nummer": 544,
+    "Namn": "Pastej"
+  },
+  {
+    "Nummer": 545,
+    "Namn": "Grönsaksbuljong ätf"
+  },
+  {
+    "Nummer": 546,
+    "Namn": "Honungsmelon"
+  },
+  {
+    "Nummer": 547,
+    "Namn": "Nätmelon"
+  },
+  {
+    "Nummer": 548,
+    "Namn": "Rabarber socker"
+  },
+  {
+    "Nummer": 549,
+    "Namn": "melon"
+  },
+  {
+    "Nummer": 550,
+    "Namn": "Ananas"
+  },
+  {
+    "Nummer": 551,
+    "Namn": "Apelsin"
+  },
+  {
+    "Nummer": 552,
+    "Namn": "Aprikos"
+  },
+  {
+    "Nummer": 553,
+    "Namn": "Banan"
+  },
+  {
+    "Nummer": 554,
+    "Namn": "Björnbär"
+  },
+  {
+    "Nummer": 555,
+    "Namn": "Blåbär"
+  },
+  {
+    "Nummer": 556,
+    "Namn": "Blåbär"
+  },
+  {
+    "Nummer": 557,
+    "Namn": "Blåbär med socker"
+  },
+  {
+    "Nummer": 558,
+    "Namn": "Cherimoya"
+  },
+  {
+    "Nummer": 559,
+    "Namn": "Citron"
+  },
+  {
+    "Nummer": 560,
+    "Namn": "Småcitrus clementin mandarin tangerin satsumas"
+  },
+  {
+    "Nummer": 561,
+    "Namn": "Fikon"
+  },
+  {
+    "Nummer": 562,
+    "Namn": "Fläderbär"
+  },
+  {
+    "Nummer": 563,
+    "Namn": "Jordgubbar skivade med socker"
+  },
+  {
+    "Nummer": 564,
+    "Namn": "Kaktusfikon"
+  },
+  {
+    "Nummer": 565,
+    "Namn": "Kiwi grön"
+  },
+  {
+    "Nummer": 566,
+    "Namn": "Krusbär"
+  },
+  {
+    "Nummer": 567,
+    "Namn": "Physalis"
+  },
+  {
+    "Nummer": 568,
+    "Namn": "Kumquat"
+  },
+  {
+    "Nummer": 569,
+    "Namn": "Kvitten"
+  },
+  {
+    "Nummer": 570,
+    "Namn": "Surkörsbär"
+  },
+  {
+    "Nummer": 571,
+    "Namn": "Sötkörsbär"
+  },
+  {
+    "Nummer": 572,
+    "Namn": "Lime"
+  },
+  {
+    "Nummer": 573,
+    "Namn": "Lingon"
+  },
+  {
+    "Nummer": 574,
+    "Namn": "Mango"
+  },
+  {
+    "Nummer": 575,
+    "Namn": "Banan kokbanan"
+  },
+  {
+    "Nummer": 576,
+    "Namn": "Nektarin"
+  },
+  {
+    "Nummer": 577,
+    "Namn": "Papaya"
+  },
+  {
+    "Nummer": 578,
+    "Namn": "Paradisäpple"
+  },
+  {
+    "Nummer": 579,
+    "Namn": "Passionsfrukt"
+  },
+  {
+    "Nummer": 580,
+    "Namn": "Persika nektarin"
+  },
+  {
+    "Nummer": 581,
+    "Namn": "Sharon"
+  },
+  {
+    "Nummer": 582,
+    "Namn": "Plommon"
+  },
+  {
+    "Nummer": 583,
+    "Namn": "Päron"
+  },
+  {
+    "Nummer": 584,
+    "Namn": "Tranbär"
+  },
+  {
+    "Nummer": 585,
+    "Namn": "Vinbär röda"
+  },
+  {
+    "Nummer": 586,
+    "Namn": "Vinbär svarta"
+  },
+  {
+    "Nummer": 587,
+    "Namn": "Vindruvor"
+  },
+  {
+    "Nummer": 588,
+    "Namn": "Äpple med skal"
+  },
+  {
+    "Nummer": 589,
+    "Namn": "Äppleskal"
+  },
+  {
+    "Nummer": 590,
+    "Namn": "Hallon"
+  },
+  {
+    "Nummer": 591,
+    "Namn": "Björnbär"
+  },
+  {
+    "Nummer": 592,
+    "Namn": "Björnbär med socker"
+  },
+  {
+    "Nummer": 593,
+    "Namn": "Jordgubbar"
+  },
+  {
+    "Nummer": 597,
+    "Namn": "Hallon blåbär"
+  },
+  {
+    "Nummer": 598,
+    "Namn": "Apelsinskal"
+  },
+  {
+    "Nummer": 599,
+    "Namn": "Aprikos torkad"
+  },
+  {
+    "Nummer": 600,
+    "Namn": "Banan torkad"
+  },
+  {
+    "Nummer": 601,
+    "Namn": "Blåbär torkade"
+  },
+  {
+    "Nummer": 602,
+    "Namn": "Citronskal"
+  },
+  {
+    "Nummer": 603,
+    "Namn": "Dadlar torkade"
+  },
+  {
+    "Nummer": 604,
+    "Namn": "Fikon torkade"
+  },
+  {
+    "Nummer": 605,
+    "Namn": "Katrinplommon torkade"
+  },
+  {
+    "Nummer": 606,
+    "Namn": "Nypon torkatfrön"
+  },
+  {
+    "Nummer": 607,
+    "Namn": "Nyponsoppapulver"
+  },
+  {
+    "Nummer": 608,
+    "Namn": "Persika torkad"
+  },
+  {
+    "Nummer": 609,
+    "Namn": "Päron torkade"
+  },
+  {
+    "Nummer": 610,
+    "Namn": "Russin"
+  },
+  {
+    "Nummer": 611,
+    "Namn": "Äpple torkat"
+  },
+  {
+    "Nummer": 612,
+    "Namn": "Frukt torkad"
+  },
+  {
+    "Nummer": 613,
+    "Namn": "Papaya torkad"
+  },
+  {
+    "Nummer": 614,
+    "Namn": "Ananas konserv med juice"
+  },
+  {
+    "Nummer": 617,
+    "Namn": "Ananas konserv med sockerlag"
+  },
+  {
+    "Nummer": 618,
+    "Namn": "Aprikos konserv med juice"
+  },
+  {
+    "Nummer": 619,
+    "Namn": "Aprikos konserv med sockerlag"
+  },
+  {
+    "Nummer": 624,
+    "Namn": "Körsbär surkörsbär konserv med sockerlag"
+  },
+  {
+    "Nummer": 625,
+    "Namn": "Persika konserv med sockerlag"
+  },
+  {
+    "Nummer": 626,
+    "Namn": "Plommon konserv med sockerlag"
+  },
+  {
+    "Nummer": 627,
+    "Namn": "Päron konserv med sockrad"
+  },
+  {
+    "Nummer": 628,
+    "Namn": "Päron konserv med sockerlag"
+  },
+  {
+    "Nummer": 629,
+    "Namn": "Äpple konserv"
+  },
+  {
+    "Nummer": 630,
+    "Namn": "Grapefrukt konserv med sockrad"
+  },
+  {
+    "Nummer": 632,
+    "Namn": "Fruktcocktail konserv med sockerlag"
+  },
+  {
+    "Nummer": 633,
+    "Namn": "Mandarin konserv med sockrad"
+  },
+  {
+    "Nummer": 634,
+    "Namn": "Mango konserv med sockerlag"
+  },
+  {
+    "Nummer": 635,
+    "Namn": "Apelsinsallad"
+  },
+  {
+    "Nummer": 637,
+    "Namn": "Frukt bär konserv osötadsötningsmed"
+  },
+  {
+    "Nummer": 638,
+    "Namn": "Fruktsallad"
+  },
+  {
+    "Nummer": 641,
+    "Namn": "Apelsinjuice färskpressad"
+  },
+  {
+    "Nummer": 642,
+    "Namn": "Apelsinjuice konc"
+  },
+  {
+    "Nummer": 643,
+    "Namn": "Apelsinjuice drickf"
+  },
+  {
+    "Nummer": 645,
+    "Namn": "Citronjuice färskpressad"
+  },
+  {
+    "Nummer": 646,
+    "Namn": "Citronjuice konc konserv"
+  },
+  {
+    "Nummer": 647,
+    "Namn": "Småcitrusjuice färskpressad"
+  },
+  {
+    "Nummer": 649,
+    "Namn": "Grapefruktjuice färskpressad"
+  },
+  {
+    "Nummer": 652,
+    "Namn": "Limejuice färskpressad"
+  },
+  {
+    "Nummer": 654,
+    "Namn": "Risgrynsgröt mjölk"
+  },
+  {
+    "Nummer": 655,
+    "Namn": "Risgrynsgröt"
+  },
+  {
+    "Nummer": 657,
+    "Namn": "Limejuice konc konserv"
+  },
+  {
+    "Nummer": 658,
+    "Namn": "Druvjuice konserv drickf"
+  },
+  {
+    "Nummer": 659,
+    "Namn": "Äppeljuice drickf"
+  },
+  {
+    "Nummer": 660,
+    "Namn": "Ananasjuice konserv drickf"
+  },
+  {
+    "Nummer": 661,
+    "Namn": "Apelsinjuice pastöriserad drickf"
+  },
+  {
+    "Nummer": 662,
+    "Namn": "Juice"
+  },
+  {
+    "Nummer": 664,
+    "Namn": "Aprikosnektar pastöriserad drickf"
+  },
+  {
+    "Nummer": 665,
+    "Namn": "Persikonektar pastöriserad drickf"
+  },
+  {
+    "Nummer": 670,
+    "Namn": "Katrinplommondryck konserv drickf"
+  },
+  {
+    "Nummer": 672,
+    "Namn": "Havredryck choklad"
+  },
+  {
+    "Nummer": 675,
+    "Namn": "Bovetegröt med russin"
+  },
+  {
+    "Nummer": 676,
+    "Namn": "Grahamsgröt"
+  },
+  {
+    "Nummer": 677,
+    "Namn": "Havregrynsgröt fullkorn"
+  },
+  {
+    "Nummer": 678,
+    "Namn": "Molinogröt grahamsmjöl med torkad frukt linfrö"
+  },
+  {
+    "Nummer": 679,
+    "Namn": "Frukostflingor ris puffat rostat osötat"
+  },
+  {
+    "Nummer": 680,
+    "Namn": "Rågkross ångprep fullkorn"
+  },
+  {
+    "Nummer": 681,
+    "Namn": "Kornmjölsgröt"
+  },
+  {
+    "Nummer": 682,
+    "Namn": "Mannagrynsgröt"
+  },
+  {
+    "Nummer": 683,
+    "Namn": "Kruskagröt fullkorn med havregryn vetekli russin"
+  },
+  {
+    "Nummer": 684,
+    "Namn": "Rågmjölsgröt"
+  },
+  {
+    "Nummer": 685,
+    "Namn": "Stuvning vit"
+  },
+  {
+    "Nummer": 694,
+    "Namn": "Välling fullkorn"
+  },
+  {
+    "Nummer": 695,
+    "Namn": "Havrevälling"
+  },
+  {
+    "Nummer": 696,
+    "Namn": "Mannagrynsvälling"
+  },
+  {
+    "Nummer": 699,
+    "Namn": "Välling"
+  },
+  {
+    "Nummer": 700,
+    "Namn": "Havredryck"
+  },
+  {
+    "Nummer": 702,
+    "Namn": "Havregryn fullkorn"
+  },
+  {
+    "Nummer": 703,
+    "Namn": "Fiberhavregryn fullkorn havre med vetekli"
+  },
+  {
+    "Nummer": 704,
+    "Namn": "Havrekli"
+  },
+  {
+    "Nummer": 705,
+    "Namn": "Korngryn ångprep fullkorn"
+  },
+  {
+    "Nummer": 706,
+    "Namn": "Frukostflingor majs osötad corn flakes"
+  },
+  {
+    "Nummer": 707,
+    "Namn": "Vetekross ångprep fullkorn"
+  },
+  {
+    "Nummer": 708,
+    "Namn": "Vetegroddar"
+  },
+  {
+    "Nummer": 709,
+    "Namn": "Vetekli"
+  },
+  {
+    "Nummer": 710,
+    "Namn": "Frukostflingor vete fullkorn Weetabix"
+  },
+  {
+    "Nummer": 711,
+    "Namn": "Kruskakli grovt vetekli"
+  },
+  {
+    "Nummer": 712,
+    "Namn": "Frukostflingor flingblandning fullkorn basmsli"
+  },
+  {
+    "Nummer": 713,
+    "Namn": "Frukostflingor ris puffat med socker"
+  },
+  {
+    "Nummer": 714,
+    "Namn": "Frukostflingor vetekli rostat med kornmalt"
+  },
+  {
+    "Nummer": 715,
+    "Namn": "Frukostflingor havre fullkorn Havrefras"
+  },
+  {
+    "Nummer": 716,
+    "Namn": "Frukostflingor ris puffat rostat med socker kakao"
+  },
+  {
+    "Nummer": 719,
+    "Namn": "Frukostflingor müsli fullkorn med frukt bär"
+  },
+  {
+    "Nummer": 721,
+    "Namn": "Frukostflingor müsli flingblandning fullkorn med frukt nötter med sockerhonung"
+  },
+  {
+    "Nummer": 723,
+    "Namn": "Frukostflingor flingblandning soja med socker med frukt glutenfri"
+  },
+  {
+    "Nummer": 724,
+    "Namn": "Frukostflingor vetekli fullkorn"
+  },
+  {
+    "Nummer": 725,
+    "Namn": "Frukostflingor fullkorn Specialflingor"
+  },
+  {
+    "Nummer": 726,
+    "Namn": "Frukostflingor vetepuffar med honung"
+  },
+  {
+    "Nummer": 727,
+    "Namn": "Frukostflingor majsflingor med socker"
+  },
+  {
+    "Nummer": 728,
+    "Namn": "Frukostflingor fullkorn med socker ringar"
+  },
+  {
+    "Nummer": 731,
+    "Namn": "Pannkaka tunn"
+  },
+  {
+    "Nummer": 732,
+    "Namn": "Fattiga riddare"
+  },
+  {
+    "Nummer": 733,
+    "Namn": "Pannkaka tunn mjölk"
+  },
+  {
+    "Nummer": 734,
+    "Namn": "Ugnspannkaka mjölk"
+  },
+  {
+    "Nummer": 735,
+    "Namn": "Ugnspannkaka mellanmjölk"
+  },
+  {
+    "Nummer": 736,
+    "Namn": "Våfflor med ägg"
+  },
+  {
+    "Nummer": 737,
+    "Namn": "Våfflorägg"
+  },
+  {
+    "Nummer": 739,
+    "Namn": "Fläskpannkaka"
+  },
+  {
+    "Nummer": 740,
+    "Namn": "Räkcrêpe med mellanmjölk vispgrädde fyllning"
+  },
+  {
+    "Nummer": 741,
+    "Namn": "Räkcrêpe värmd fyllning"
+  },
+  {
+    "Nummer": 742,
+    "Namn": "Champinjoncrêpe med mellanmjölk vispgrädde"
+  },
+  {
+    "Nummer": 743,
+    "Namn": "Baguette med salami brieost soltorkad tomat sallad"
+  },
+  {
+    "Nummer": 744,
+    "Namn": "Ciabatta med mozzarella soltorkad tomat sallad"
+  },
+  {
+    "Nummer": 745,
+    "Namn": "Bagel med rökt lax färskost sallad"
+  },
+  {
+    "Nummer": 746,
+    "Namn": "Champinjoncrêpe värmd"
+  },
+  {
+    "Nummer": 747,
+    "Namn": "Crêpefyllning med spenat färskost fetaost skinka"
+  },
+  {
+    "Nummer": 748,
+    "Namn": "Crêpes pannkaka tunn fylld"
+  },
+  {
+    "Nummer": 750,
+    "Namn": "Vårrulle värmd"
+  },
+  {
+    "Nummer": 751,
+    "Namn": "Vårrulle värmd på restaurang"
+  },
+  {
+    "Nummer": 752,
+    "Namn": "Deg matpaj gräddad"
+  },
+  {
+    "Nummer": 754,
+    "Namn": "Pirogfyllning gräddad"
+  },
+  {
+    "Nummer": 755,
+    "Namn": "Deg smulpaj gräddad"
+  },
+  {
+    "Nummer": 756,
+    "Namn": "Paj med köttfärs"
+  },
+  {
+    "Nummer": 757,
+    "Namn": "Paj med kyckling bacon"
+  },
+  {
+    "Nummer": 758,
+    "Namn": "Pirog med köttfärs"
+  },
+  {
+    "Nummer": 759,
+    "Namn": "Pizza med skinka champinjoner lök sardeller"
+  },
+  {
+    "Nummer": 760,
+    "Namn": "Paj med köttfärs värmd"
+  },
+  {
+    "Nummer": 761,
+    "Namn": "Pirog med kött värmd"
+  },
+  {
+    "Nummer": 762,
+    "Namn": "Pizza Capricciosa med rökt skinka värmd"
+  },
+  {
+    "Nummer": 763,
+    "Namn": "Pizza Capricciosa med rökt skinka champinjon på restaurang"
+  },
+  {
+    "Nummer": 764,
+    "Namn": "Pizza Pepperoni med rökt korv värmd"
+  },
+  {
+    "Nummer": 765,
+    "Namn": "Pizza pan pizza med rökt griskött värmd"
+  },
+  {
+    "Nummer": 766,
+    "Namn": "Pizza pan pizza med rökt griskött på restaurang"
+  },
+  {
+    "Nummer": 767,
+    "Namn": "Paj med ost skinka värmd"
+  },
+  {
+    "Nummer": 768,
+    "Namn": "Paj med lax spenat"
+  },
+  {
+    "Nummer": 769,
+    "Namn": "Pizza med räkor musslor"
+  },
+  {
+    "Nummer": 770,
+    "Namn": "Volauvent med räkstuvning"
+  },
+  {
+    "Nummer": 771,
+    "Namn": "Paj med skaldjur värmd"
+  },
+  {
+    "Nummer": 772,
+    "Namn": "Pizza Marinara med skaldjur på restaurang"
+  },
+  {
+    "Nummer": 773,
+    "Namn": "Pizza"
+  },
+  {
+    "Nummer": 774,
+    "Namn": "Pizza Margherita med ost tomatsås"
+  },
+  {
+    "Nummer": 775,
+    "Namn": "Kycklingburgare med bröd tillbehör"
+  },
+  {
+    "Nummer": 776,
+    "Namn": "Fiskburgare med bröd tillbehör"
+  },
+  {
+    "Nummer": 777,
+    "Namn": "Baguette med rostbiff potatissallad sallad"
+  },
+  {
+    "Nummer": 778,
+    "Namn": "Baguette grov med skaldjur tonfisk smögenröra sallad"
+  },
+  {
+    "Nummer": 779,
+    "Namn": "Baguette grov med ost skinka sallad majonnäs"
+  },
+  {
+    "Nummer": 780,
+    "Namn": "Bagel med salami färskost sallad oliv"
+  },
+  {
+    "Nummer": 781,
+    "Namn": "Sandwich med räkor ägg sallad majonnäs"
+  },
+  {
+    "Nummer": 782,
+    "Namn": "Sandwich med rökt kalkon färskost soltorkad tomat sallad"
+  },
+  {
+    "Nummer": 783,
+    "Namn": "Sandwich med salami färskost sallad"
+  },
+  {
+    "Nummer": 784,
+    "Namn": "Tunnbrödsrulle med pastrami potatis sallad majonnäs"
+  },
+  {
+    "Nummer": 785,
+    "Namn": "Wrap vetetortilla med ris köttfärs majs ost"
+  },
+  {
+    "Nummer": 786,
+    "Namn": "Wrap vetetortilla fajitas med kyckling gräddfil sallad"
+  },
+  {
+    "Nummer": 787,
+    "Namn": "Wrap vetetortilla enchilada med köttfärs majschips ost sallad paprika tomat tomatsås"
+  },
+  {
+    "Nummer": 788,
+    "Namn": "Falafel med pitabröd sallad sesamsås pepperoni"
+  },
+  {
+    "Nummer": 789,
+    "Namn": "Paj med ost skinka mellanmjölk matlagningsgrädde"
+  },
+  {
+    "Nummer": 792,
+    "Namn": "Wrap vetetortilla med fetaost oliver sallad vitlöksdressing"
+  },
+  {
+    "Nummer": 793,
+    "Namn": "Matmuffins grov fullkorn med getost fårost broccoli spenat soltorkade tomater"
+  },
+  {
+    "Nummer": 795,
+    "Namn": "Pizzapålägg med tomatsås skinka champinjoner hårdost"
+  },
+  {
+    "Nummer": 796,
+    "Namn": "Paj med ost skinka mellanmjölk"
+  },
+  {
+    "Nummer": 797,
+    "Namn": "Smörgåstårtalandgång"
+  },
+  {
+    "Nummer": 804,
+    "Namn": "Råris kokt med salt"
+  },
+  {
+    "Nummer": 810,
+    "Namn": "Rismjöl vitt"
+  },
+  {
+    "Nummer": 811,
+    "Namn": "Risdiet flingor"
+  },
+  {
+    "Nummer": 814,
+    "Namn": "Ris kinesiskt asiatiskt koktsalt på restaurang"
+  },
+  {
+    "Nummer": 817,
+    "Namn": "Ris vildris okokt"
+  },
+  {
+    "Nummer": 818,
+    "Namn": "Ris vildris kokt med salt"
+  },
+  {
+    "Nummer": 819,
+    "Namn": "Nudlar glasnudlar okokta"
+  },
+  {
+    "Nummer": 824,
+    "Namn": "Vinbladsdolma med ris konserv"
+  },
+  {
+    "Nummer": 825,
+    "Namn": "Bovete helakrossade korn"
+  },
+  {
+    "Nummer": 826,
+    "Namn": "Durraandra sorghumarter mjöl fullkorn"
+  },
+  {
+    "Nummer": 827,
+    "Namn": "Hirs helakrossade korn fullkorn"
+  },
+  {
+    "Nummer": 828,
+    "Namn": "Mannagryn"
+  },
+  {
+    "Nummer": 829,
+    "Namn": "Bulgur"
+  },
+  {
+    "Nummer": 831,
+    "Namn": "Couscous"
+  },
+  {
+    "Nummer": 832,
+    "Namn": "Couscous"
+  },
+  {
+    "Nummer": 833,
+    "Namn": "Korngryn ångprep fullkorn kokt med salt"
+  },
+  {
+    "Nummer": 834,
+    "Namn": "Hirs kokt med salt fullkorn"
+  },
+  {
+    "Nummer": 835,
+    "Namn": "Majsgryn polenta kokt med salt"
+  },
+  {
+    "Nummer": 836,
+    "Namn": "Apelsinris"
+  },
+  {
+    "Nummer": 838,
+    "Namn": "Ris à la Malta med grädde"
+  },
+  {
+    "Nummer": 839,
+    "Namn": "Risgrynskaka risgrynspudding"
+  },
+  {
+    "Nummer": 840,
+    "Namn": "Rismål"
+  },
+  {
+    "Nummer": 841,
+    "Namn": "Rismål"
+  },
+  {
+    "Nummer": 842,
+    "Namn": "Paella"
+  },
+  {
+    "Nummer": 844,
+    "Namn": "Nudelsoppa med risnudlar curry sesamolja"
+  },
+  {
+    "Nummer": 845,
+    "Namn": "Pasta okokt"
+  },
+  {
+    "Nummer": 846,
+    "Namn": "Pasta koktsalt"
+  },
+  {
+    "Nummer": 848,
+    "Namn": "Pasta fullkorn okokt"
+  },
+  {
+    "Nummer": 852,
+    "Namn": "Pasta färsk med ägg"
+  },
+  {
+    "Nummer": 853,
+    "Namn": "Stuvade makaroner"
+  },
+  {
+    "Nummer": 856,
+    "Namn": "Pastagratäng makaronipudding"
+  },
+  {
+    "Nummer": 858,
+    "Namn": "Spagetti med köttfärssås"
+  },
+  {
+    "Nummer": 861,
+    "Namn": "Ravioli med sås konserv"
+  },
+  {
+    "Nummer": 862,
+    "Namn": "Tortellini med kött"
+  },
+  {
+    "Nummer": 866,
+    "Namn": "Lasagne med spenat chèvre"
+  },
+  {
+    "Nummer": 867,
+    "Namn": "Pastagratäng makaronipudding"
+  },
+  {
+    "Nummer": 869,
+    "Namn": "Lasagne värmd"
+  },
+  {
+    "Nummer": 870,
+    "Namn": "Nudlar äggnudlar okokta"
+  },
+  {
+    "Nummer": 872,
+    "Namn": "Tortellini med ostfyllning"
+  },
+  {
+    "Nummer": 873,
+    "Namn": "Nudelsoppa olika smaker kryddad"
+  },
+  {
+    "Nummer": 874,
+    "Namn": "Bondbönor torkade"
+  },
+  {
+    "Nummer": 875,
+    "Namn": "Bruna bönor torkade"
+  },
+  {
+    "Nummer": 877,
+    "Namn": "Röda bönor torkade"
+  },
+  {
+    "Nummer": 878,
+    "Namn": "Röda bönor torkade koktasalt"
+  },
+  {
+    "Nummer": 879,
+    "Namn": "Vita bönor torkade"
+  },
+  {
+    "Nummer": 880,
+    "Namn": "Vita bönor torkade koktasalt"
+  },
+  {
+    "Nummer": 881,
+    "Namn": "Kikärtor torkade"
+  },
+  {
+    "Nummer": 883,
+    "Namn": "Mungbönor torkade koktasalt"
+  },
+  {
+    "Nummer": 886,
+    "Namn": "Mungbönor torkade"
+  },
+  {
+    "Nummer": 887,
+    "Namn": "Sojabönor torkade"
+  },
+  {
+    "Nummer": 888,
+    "Namn": "Sojabönor torkade koktasalt"
+  },
+  {
+    "Nummer": 889,
+    "Namn": "Vignabönor svartögda bönor torkade"
+  },
+  {
+    "Nummer": 890,
+    "Namn": "Vignabönor svartögda bönor torkade koktasalt"
+  },
+  {
+    "Nummer": 891,
+    "Namn": "Grönagula ärtor torkade"
+  },
+  {
+    "Nummer": 897,
+    "Namn": "Ärtsoppa med fläsk"
+  },
+  {
+    "Nummer": 898,
+    "Namn": "Gryta chili con carne"
+  },
+  {
+    "Nummer": 900,
+    "Namn": "Ärtsoppa fläsk konserv med"
+  },
+  {
+    "Nummer": 901,
+    "Namn": "Vita bönor med tomatsås konserv"
+  },
+  {
+    "Nummer": 902,
+    "Namn": "Bönsoppa vita bönor med tomat"
+  },
+  {
+    "Nummer": 903,
+    "Namn": "Linssoppa"
+  },
+  {
+    "Nummer": 904,
+    "Namn": "Ärtsoppa"
+  },
+  {
+    "Nummer": 905,
+    "Namn": "Tofu sojabönsost"
+  },
+  {
+    "Nummer": 906,
+    "Namn": "Sojamjöl"
+  },
+  {
+    "Nummer": 908,
+    "Namn": "Miso sojabönspasta fermenterad"
+  },
+  {
+    "Nummer": 909,
+    "Namn": "Sojasås"
+  },
+  {
+    "Nummer": 910,
+    "Namn": "Sojasås söt"
+  },
+  {
+    "Nummer": 911,
+    "Namn": "Korv sojakorv konserv"
+  },
+  {
+    "Nummer": 912,
+    "Namn": "Glass sojaglass mjölkfri"
+  },
+  {
+    "Nummer": 915,
+    "Namn": "Sojabönsbiff stekt"
+  },
+  {
+    "Nummer": 916,
+    "Namn": "Korv sojakorv stekt"
+  },
+  {
+    "Nummer": 919,
+    "Namn": "Falafel kikärtsbiff friterad"
+  },
+  {
+    "Nummer": 920,
+    "Namn": "Lamm bog rå"
+  },
+  {
+    "Nummer": 921,
+    "Namn": "Lamm kotlett rå"
+  },
+  {
+    "Nummer": 922,
+    "Namn": "Lamm lägg rå"
+  },
+  {
+    "Nummer": 923,
+    "Namn": "Lamm rygghals rå"
+  },
+  {
+    "Nummer": 924,
+    "Namn": "Lamm stek rå"
+  },
+  {
+    "Nummer": 925,
+    "Namn": "Lamm färs rå"
+  },
+  {
+    "Nummer": 926,
+    "Namn": "Lamm tunnbringa rå"
+  },
+  {
+    "Nummer": 927,
+    "Namn": "Lamm kotlett rå bortskuret"
+  },
+  {
+    "Nummer": 928,
+    "Namn": "Hare kött rå"
+  },
+  {
+    "Nummer": 930,
+    "Namn": "Hjort dovhjort bog rå"
+  },
+  {
+    "Nummer": 931,
+    "Namn": "Hjort dovhjort stek rå"
+  },
+  {
+    "Nummer": 932,
+    "Namn": "Hjort ryggbiff rå"
+  },
+  {
+    "Nummer": 933,
+    "Namn": "Häst kött rå"
+  },
+  {
+    "Nummer": 934,
+    "Namn": "Kalv bog rå"
+  },
+  {
+    "Nummer": 935,
+    "Namn": "Kalv bringa rå"
+  },
+  {
+    "Nummer": 936,
+    "Namn": "Kalv filé rå"
+  },
+  {
+    "Nummer": 937,
+    "Namn": "Kalv fransyska rå"
+  },
+  {
+    "Nummer": 938,
+    "Namn": "Kalv innanlår rå"
+  },
+  {
+    "Nummer": 939,
+    "Namn": "Kalv kotlett rå"
+  },
+  {
+    "Nummer": 940,
+    "Namn": "Kalv lägg rå"
+  },
+  {
+    "Nummer": 941,
+    "Namn": "Kalv ytterlår rå"
+  },
+  {
+    "Nummer": 942,
+    "Namn": "Kalv tunnbringa rå"
+  },
+  {
+    "Nummer": 943,
+    "Namn": "Kalv högrev rå"
+  },
+  {
+    "Nummer": 944,
+    "Namn": "Kanin kött rå"
+  },
+  {
+    "Nummer": 945,
+    "Namn": "Nöt clubstek biff rå med ben"
+  },
+  {
+    "Nummer": 946,
+    "Namn": "Nöt ryggbiff rå"
+  },
+  {
+    "Nummer": 947,
+    "Namn": "Nöt oxbringa rå"
+  },
+  {
+    "Nummer": 948,
+    "Namn": "Nöt oxbringa rimmad rå"
+  },
+  {
+    "Nummer": 949,
+    "Namn": "Nöt oxfilé rå"
+  },
+  {
+    "Nummer": 950,
+    "Namn": "Nöt fransyska rå"
+  },
+  {
+    "Nummer": 951,
+    "Namn": "Nöt färs rå"
+  },
+  {
+    "Nummer": 953,
+    "Namn": "Nöt högrev rå bortskuret"
+  },
+  {
+    "Nummer": 954,
+    "Namn": "Nöt innanlår rå"
+  },
+  {
+    "Nummer": 955,
+    "Namn": "Nöt lägg rå"
+  },
+  {
+    "Nummer": 956,
+    "Namn": "Nöt bogmärgpipa rå"
+  },
+  {
+    "Nummer": 957,
+    "Namn": "Nöt rostbiff rå"
+  },
+  {
+    "Nummer": 958,
+    "Namn": "Nöt rulle rimmad rå"
+  },
+  {
+    "Nummer": 959,
+    "Namn": "Nöt ytterlår rå"
+  },
+  {
+    "Nummer": 960,
+    "Namn": "Nöt entrecôte rå"
+  },
+  {
+    "Nummer": 961,
+    "Namn": "Nöt grytbitar rå"
+  },
+  {
+    "Nummer": 962,
+    "Namn": "Nöt kött hackebiff rå"
+  },
+  {
+    "Nummer": 963,
+    "Namn": "Nöt färs rå"
+  },
+  {
+    "Nummer": 965,
+    "Namn": "Ren stek rå"
+  },
+  {
+    "Nummer": 966,
+    "Namn": "Ren bog rå"
+  },
+  {
+    "Nummer": 967,
+    "Namn": "Ren skav rå"
+  },
+  {
+    "Nummer": 968,
+    "Namn": "Rådjur kött rå"
+  },
+  {
+    "Nummer": 969,
+    "Namn": "Gris bog rå"
+  },
+  {
+    "Nummer": 970,
+    "Namn": "Gris fläskfilé rå"
+  },
+  {
+    "Nummer": 971,
+    "Namn": "Gris fläskkotlett rå kant mm"
+  },
+  {
+    "Nummer": 972,
+    "Namn": "Gris revbensspjäll rå"
+  },
+  {
+    "Nummer": 973,
+    "Namn": "Gris fötter rå"
+  },
+  {
+    "Nummer": 974,
+    "Namn": "Gris skinka julskinka rimmad rå"
+  },
+  {
+    "Nummer": 975,
+    "Namn": "Gris fläskben rå"
+  },
+  {
+    "Nummer": 976,
+    "Namn": "Gris picnicbog rå"
+  },
+  {
+    "Nummer": 977,
+    "Namn": "Gris grytbitar rå"
+  },
+  {
+    "Nummer": 978,
+    "Namn": "Gris fläskkarré rå"
+  },
+  {
+    "Nummer": 980,
+    "Namn": "Gris färs rå"
+  },
+  {
+    "Nummer": 981,
+    "Namn": "Gris bogbladsstek rå"
+  },
+  {
+    "Nummer": 982,
+    "Namn": "Gris fläskkotlett rå bortskuret"
+  },
+  {
+    "Nummer": 983,
+    "Namn": "Gris fläskkotlett rå kant mm"
+  },
+  {
+    "Nummer": 984,
+    "Namn": "Gris lägg putsad råsvål"
+  },
+  {
+    "Nummer": 985,
+    "Namn": "Gris sidfläsk bit rå med svål"
+  },
+  {
+    "Nummer": 986,
+    "Namn": "Gris stekfläsk sida skiva rå med svål"
+  },
+  {
+    "Nummer": 987,
+    "Namn": "Gris flintastek rå med svål"
+  },
+  {
+    "Nummer": 988,
+    "Namn": "Gris skinka innanlår rå"
+  },
+  {
+    "Nummer": 989,
+    "Namn": "Gris skinka fransyska rå"
+  },
+  {
+    "Nummer": 990,
+    "Namn": "Gris skinka ytterlår rå"
+  },
+  {
+    "Nummer": 991,
+    "Namn": "Gris sidfläskstekfläsk skivor rimmat rå"
+  },
+  {
+    "Nummer": 992,
+    "Namn": "Gris färs rå"
+  },
+  {
+    "Nummer": 995,
+    "Namn": "Älg skav rå"
+  },
+  {
+    "Nummer": 996,
+    "Namn": "Nöt oxsvans rå bortskuret"
+  },
+  {
+    "Nummer": 997,
+    "Namn": "Gris svål rå"
+  },
+  {
+    "Nummer": 998,
+    "Namn": "Häst hamburgerkött rökt"
+  },
+  {
+    "Nummer": 999,
+    "Namn": "Nöt saltkött rimmat kokt"
+  },
+  {
+    "Nummer": 1000,
+    "Namn": "Nöt kött rökt"
+  },
+  {
+    "Nummer": 1001,
+    "Namn": "Ren stek varmrökt"
+  },
+  {
+    "Nummer": 1002,
+    "Namn": "Ren kött torkat"
+  },
+  {
+    "Nummer": 1003,
+    "Namn": "Gris bacon rå"
+  },
+  {
+    "Nummer": 1004,
+    "Namn": "Gris bacon stekt"
+  },
+  {
+    "Nummer": 1005,
+    "Namn": "Gris bog konserv gelé"
+  },
+  {
+    "Nummer": 1006,
+    "Namn": "Gris kassler kotlettrad rökt"
+  },
+  {
+    "Nummer": 1007,
+    "Namn": "Gris skinka konserv gelé"
+  },
+  {
+    "Nummer": 1008,
+    "Namn": "Gris skinka lufttorkad italiensk"
+  },
+  {
+    "Nummer": 1009,
+    "Namn": "Gris skinka rökt"
+  },
+  {
+    "Nummer": 1010,
+    "Namn": "Gris skinka skivad rökt"
+  },
+  {
+    "Nummer": 1011,
+    "Namn": "Gris sidfläsk rökt"
+  },
+  {
+    "Nummer": 1012,
+    "Namn": "Nöt kött konserv"
+  },
+  {
+    "Nummer": 1013,
+    "Namn": "Nöt flankstek rå"
+  },
+  {
+    "Nummer": 1014,
+    "Namn": "Nöt ryggbiff stekt"
+  },
+  {
+    "Nummer": 1017,
+    "Namn": "Nöt entrecôte stekt"
+  },
+  {
+    "Nummer": 1018,
+    "Namn": "Gris bog stekt"
+  },
+  {
+    "Nummer": 1019,
+    "Namn": "Gris kött kokt med salt"
+  },
+  {
+    "Nummer": 1022,
+    "Namn": "Gris fläskben kokt med salt"
+  },
+  {
+    "Nummer": 1023,
+    "Namn": "Gris fläskfilé skiva stekt"
+  },
+  {
+    "Nummer": 1024,
+    "Namn": "Gris fläskkarré skiva stekt"
+  },
+  {
+    "Nummer": 1025,
+    "Namn": "Gris fläskkotlett stekt"
+  },
+  {
+    "Nummer": 1027,
+    "Namn": "Gris lägg kokt med saltsvål"
+  },
+  {
+    "Nummer": 1028,
+    "Namn": "Gris kött grillat"
+  },
+  {
+    "Nummer": 1029,
+    "Namn": "Rullsylta"
+  },
+  {
+    "Nummer": 1030,
+    "Namn": "Gris fötter kokta med salt"
+  },
+  {
+    "Nummer": 1031,
+    "Namn": "Hare stek stekt"
+  },
+  {
+    "Nummer": 1032,
+    "Namn": "Kalv filé stekt"
+  },
+  {
+    "Nummer": 1033,
+    "Namn": "Kalv kotlett stekt"
+  },
+  {
+    "Nummer": 1034,
+    "Namn": "Kalv kött kokt med salt"
+  },
+  {
+    "Nummer": 1035,
+    "Namn": "Kalv stek stekt"
+  },
+  {
+    "Nummer": 1036,
+    "Namn": "Lamm kotlett stekt"
+  },
+  {
+    "Nummer": 1037,
+    "Namn": "Lamm stek stekt"
+  },
+  {
+    "Nummer": 1038,
+    "Namn": "Nöt högrev kokt med salt"
+  },
+  {
+    "Nummer": 1039,
+    "Namn": "Nöt stekgrytstek kokt med salt"
+  },
+  {
+    "Nummer": 1042,
+    "Namn": "Nöt oxbringa rimmad koktsalt"
+  },
+  {
+    "Nummer": 1043,
+    "Namn": "Oxrullad nöt stekt"
+  },
+  {
+    "Nummer": 1044,
+    "Namn": "Nöt rostbiff ugnsstekt"
+  },
+  {
+    "Nummer": 1045,
+    "Namn": "Gris revbensspjäll ugnsstekt grillat"
+  },
+  {
+    "Nummer": 1047,
+    "Namn": "Rådjur kött ugnsstekt"
+  },
+  {
+    "Nummer": 1048,
+    "Namn": "Ren kött kokt med salt"
+  },
+  {
+    "Nummer": 1049,
+    "Namn": "Ren kött ugnsstekt"
+  },
+  {
+    "Nummer": 1050,
+    "Namn": "Älg stek ugnsstektgrillad"
+  },
+  {
+    "Nummer": 1055,
+    "Namn": "Gris fläskkarré sky"
+  },
+  {
+    "Nummer": 1056,
+    "Namn": "Gris skinkstek stektsky"
+  },
+  {
+    "Nummer": 1057,
+    "Namn": "Nöt stek stektsky"
+  },
+  {
+    "Nummer": 1058,
+    "Namn": "Nöt rostbiff ugnsrostadsalt"
+  },
+  {
+    "Nummer": 1059,
+    "Namn": "Gris revbensspjäll sky"
+  },
+  {
+    "Nummer": 1060,
+    "Namn": "Gryta dillkött nöt med sås"
+  },
+  {
+    "Nummer": 1062,
+    "Namn": "Biff stroganoff nöt"
+  },
+  {
+    "Nummer": 1063,
+    "Namn": "Rimmat sidfläskstekfläsk stekt med löksås"
+  },
+  {
+    "Nummer": 1064,
+    "Namn": "Rimmat sidfläsk panerat stekt"
+  },
+  {
+    "Nummer": 1065,
+    "Namn": "Fläskkotlett panerad stekt"
+  },
+  {
+    "Nummer": 1066,
+    "Namn": "Schnitzel gris stekt"
+  },
+  {
+    "Nummer": 1068,
+    "Namn": "Gryta gulasch nöt"
+  },
+  {
+    "Nummer": 1072,
+    "Namn": "Gryta osso buco kalvläggsgryta"
+  },
+  {
+    "Nummer": 1073,
+    "Namn": "Köttsoppa nöt"
+  },
+  {
+    "Nummer": 1075,
+    "Namn": "Gryta lamm med lök tomat"
+  },
+  {
+    "Nummer": 1078,
+    "Namn": "Pepparrotskött nöt med lök morot sås"
+  },
+  {
+    "Nummer": 1080,
+    "Namn": "Renskav brynt med mat salt"
+  },
+  {
+    "Nummer": 1081,
+    "Namn": "Gryta renskavsgryta"
+  },
+  {
+    "Nummer": 1082,
+    "Namn": "Skinksås"
+  },
+  {
+    "Nummer": 1083,
+    "Namn": "Gryta kalops nöt"
+  },
+  {
+    "Nummer": 1087,
+    "Namn": "Biff stroganoff nöt"
+  },
+  {
+    "Nummer": 1088,
+    "Namn": "Gryta dillkött nöt med sås"
+  },
+  {
+    "Nummer": 1089,
+    "Namn": "Kinesisk rätt gris friterat med grönsaker"
+  },
+  {
+    "Nummer": 1090,
+    "Namn": "Gryta chop suey fläskfilé på restaurang"
+  },
+  {
+    "Nummer": 1091,
+    "Namn": "Nasi Goreng gris på restaurang"
+  },
+  {
+    "Nummer": 1094,
+    "Namn": "Frikassé kalv"
+  },
+  {
+    "Nummer": 1095,
+    "Namn": "Gryta kalops nöt"
+  },
+  {
+    "Nummer": 1096,
+    "Namn": "Köttsoppa nöt konserv med"
+  },
+  {
+    "Nummer": 1099,
+    "Namn": "Kycklingburgare rå"
+  },
+  {
+    "Nummer": 1100,
+    "Namn": "Köttbullar kyckling stekta"
+  },
+  {
+    "Nummer": 1101,
+    "Namn": "Hamburgare nöt rå"
+  },
+  {
+    "Nummer": 1102,
+    "Namn": "Köttbullar råa"
+  },
+  {
+    "Nummer": 1103,
+    "Namn": "Pannbiff rå"
+  },
+  {
+    "Nummer": 1104,
+    "Namn": "Soja och veteprotein burgare"
+  },
+  {
+    "Nummer": 1105,
+    "Namn": "Biff à la Lindström stekt"
+  },
+  {
+    "Nummer": 1106,
+    "Namn": "Köttbullar blandfärs stekta e"
+  },
+  {
+    "Nummer": 1107,
+    "Namn": "Köttfärslimpa ugnsstekt"
+  },
+  {
+    "Nummer": 1108,
+    "Namn": "Köttfärssås i gjutjärn"
+  },
+  {
+    "Nummer": 1109,
+    "Namn": "Pannbiff gris stekt"
+  },
+  {
+    "Nummer": 1110,
+    "Namn": "Hamburgare nöt stekt"
+  },
+  {
+    "Nummer": 1111,
+    "Namn": "Hamburgare nöt stekt"
+  },
+  {
+    "Nummer": 1112,
+    "Namn": "Järpar blandfärs stekta"
+  },
+  {
+    "Nummer": 1113,
+    "Namn": "Frikadeller kalv"
+  },
+  {
+    "Nummer": 1114,
+    "Namn": "Wallenbergare kalv stekt"
+  },
+  {
+    "Nummer": 1115,
+    "Namn": "Köttfärssås nöt"
+  },
+  {
+    "Nummer": 1116,
+    "Namn": "Köttfärssoppa"
+  },
+  {
+    "Nummer": 1119,
+    "Namn": "Köttbullar nöt stekta"
+  },
+  {
+    "Nummer": 1120,
+    "Namn": "Köttbullar gris stekta"
+  },
+  {
+    "Nummer": 1121,
+    "Namn": "Köttfärssås gris"
+  },
+  {
+    "Nummer": 1124,
+    "Namn": "Nöt färs stekt tacokryddad"
+  },
+  {
+    "Nummer": 1125,
+    "Namn": "Pannbiff lamm stekt"
+  },
+  {
+    "Nummer": 1126,
+    "Namn": "Köttfärslimpa gris ugnsstekt"
+  },
+  {
+    "Nummer": 1127,
+    "Namn": "Köttfärslimpa blandfärs ugnsstekt"
+  },
+  {
+    "Nummer": 1128,
+    "Namn": "Pannbiff nöt stekt"
+  },
+  {
+    "Nummer": 1129,
+    "Namn": "Pannbiff blandfärs stekt"
+  },
+  {
+    "Nummer": 1130,
+    "Namn": "Parisersmörgås"
+  },
+  {
+    "Nummer": 1131,
+    "Namn": "Pannbiff älg stekt"
+  },
+  {
+    "Nummer": 1132,
+    "Namn": "Köttfärssås älg"
+  },
+  {
+    "Nummer": 1135,
+    "Namn": "Taco tacoskal med köttfärs grönsaker ost"
+  },
+  {
+    "Nummer": 1136,
+    "Namn": "Biff à la Lindström stekt"
+  },
+  {
+    "Nummer": 1137,
+    "Namn": "Gyta biff med bambuskott på restaurang"
+  },
+  {
+    "Nummer": 1138,
+    "Namn": "Hamburgare nöt stekt"
+  },
+  {
+    "Nummer": 1142,
+    "Namn": "Kålpudding med vitkål köttfärs"
+  },
+  {
+    "Nummer": 1143,
+    "Namn": "Köttbullar stekta"
+  },
+  {
+    "Nummer": 1145,
+    "Namn": "Köttfärssås konserv"
+  },
+  {
+    "Nummer": 1146,
+    "Namn": "Kåldolmar stektasås"
+  },
+  {
+    "Nummer": 1147,
+    "Namn": "Kåldolmar stekta värmda med sås"
+  },
+  {
+    "Nummer": 1148,
+    "Namn": "Köttbullar stekta med sås"
+  },
+  {
+    "Nummer": 1149,
+    "Namn": "Pannbiff stekt"
+  },
+  {
+    "Nummer": 1151,
+    "Namn": "Anka bröst rå"
+  },
+  {
+    "Nummer": 1153,
+    "Namn": "Anka rå med skinn"
+  },
+  {
+    "Nummer": 1154,
+    "Namn": "Duva rå"
+  },
+  {
+    "Nummer": 1155,
+    "Namn": "Duva rå med skinn"
+  },
+  {
+    "Nummer": 1156,
+    "Namn": "Fasan rå"
+  },
+  {
+    "Nummer": 1157,
+    "Namn": "Fasan rå med skinn"
+  },
+  {
+    "Nummer": 1158,
+    "Namn": "Gås rå"
+  },
+  {
+    "Nummer": 1159,
+    "Namn": "Gås rå med skinn"
+  },
+  {
+    "Nummer": 1160,
+    "Namn": "Höna rå"
+  },
+  {
+    "Nummer": 1161,
+    "Namn": "Höna rå med skinn"
+  },
+  {
+    "Nummer": 1162,
+    "Namn": "Kalkon filé rå"
+  },
+  {
+    "Nummer": 1163,
+    "Namn": "Kalkon rå med skinn"
+  },
+  {
+    "Nummer": 1164,
+    "Namn": "Kyckling kött råskinn"
+  },
+  {
+    "Nummer": 1165,
+    "Namn": "Kyckling kött rå med skinn"
+  },
+  {
+    "Nummer": 1166,
+    "Namn": "Kyckling bröstfilé rå med skinn"
+  },
+  {
+    "Nummer": 1167,
+    "Namn": "Kyckling lår rå med skinn"
+  },
+  {
+    "Nummer": 1168,
+    "Namn": "Kyckling vinge rå med skinn"
+  },
+  {
+    "Nummer": 1169,
+    "Namn": "Ripa rå"
+  },
+  {
+    "Nummer": 1170,
+    "Namn": "Kyckling bröstfilé färsk stektskinn"
+  },
+  {
+    "Nummer": 1171,
+    "Namn": "Kyckling ben rå med skinn"
+  },
+  {
+    "Nummer": 1172,
+    "Namn": "Kyckling bröstfilé strimlad wokadskinn med rapsolja"
+  },
+  {
+    "Nummer": 1173,
+    "Namn": "Kyckling bröstfilé råskinn"
+  },
+  {
+    "Nummer": 1174,
+    "Namn": "Kyckling lår råskinn"
+  },
+  {
+    "Nummer": 1175,
+    "Namn": "Kyckling delar marinerade med skinn"
+  },
+  {
+    "Nummer": 1176,
+    "Namn": "Struts filé rå"
+  },
+  {
+    "Nummer": 1177,
+    "Namn": "Struts filé stekt"
+  },
+  {
+    "Nummer": 1178,
+    "Namn": "Kalkon kokt"
+  },
+  {
+    "Nummer": 1180,
+    "Namn": "Duva med skinn stekt med salt"
+  },
+  {
+    "Nummer": 1181,
+    "Namn": "Kyckling kokt med salt"
+  },
+  {
+    "Nummer": 1182,
+    "Namn": "Kyckling grillad med skinn"
+  },
+  {
+    "Nummer": 1183,
+    "Namn": "Fasan stekt med skinn"
+  },
+  {
+    "Nummer": 1184,
+    "Namn": "Gås stekt med skinn"
+  },
+  {
+    "Nummer": 1185,
+    "Namn": "Höna kokt med salt"
+  },
+  {
+    "Nummer": 1186,
+    "Namn": "Kalkon stekt med skinn"
+  },
+  {
+    "Nummer": 1188,
+    "Namn": "Kyckling bröstfilé med skinn stekt med salt"
+  },
+  {
+    "Nummer": 1189,
+    "Namn": "Ripa stekt"
+  },
+  {
+    "Nummer": 1190,
+    "Namn": "Kyckling kött kokt stekt grillat"
+  },
+  {
+    "Nummer": 1191,
+    "Namn": "Kalkon rökt"
+  },
+  {
+    "Nummer": 1192,
+    "Namn": "Kyckling marinerad grillad med skinn"
+  },
+  {
+    "Nummer": 1193,
+    "Namn": "Kyckling friterad med frityrsmet"
+  },
+  {
+    "Nummer": 1198,
+    "Namn": "Ostsufflé"
+  },
+  {
+    "Nummer": 1199,
+    "Namn": "Bondomelett"
+  },
+  {
+    "Nummer": 1200,
+    "Namn": "Braxen rå"
+  },
+  {
+    "Nummer": 1201,
+    "Namn": "Regnbågslax rå"
+  },
+  {
+    "Nummer": 1202,
+    "Namn": "Sej rå"
+  },
+  {
+    "Nummer": 1203,
+    "Namn": "Hälleflundra vild rå"
+  },
+  {
+    "Nummer": 1206,
+    "Namn": "Kycklingsoppa thailändsk"
+  },
+  {
+    "Nummer": 1207,
+    "Namn": "Kyckling nugget friterad på restaurang"
+  },
+  {
+    "Nummer": 1208,
+    "Namn": "Kycklingsoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 1209,
+    "Namn": "Kycklingsoppa pulver med"
+  },
+  {
+    "Nummer": 1210,
+    "Namn": "Kalvbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 1211,
+    "Namn": "Kalvbuljong pastapulver lågsalt storhushåll"
+  },
+  {
+    "Nummer": 1212,
+    "Namn": "Köttbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 1213,
+    "Namn": "Köttbuljong pastapulver lågsalt storhushåll"
+  },
+  {
+    "Nummer": 1214,
+    "Namn": "Skinkbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 1215,
+    "Namn": "Hönsbuljong pastapulver lågsalt storhushåll"
+  },
+  {
+    "Nummer": 1216,
+    "Namn": "Hönsbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 1217,
+    "Namn": "Köttbuljong pulver tärning"
+  },
+  {
+    "Nummer": 1218,
+    "Namn": "Köttbuljong konserv ätf"
+  },
+  {
+    "Nummer": 1219,
+    "Namn": "Gelatinbladgelatinpulver"
+  },
+  {
+    "Nummer": 1222,
+    "Namn": "Köttbuljong tärning ätf"
+  },
+  {
+    "Nummer": 1223,
+    "Namn": "Köttbuljong ätf"
+  },
+  {
+    "Nummer": 1224,
+    "Namn": "Hönsbuljong ätf"
+  },
+  {
+    "Nummer": 1225,
+    "Namn": "Ägg rått"
+  },
+  {
+    "Nummer": 1226,
+    "Namn": "Äggula rå"
+  },
+  {
+    "Nummer": 1227,
+    "Namn": "Äggvita rå"
+  },
+  {
+    "Nummer": 1229,
+    "Namn": "Fransk omelett med grädde"
+  },
+  {
+    "Nummer": 1230,
+    "Namn": "Fransk omelett med"
+  },
+  {
+    "Nummer": 1231,
+    "Namn": "Sufflé gräddadfyllning"
+  },
+  {
+    "Nummer": 1232,
+    "Namn": "Äggakaka"
+  },
+  {
+    "Nummer": 1233,
+    "Namn": "Ägg stekt"
+  },
+  {
+    "Nummer": 1235,
+    "Namn": "Skinklåda med mjölk ost"
+  },
+  {
+    "Nummer": 1236,
+    "Namn": "Torsksufflé"
+  },
+  {
+    "Nummer": 1237,
+    "Namn": "Kolja rå"
+  },
+  {
+    "Nummer": 1238,
+    "Namn": "Kummel rå"
+  },
+  {
+    "Nummer": 1240,
+    "Namn": "Siklöja rå"
+  },
+  {
+    "Nummer": 1241,
+    "Namn": "Sill rå"
+  },
+  {
+    "Nummer": 1242,
+    "Namn": "Flundra rå"
+  },
+  {
+    "Nummer": 1243,
+    "Namn": "Strömming rå"
+  },
+  {
+    "Nummer": 1244,
+    "Namn": "Röding rå"
+  },
+  {
+    "Nummer": 1246,
+    "Namn": "Torsk rå"
+  },
+  {
+    "Nummer": 1247,
+    "Namn": "Vitling rå"
+  },
+  {
+    "Nummer": 1248,
+    "Namn": "Ål rå"
+  },
+  {
+    "Nummer": 1249,
+    "Namn": "Öring odlad rå"
+  },
+  {
+    "Nummer": 1250,
+    "Namn": "Pinklax rå"
+  },
+  {
+    "Nummer": 1251,
+    "Namn": "Piggvar rå"
+  },
+  {
+    "Nummer": 1252,
+    "Namn": "Sik urtagen varmrökt"
+  },
+  {
+    "Nummer": 1253,
+    "Namn": "Abborre rå"
+  },
+  {
+    "Nummer": 1255,
+    "Namn": "Lax odlad Norge fjordlax rå"
+  },
+  {
+    "Nummer": 1256,
+    "Namn": "Öring Sverige rå"
+  },
+  {
+    "Nummer": 1257,
+    "Namn": "Lake rå"
+  },
+  {
+    "Nummer": 1258,
+    "Namn": "Rödspätta rå"
+  },
+  {
+    "Nummer": 1259,
+    "Namn": "Sik rå"
+  },
+  {
+    "Nummer": 1260,
+    "Namn": "Makrill rå"
+  },
+  {
+    "Nummer": 1261,
+    "Namn": "Regnbågslax odlad rå"
+  },
+  {
+    "Nummer": 1262,
+    "Namn": "Gädda rå"
+  },
+  {
+    "Nummer": 1263,
+    "Namn": "Gös rå"
+  },
+  {
+    "Nummer": 1265,
+    "Namn": "Ansjovis skarpsill konserv"
+  },
+  {
+    "Nummer": 1266,
+    "Namn": "Böckling varmrökt"
+  },
+  {
+    "Nummer": 1267,
+    "Namn": "Fisk torkad"
+  },
+  {
+    "Nummer": 1269,
+    "Namn": "Lax kallrökt"
+  },
+  {
+    "Nummer": 1270,
+    "Namn": "Sardeller konserv"
+  },
+  {
+    "Nummer": 1271,
+    "Namn": "Sardiner i olja konserv"
+  },
+  {
+    "Nummer": 1272,
+    "Namn": "Sardiner i tomatsås konserv"
+  },
+  {
+    "Nummer": 1273,
+    "Namn": "Saltsill rå"
+  },
+  {
+    "Nummer": 1274,
+    "Namn": "Saltströmming rå"
+  },
+  {
+    "Nummer": 1275,
+    "Namn": "Tonfisk i olja konserv avrunnen"
+  },
+  {
+    "Nummer": 1277,
+    "Namn": "Ål varmrökt rundrökt"
+  },
+  {
+    "Nummer": 1278,
+    "Namn": "Tonfisk i konserv avrunnen"
+  },
+  {
+    "Nummer": 1279,
+    "Namn": "Makrill urtagen varmrökt"
+  },
+  {
+    "Nummer": 1280,
+    "Namn": "Lutfisk rå"
+  },
+  {
+    "Nummer": 1281,
+    "Namn": "Sill matjessill konserv"
+  },
+  {
+    "Nummer": 1282,
+    "Namn": "Marulk rå"
+  },
+  {
+    "Nummer": 1283,
+    "Namn": "Makrill filé i olja konserv"
+  },
+  {
+    "Nummer": 1284,
+    "Namn": "Saltsill urvattnad konserv"
+  },
+  {
+    "Nummer": 1285,
+    "Namn": "Lax gravad"
+  },
+  {
+    "Nummer": 1286,
+    "Namn": "Lax rimmad"
+  },
+  {
+    "Nummer": 1287,
+    "Namn": "Böckling dubbelfilé varmrökt"
+  },
+  {
+    "Nummer": 1288,
+    "Namn": "Lax varmrökt urtagen"
+  },
+  {
+    "Nummer": 1289,
+    "Namn": "Makrill filé varmrökt"
+  },
+  {
+    "Nummer": 1290,
+    "Namn": "Regnbågslax kallrökt"
+  },
+  {
+    "Nummer": 1291,
+    "Namn": "Regnbågslax urtagen varmrökt"
+  },
+  {
+    "Nummer": 1292,
+    "Namn": "Röding urtagen varmrökt"
+  },
+  {
+    "Nummer": 1293,
+    "Namn": "Ål varmrökt flatrökt"
+  },
+  {
+    "Nummer": 1294,
+    "Namn": "Fiskpinnar stekta"
+  },
+  {
+    "Nummer": 1296,
+    "Namn": "Makrill filé i tomatsås konserv"
+  },
+  {
+    "Nummer": 1297,
+    "Namn": "Surströmming"
+  },
+  {
+    "Nummer": 1298,
+    "Namn": "Lutfisk kokt"
+  },
+  {
+    "Nummer": 1299,
+    "Namn": "Saltsill panerad stekt"
+  },
+  {
+    "Nummer": 1300,
+    "Namn": "Strömmingsflundra panerad stekt"
+  },
+  {
+    "Nummer": 1301,
+    "Namn": "Torsk filé panerad stekt"
+  },
+  {
+    "Nummer": 1302,
+    "Namn": "Ål inkokt"
+  },
+  {
+    "Nummer": 1303,
+    "Namn": "Ål ugnsstekt"
+  },
+  {
+    "Nummer": 1304,
+    "Namn": "Abborre kokt med salt"
+  },
+  {
+    "Nummer": 1305,
+    "Namn": "Abborre filé panerad stekt"
+  },
+  {
+    "Nummer": 1306,
+    "Namn": "Fisk friterad"
+  },
+  {
+    "Nummer": 1308,
+    "Namn": "Regnbågslax inkokt med salt"
+  },
+  {
+    "Nummer": 1309,
+    "Namn": "Regnbågslax panerad stekt"
+  },
+  {
+    "Nummer": 1310,
+    "Namn": "Gädda kokt med salt"
+  },
+  {
+    "Nummer": 1311,
+    "Namn": "Gädda panerad stekt"
+  },
+  {
+    "Nummer": 1312,
+    "Namn": "Hälleflundra kokt med salt"
+  },
+  {
+    "Nummer": 1313,
+    "Namn": "Hälleflundra panerad stekt"
+  },
+  {
+    "Nummer": 1314,
+    "Namn": "Kolja kokt med salt"
+  },
+  {
+    "Nummer": 1315,
+    "Namn": "Kolja panerad stekt med salt"
+  },
+  {
+    "Nummer": 1316,
+    "Namn": "Lax stekt med salt"
+  },
+  {
+    "Nummer": 1317,
+    "Namn": "Lax kokt med salt"
+  },
+  {
+    "Nummer": 1318,
+    "Namn": "Makrill kokt med salt"
+  },
+  {
+    "Nummer": 1319,
+    "Namn": "Makrill panerad stekt"
+  },
+  {
+    "Nummer": 1320,
+    "Namn": "Makrill stekt med salt"
+  },
+  {
+    "Nummer": 1321,
+    "Namn": "Piggvar kokt med salt"
+  },
+  {
+    "Nummer": 1322,
+    "Namn": "Rödspätta filé kokt med salt"
+  },
+  {
+    "Nummer": 1323,
+    "Namn": "Rödspätta filé panerad stekt med salt"
+  },
+  {
+    "Nummer": 1324,
+    "Namn": "Rödspätta filé stekt med salt"
+  },
+  {
+    "Nummer": 1325,
+    "Namn": "Sik kokt med salt"
+  },
+  {
+    "Nummer": 1326,
+    "Namn": "Sik panerad stekt"
+  },
+  {
+    "Nummer": 1327,
+    "Namn": "Saltsill kokt"
+  },
+  {
+    "Nummer": 1328,
+    "Namn": "Sill panerad stekt med salt"
+  },
+  {
+    "Nummer": 1329,
+    "Namn": "Strömming kokt med salt"
+  },
+  {
+    "Nummer": 1331,
+    "Namn": "Ättikströmming"
+  },
+  {
+    "Nummer": 1332,
+    "Namn": "Kräftströmming"
+  },
+  {
+    "Nummer": 1333,
+    "Namn": "Strömming filé stekt med salt"
+  },
+  {
+    "Nummer": 1334,
+    "Namn": "Tonfisk stekt med salt"
+  },
+  {
+    "Nummer": 1335,
+    "Namn": "Torsk filé kokt med salt"
+  },
+  {
+    "Nummer": 1336,
+    "Namn": "Torsk panerad stekt"
+  },
+  {
+    "Nummer": 1337,
+    "Namn": "Torsk stekt"
+  },
+  {
+    "Nummer": 1338,
+    "Namn": "Vitling kokt med salt"
+  },
+  {
+    "Nummer": 1339,
+    "Namn": "Vitling filé panerad stekt"
+  },
+  {
+    "Nummer": 1340,
+    "Namn": "Fisk varmrökt"
+  },
+  {
+    "Nummer": 1344,
+    "Namn": "Fiskbullar konservbuljong"
+  },
+  {
+    "Nummer": 1345,
+    "Namn": "Fiskbullar med hummersås konserv"
+  },
+  {
+    "Nummer": 1346,
+    "Namn": "Laxpastej rökt"
+  },
+  {
+    "Nummer": 1347,
+    "Namn": "Böcklingpastej"
+  },
+  {
+    "Nummer": 1348,
+    "Namn": "Fiskpudding med ris"
+  },
+  {
+    "Nummer": 1349,
+    "Namn": "Fiskgratängpotatismos"
+  },
+  {
+    "Nummer": 1350,
+    "Namn": "Böcklinglåda med äggstanning"
+  },
+  {
+    "Nummer": 1351,
+    "Namn": "Fiskbullar panerade stekta"
+  },
+  {
+    "Nummer": 1354,
+    "Namn": "Fisksoppa bouillabaisse"
+  },
+  {
+    "Nummer": 1356,
+    "Namn": "Fiskpaté med räkor"
+  },
+  {
+    "Nummer": 1357,
+    "Namn": "Fiskfärs kokt"
+  },
+  {
+    "Nummer": 1358,
+    "Namn": "Fiskgratäng med dillsås"
+  },
+  {
+    "Nummer": 1359,
+    "Namn": "Fiskgratäng med räkorpotatismos"
+  },
+  {
+    "Nummer": 1360,
+    "Namn": "Laxmousse"
+  },
+  {
+    "Nummer": 1361,
+    "Namn": "Sillbullar"
+  },
+  {
+    "Nummer": 1362,
+    "Namn": "Sillsallad"
+  },
+  {
+    "Nummer": 1363,
+    "Namn": "Sushi nigiri med lax"
+  },
+  {
+    "Nummer": 1364,
+    "Namn": "Sushi nigiri med hälleflundra"
+  },
+  {
+    "Nummer": 1365,
+    "Namn": "Sushi nigiri med tonfisk"
+  },
+  {
+    "Nummer": 1366,
+    "Namn": "Sushi rulle med crabfish gurka"
+  },
+  {
+    "Nummer": 1367,
+    "Namn": "Sallad med tonfisk potatis bönor tomat salladdressing"
+  },
+  {
+    "Nummer": 1371,
+    "Namn": "Fisk med mandel ströbröd"
+  },
+  {
+    "Nummer": 1372,
+    "Namn": "Fiskgratäng med potatismos dillsås"
+  },
+  {
+    "Nummer": 1373,
+    "Namn": "Laxpaté"
+  },
+  {
+    "Nummer": 1374,
+    "Namn": "Fiskgratäng med potatismos räksås"
+  },
+  {
+    "Nummer": 1375,
+    "Namn": "Sushi olika sorter bitar"
+  },
+  {
+    "Nummer": 1376,
+    "Namn": "Fiskrom torsk sill rå"
+  },
+  {
+    "Nummer": 1377,
+    "Namn": "Påläggskaviar orökt"
+  },
+  {
+    "Nummer": 1378,
+    "Namn": "Påläggskaviar original"
+  },
+  {
+    "Nummer": 1379,
+    "Namn": "Påläggskaviar"
+  },
+  {
+    "Nummer": 1381,
+    "Namn": "Stenbitsrom"
+  },
+  {
+    "Nummer": 1382,
+    "Namn": "Löjrom saltad"
+  },
+  {
+    "Nummer": 1384,
+    "Namn": "Bläckfisk rå"
+  },
+  {
+    "Nummer": 1385,
+    "Namn": "Blåmussla kokt med vin avrunnen"
+  },
+  {
+    "Nummer": 1386,
+    "Namn": "Ostron"
+  },
+  {
+    "Nummer": 1387,
+    "Namn": "Snigel vinbergssnäcka"
+  },
+  {
+    "Nummer": 1388,
+    "Namn": "Groda lår rått"
+  },
+  {
+    "Nummer": 1389,
+    "Namn": "Mussla konserv med"
+  },
+  {
+    "Nummer": 1390,
+    "Namn": "Mussla konservlag"
+  },
+  {
+    "Nummer": 1391,
+    "Namn": "Ostron konserv med"
+  },
+  {
+    "Nummer": 1392,
+    "Namn": "Krabba Blå krabba kokt"
+  },
+  {
+    "Nummer": 1393,
+    "Namn": "Hummer kokt"
+  },
+  {
+    "Nummer": 1394,
+    "Namn": "Kräfta kokt"
+  },
+  {
+    "Nummer": 1395,
+    "Namn": "Räka kokt"
+  },
+  {
+    "Nummer": 1396,
+    "Namn": "Hummer koktkonserv"
+  },
+  {
+    "Nummer": 1397,
+    "Namn": "Krabba kokt"
+  },
+  {
+    "Nummer": 1398,
+    "Namn": "Krabba konserv"
+  },
+  {
+    "Nummer": 1399,
+    "Namn": "Räka konserv med"
+  },
+  {
+    "Nummer": 1400,
+    "Namn": "Räka konservlag"
+  },
+  {
+    "Nummer": 1403,
+    "Namn": "Havskräfta kokt"
+  },
+  {
+    "Nummer": 1404,
+    "Namn": "Räka friterad"
+  },
+  {
+    "Nummer": 1406,
+    "Namn": "Räka friterad på restaurang"
+  },
+  {
+    "Nummer": 1407,
+    "Namn": "Bläckfisk friterad"
+  },
+  {
+    "Nummer": 1408,
+    "Namn": "Bläckfisk friterad på restaurang"
+  },
+  {
+    "Nummer": 1410,
+    "Namn": "Sallad med räkor sparris tomat champinjoner ägg"
+  },
+  {
+    "Nummer": 1411,
+    "Namn": "Räka stuvad"
+  },
+  {
+    "Nummer": 1412,
+    "Namn": "Räksoppa ätf"
+  },
+  {
+    "Nummer": 1413,
+    "Namn": "Västkustsallad med musslor räkor champinjon dressing"
+  },
+  {
+    "Nummer": 1414,
+    "Namn": "Västkustsallad med musslor räkor champinjon"
+  },
+  {
+    "Nummer": 1416,
+    "Namn": "Medelhavssallad med tonfisk skaldjur majonnäsdressing sallad tomat"
+  },
+  {
+    "Nummer": 1417,
+    "Namn": "Skaldjurspaté"
+  },
+  {
+    "Nummer": 1418,
+    "Namn": "Räksoppa pulver med mjölk"
+  },
+  {
+    "Nummer": 1419,
+    "Namn": "Fiskbuljong pastapulver storhushåll"
+  },
+  {
+    "Nummer": 1420,
+    "Namn": "Fiskbuljong pastapulver lågsalt storhushåll"
+  },
+  {
+    "Nummer": 1421,
+    "Namn": "Fisk och skaldjurssås pulver med mjölk smör Smögen"
+  },
+  {
+    "Nummer": 1422,
+    "Namn": "Fiskbuljong ätf"
+  },
+  {
+    "Nummer": 1423,
+    "Namn": "Gris blod rått"
+  },
+  {
+    "Nummer": 1424,
+    "Namn": "Nöt blod rått"
+  },
+  {
+    "Nummer": 1425,
+    "Namn": "Hårt bröd blodbröd fullkorn"
+  },
+  {
+    "Nummer": 1426,
+    "Namn": "Blodpudding blodkorv"
+  },
+  {
+    "Nummer": 1427,
+    "Namn": "Blodpalt"
+  },
+  {
+    "Nummer": 1428,
+    "Namn": "Blodpudding blodkorv"
+  },
+  {
+    "Nummer": 1429,
+    "Namn": "Blodbröd paltbröd"
+  },
+  {
+    "Nummer": 1430,
+    "Namn": "Blodpudding blodkorv"
+  },
+  {
+    "Nummer": 1431,
+    "Namn": "Blodpudding blodkorv stekt"
+  },
+  {
+    "Nummer": 1432,
+    "Namn": "Blodpudding blodkorv stekt"
+  },
+  {
+    "Nummer": 1433,
+    "Namn": "Blodbröd paltbröd kokt med salt"
+  },
+  {
+    "Nummer": 1434,
+    "Namn": "Lamm bräss rå"
+  },
+  {
+    "Nummer": 1435,
+    "Namn": "Lamm hjärta rå"
+  },
+  {
+    "Nummer": 1436,
+    "Namn": "Lamm lever rå"
+  },
+  {
+    "Nummer": 1437,
+    "Namn": "Lamm njure rå"
+  },
+  {
+    "Nummer": 1438,
+    "Namn": "Lamm tunga rå"
+  },
+  {
+    "Nummer": 1439,
+    "Namn": "Kalv bräss rå"
+  },
+  {
+    "Nummer": 1441,
+    "Namn": "Kalv lever rå"
+  },
+  {
+    "Nummer": 1442,
+    "Namn": "Kalv njure rå"
+  },
+  {
+    "Nummer": 1443,
+    "Namn": "Kalv tunga rå"
+  },
+  {
+    "Nummer": 1444,
+    "Namn": "Nöt kalv hjärta"
+  },
+  {
+    "Nummer": 1445,
+    "Namn": "Nöt lever rå"
+  },
+  {
+    "Nummer": 1446,
+    "Namn": "Nöt njure rå"
+  },
+  {
+    "Nummer": 1447,
+    "Namn": "Nöt oxtunga rå"
+  },
+  {
+    "Nummer": 1448,
+    "Namn": "Gris hjärta rå"
+  },
+  {
+    "Nummer": 1449,
+    "Namn": "Gris lever rå"
+  },
+  {
+    "Nummer": 1450,
+    "Namn": "Gris njure rå"
+  },
+  {
+    "Nummer": 1451,
+    "Namn": "Gris tunga rå"
+  },
+  {
+    "Nummer": 1452,
+    "Namn": "Kyckling hjärta rå"
+  },
+  {
+    "Nummer": 1453,
+    "Namn": "Kyckling lever rå"
+  },
+  {
+    "Nummer": 1454,
+    "Namn": "Kyckling mage rå"
+  },
+  {
+    "Nummer": 1455,
+    "Namn": "Ren lever rå"
+  },
+  {
+    "Nummer": 1456,
+    "Namn": "Nöt oxtunga rimmad rå"
+  },
+  {
+    "Nummer": 1457,
+    "Namn": "Kyckling lever stekt"
+  },
+  {
+    "Nummer": 1458,
+    "Namn": "Nöt lever panerad stekt"
+  },
+  {
+    "Nummer": 1459,
+    "Namn": "Nöt lever stekt"
+  },
+  {
+    "Nummer": 1460,
+    "Namn": "Nöt oxtunga rimmad kokt"
+  },
+  {
+    "Nummer": 1461,
+    "Namn": "Lever stuvad"
+  },
+  {
+    "Nummer": 1462,
+    "Namn": "Gryta med kalvhjärta grönsaker"
+  },
+  {
+    "Nummer": 1463,
+    "Namn": "Korvkaka"
+  },
+  {
+    "Nummer": 1464,
+    "Namn": "Leversauté kyckling"
+  },
+  {
+    "Nummer": 1465,
+    "Namn": "Gryta levergryta nöt"
+  },
+  {
+    "Nummer": 1466,
+    "Namn": "Njursauté"
+  },
+  {
+    "Nummer": 1467,
+    "Namn": "Leverbiff mald lever stekt"
+  },
+  {
+    "Nummer": 1468,
+    "Namn": "Gryta levergryta med grönsaker"
+  },
+  {
+    "Nummer": 1470,
+    "Namn": "Gåsleverpastej konserv rökt"
+  },
+  {
+    "Nummer": 1471,
+    "Namn": "Leverpalt"
+  },
+  {
+    "Nummer": 1472,
+    "Namn": "Njurpalt"
+  },
+  {
+    "Nummer": 1473,
+    "Namn": "Leverbiff mald lever rå"
+  },
+  {
+    "Nummer": 1474,
+    "Namn": "Leverpastej bredbar"
+  },
+  {
+    "Nummer": 1476,
+    "Namn": "Leverpastej skivbar"
+  },
+  {
+    "Nummer": 1477,
+    "Namn": "Leverpastej bredbar"
+  },
+  {
+    "Nummer": 1478,
+    "Namn": "Leverpastej bredbar"
+  },
+  {
+    "Nummer": 1479,
+    "Namn": "Leverbiff mald lever stekt"
+  },
+  {
+    "Nummer": 1480,
+    "Namn": "Paté älgfärs kycklinglever"
+  },
+  {
+    "Nummer": 1482,
+    "Namn": "Lantpaté"
+  },
+  {
+    "Nummer": 1483,
+    "Namn": "Grönpepparpaté"
+  },
+  {
+    "Nummer": 1485,
+    "Namn": "Korv kycklingkorv"
+  },
+  {
+    "Nummer": 1486,
+    "Namn": "Korv kycklingkorv halal"
+  },
+  {
+    "Nummer": 1487,
+    "Namn": "Korv falukorv kött"
+  },
+  {
+    "Nummer": 1488,
+    "Namn": "Korv falukorv kött"
+  },
+  {
+    "Nummer": 1491,
+    "Namn": "Korv fläskkorv kokt kött"
+  },
+  {
+    "Nummer": 1492,
+    "Namn": "Korv frukostkorv kött"
+  },
+  {
+    "Nummer": 1496,
+    "Namn": "Påläggskorv medvurst"
+  },
+  {
+    "Nummer": 1497,
+    "Namn": "Påläggskorv medvurst rökt"
+  },
+  {
+    "Nummer": 1498,
+    "Namn": "Påläggskorv salami rökt"
+  },
+  {
+    "Nummer": 1500,
+    "Namn": "Korv varmkorv kött"
+  },
+  {
+    "Nummer": 1501,
+    "Namn": "Korv varmkorv kokt kött"
+  },
+  {
+    "Nummer": 1503,
+    "Namn": "Korv wienerkorv kött"
+  },
+  {
+    "Nummer": 1508,
+    "Namn": "Korv grillkorv kött"
+  },
+  {
+    "Nummer": 1509,
+    "Namn": "Korv isterband fermenterad kött"
+  },
+  {
+    "Nummer": 1511,
+    "Namn": "Korv middagskorv kött"
+  },
+  {
+    "Nummer": 1512,
+    "Namn": "Korv wienerkorv kött"
+  },
+  {
+    "Nummer": 1513,
+    "Namn": "Korv chorizo stekt kött"
+  },
+  {
+    "Nummer": 1514,
+    "Namn": "Korv kabanoss stekt kött"
+  },
+  {
+    "Nummer": 1516,
+    "Namn": "Korv prinskorv kött"
+  },
+  {
+    "Nummer": 1518,
+    "Namn": "Korv salsiccia rå kött"
+  },
+  {
+    "Nummer": 1519,
+    "Namn": "Korv salsiccia stekt kött"
+  },
+  {
+    "Nummer": 1521,
+    "Namn": "Korv värmlandskorv rå kött"
+  },
+  {
+    "Nummer": 1522,
+    "Namn": "Korv värmlandskorv kokt kött"
+  },
+  {
+    "Nummer": 1523,
+    "Namn": "Gris bacon stekt"
+  },
+  {
+    "Nummer": 1524,
+    "Namn": "Gris bacon rå"
+  },
+  {
+    "Nummer": 1526,
+    "Namn": "Korv frukostkorv kokt kött"
+  },
+  {
+    "Nummer": 1527,
+    "Namn": "Korv falukorv stekt kött"
+  },
+  {
+    "Nummer": 1528,
+    "Namn": "Korv falukorv skivad kokt"
+  },
+  {
+    "Nummer": 1530,
+    "Namn": "Korv frukostkorv stekt"
+  },
+  {
+    "Nummer": 1531,
+    "Namn": "Korv isterband fermenterad stekt kött"
+  },
+  {
+    "Nummer": 1534,
+    "Namn": "Korv varmkorv kokt"
+  },
+  {
+    "Nummer": 1535,
+    "Namn": "Korv varmkorv stekt"
+  },
+  {
+    "Nummer": 1536,
+    "Namn": "Korv wienerkorv stekt"
+  },
+  {
+    "Nummer": 1537,
+    "Namn": "Korv falukorv ugnsstekt"
+  },
+  {
+    "Nummer": 1540,
+    "Namn": "Korv wienerkorv kokt"
+  },
+  {
+    "Nummer": 1541,
+    "Namn": "Pölsa stekt värmd"
+  },
+  {
+    "Nummer": 1543,
+    "Namn": "Pölsa"
+  },
+  {
+    "Nummer": 1544,
+    "Namn": "Korv stroganoff i gjutjärnsstekpanna"
+  },
+  {
+    "Nummer": 1548,
+    "Namn": "Gryta korvgryta med chorizo rotfrukter"
+  },
+  {
+    "Nummer": 1551,
+    "Namn": "Tunnbrödrulle med korv potatismos räk gurksallad"
+  },
+  {
+    "Nummer": 1553,
+    "Namn": "Kalvsylta"
+  },
+  {
+    "Nummer": 1554,
+    "Namn": "Pressylta"
+  },
+  {
+    "Nummer": 1555,
+    "Namn": "Hushållssylta"
+  },
+  {
+    "Nummer": 1557,
+    "Namn": "Cashewnötter rostadesalt"
+  },
+  {
+    "Nummer": 1558,
+    "Namn": "Hasselnötter"
+  },
+  {
+    "Nummer": 1559,
+    "Namn": "Jordnötssmör"
+  },
+  {
+    "Nummer": 1560,
+    "Namn": "Jordnötter torkade"
+  },
+  {
+    "Nummer": 1561,
+    "Namn": "Jordnötter rostade"
+  },
+  {
+    "Nummer": 1562,
+    "Namn": "Jordnötter rostade saltade"
+  },
+  {
+    "Nummer": 1563,
+    "Namn": "Kastanjer"
+  },
+  {
+    "Nummer": 1564,
+    "Namn": "Kokosflingor"
+  },
+  {
+    "Nummer": 1565,
+    "Namn": "Kokosnöt"
+  },
+  {
+    "Nummer": 1566,
+    "Namn": "Kokosmjölk"
+  },
+  {
+    "Nummer": 1567,
+    "Namn": "Linfrö hela"
+  },
+  {
+    "Nummer": 1568,
+    "Namn": "Paranötter"
+  },
+  {
+    "Nummer": 1569,
+    "Namn": "Pekannötter"
+  },
+  {
+    "Nummer": 1570,
+    "Namn": "Pistaschnötter"
+  },
+  {
+    "Nummer": 1571,
+    "Namn": "Pumpafrö"
+  },
+  {
+    "Nummer": 1572,
+    "Namn": "Sesamfrö med skal"
+  },
+  {
+    "Nummer": 1573,
+    "Namn": "Sesamfröskal"
+  },
+  {
+    "Nummer": 1574,
+    "Namn": "Solrosfrö"
+  },
+  {
+    "Nummer": 1575,
+    "Namn": "Sötmandel"
+  },
+  {
+    "Nummer": 1576,
+    "Namn": "Valnötter"
+  },
+  {
+    "Nummer": 1577,
+    "Namn": "Kastanjer rostade"
+  },
+  {
+    "Nummer": 1579,
+    "Namn": "Kikärtor snacks torkade med salt"
+  },
+  {
+    "Nummer": 1580,
+    "Namn": "Jordnötsbågar jordnötsringar"
+  },
+  {
+    "Nummer": 1581,
+    "Namn": "Chips majs tortilla"
+  },
+  {
+    "Nummer": 1582,
+    "Namn": "Ostbågar"
+  },
+  {
+    "Nummer": 1583,
+    "Namn": "Popcorn mikropoocorn poppade"
+  },
+  {
+    "Nummer": 1584,
+    "Namn": "Chips potatis med havssalt"
+  },
+  {
+    "Nummer": 1585,
+    "Namn": "Salta pinnar"
+  },
+  {
+    "Nummer": 1586,
+    "Namn": "Popcorn mikropopcorn poppade"
+  },
+  {
+    "Nummer": 1587,
+    "Namn": "Chips potatis smaksatta"
+  },
+  {
+    "Nummer": 1588,
+    "Namn": "Chips potatis light"
+  },
+  {
+    "Nummer": 1589,
+    "Namn": "Japanmix blandade snacks med inbakade nötter riscracker"
+  },
+  {
+    "Nummer": 1590,
+    "Namn": "Kokosmjölk"
+  },
+  {
+    "Nummer": 1591,
+    "Namn": " kokos"
+  },
+  {
+    "Nummer": 1592,
+    "Namn": "Sesamdryck extrakt av frön med skal"
+  },
+  {
+    "Nummer": 1593,
+    "Namn": "Sesamdryck extrakt av frönskal"
+  },
+  {
+    "Nummer": 1595,
+    "Namn": "Skorpor råg"
+  },
+  {
+    "Nummer": 1597,
+    "Namn": "Skorpor vete osötade"
+  },
+  {
+    "Nummer": 1598,
+    "Namn": "Sött vetebröd"
+  },
+  {
+    "Nummer": 1599,
+    "Namn": "Sött vetebröd s"
+  },
+  {
+    "Nummer": 1600,
+    "Namn": "Sött vetebröd sötat med fruktsocker"
+  },
+  {
+    "Nummer": 1601,
+    "Namn": "Vetebröd osötat"
+  },
+  {
+    "Nummer": 1602,
+    "Namn": "Sött vetebröd med fyllning bulle längd"
+  },
+  {
+    "Nummer": 1603,
+    "Namn": "Skorpor vete"
+  },
+  {
+    "Nummer": 1604,
+    "Namn": "Skorpor fullkorn osötade"
+  },
+  {
+    "Nummer": 1605,
+    "Namn": "Mandelkubb"
+  },
+  {
+    "Nummer": 1606,
+    "Namn": "Munkfyllning"
+  },
+  {
+    "Nummer": 1607,
+    "Namn": "Munk fylld med äppelmos vaniljkräm"
+  },
+  {
+    "Nummer": 1608,
+    "Namn": "Wienerbröd med vaniljkräm sylt florsocker"
+  },
+  {
+    "Nummer": 1609,
+    "Namn": "Sött vetebröd bakpulver"
+  },
+  {
+    "Nummer": 1610,
+    "Namn": "Sött vetebröd saffransbröd hembakad"
+  },
+  {
+    "Nummer": 1611,
+    "Namn": "Kex cream crackers"
+  },
+  {
+    "Nummer": 1612,
+    "Namn": "Kex rån med cremefyllning smaksatt"
+  },
+  {
+    "Nummer": 1613,
+    "Namn": "Kex havrekex fullkorn"
+  },
+  {
+    "Nummer": 1614,
+    "Namn": "Kex Mariekex"
+  },
+  {
+    "Nummer": 1615,
+    "Namn": "Kex mördegskex"
+  },
+  {
+    "Nummer": 1616,
+    "Namn": "Kex med syltfyllning"
+  },
+  {
+    "Nummer": 1617,
+    "Namn": "Kex med nougatfyllning"
+  },
+  {
+    "Nummer": 1618,
+    "Namn": "Maräng med choklad"
+  },
+  {
+    "Nummer": 1619,
+    "Namn": "Småkakor olika sorter"
+  },
+  {
+    "Nummer": 1620,
+    "Namn": "Jitterbugg med mördeg maräng"
+  },
+  {
+    "Nummer": 1621,
+    "Namn": "Cookie amerikansk med choklad"
+  },
+  {
+    "Nummer": 1623,
+    "Namn": "Kex smörgåskex"
+  },
+  {
+    "Nummer": 1624,
+    "Namn": "Pepparkaka"
+  },
+  {
+    "Nummer": 1625,
+    "Namn": "Spettekaka"
+  },
+  {
+    "Nummer": 1626,
+    "Namn": "Maräng"
+  },
+  {
+    "Nummer": 1627,
+    "Namn": "Kex med fyllning"
+  },
+  {
+    "Nummer": 1628,
+    "Namn": "Kex ostkex"
+  },
+  {
+    "Nummer": 1629,
+    "Namn": "Kex salta"
+  },
+  {
+    "Nummer": 1630,
+    "Namn": "Kex salta med mjölk"
+  },
+  {
+    "Nummer": 1631,
+    "Namn": "Kexsocker"
+  },
+  {
+    "Nummer": 1632,
+    "Namn": "Pepparkakasocker"
+  },
+  {
+    "Nummer": 1633,
+    "Namn": "Kex smörgåsrån"
+  },
+  {
+    "Nummer": 1636,
+    "Namn": "Glasstrut våffla ofylld"
+  },
+  {
+    "Nummer": 1637,
+    "Namn": "Småkakorsocker"
+  },
+  {
+    "Nummer": 1638,
+    "Namn": "Mandelbiskvi"
+  },
+  {
+    "Nummer": 1639,
+    "Namn": "Deg mördeg gräddad"
+  },
+  {
+    "Nummer": 1640,
+    "Namn": "Deg smördeg gräddad"
+  },
+  {
+    "Nummer": 1641,
+    "Namn": "Deg smördeg"
+  },
+  {
+    "Nummer": 1642,
+    "Namn": "Deg filodeg"
+  },
+  {
+    "Nummer": 1645,
+    "Namn": "Gräddtårta"
+  },
+  {
+    "Nummer": 1646,
+    "Namn": "Toscabit med mazarinmassa mandel choklad"
+  },
+  {
+    "Nummer": 1647,
+    "Namn": "Bärtårta med grädde vaniljkräm sylt gele"
+  },
+  {
+    "Nummer": 1648,
+    "Namn": "Prinsesstårta med grädde vaniljkräm hallonsylt marsipan"
+  },
+  {
+    "Nummer": 1649,
+    "Namn": "Chokladtårta Sachertårta"
+  },
+  {
+    "Nummer": 1650,
+    "Namn": "Napoleonbakelse med grädde vaniljkräm hallonsylt glasyr"
+  },
+  {
+    "Nummer": 1651,
+    "Namn": "Frukttårta med hallonsylt vaniljkräm mandelmassa frukt gele"
+  },
+  {
+    "Nummer": 1652,
+    "Namn": "Chokladbiskvi med mandelbotten smörkräm choklad"
+  },
+  {
+    "Nummer": 1653,
+    "Namn": "Mazariner med mördegsbotten mazarinfyllning glasyr"
+  },
+  {
+    "Nummer": 1654,
+    "Namn": "Mjuk kaka drömtårta chokladrulltårta"
+  },
+  {
+    "Nummer": 1655,
+    "Namn": "Mjuk kaka rulltårta med sylt"
+  },
+  {
+    "Nummer": 1656,
+    "Namn": "Punschrulle"
+  },
+  {
+    "Nummer": 1657,
+    "Namn": "Chokladboll"
+  },
+  {
+    "Nummer": 1658,
+    "Namn": "Gräddtårta med jordgubb banan"
+  },
+  {
+    "Nummer": 1659,
+    "Namn": "Potatisbakelse med vaniljkräm smörkräm marsipan"
+  },
+  {
+    "Nummer": 1660,
+    "Namn": "Äppelkaka med ströbröd"
+  },
+  {
+    "Nummer": 1661,
+    "Namn": "Mjuk kaka drömtårta chokladrulltårta"
+  },
+  {
+    "Nummer": 1662,
+    "Namn": "Semla vetebulle fylld med mandelmassa vispad grädde"
+  },
+  {
+    "Nummer": 1663,
+    "Namn": "Mjuk kaka chokladruta med chokladglasyr riven kokos"
+  },
+  {
+    "Nummer": 1664,
+    "Namn": "Mjuk kaka ambrosiakaka sockerkaka med glasyr"
+  },
+  {
+    "Nummer": 1666,
+    "Namn": "Arraksboll"
+  },
+  {
+    "Nummer": 1667,
+    "Namn": "Petitchouxfyllning"
+  },
+  {
+    "Nummer": 1668,
+    "Namn": "Semla vetebulle fylld med mandelmassa vispad grädde"
+  },
+  {
+    "Nummer": 1669,
+    "Namn": "Mjuk kaka fransk äppelkaka"
+  },
+  {
+    "Nummer": 1671,
+    "Namn": "Mjuk kaka toscakaka"
+  },
+  {
+    "Nummer": 1672,
+    "Namn": "Mjuk kaka chokladkaka"
+  },
+  {
+    "Nummer": 1677,
+    "Namn": "Muffins amerikansk"
+  },
+  {
+    "Nummer": 1678,
+    "Namn": "Mjuk kaka sockerkaka pepparkaka"
+  },
+  {
+    "Nummer": 1679,
+    "Namn": "Mjuk kaka tårtbotten"
+  },
+  {
+    "Nummer": 1681,
+    "Namn": "Mjuk kaka sockerkaka fin"
+  },
+  {
+    "Nummer": 1682,
+    "Namn": "Mjuk kaka pepparkaka"
+  },
+  {
+    "Nummer": 1683,
+    "Namn": "Mjuk kaka nötkaka"
+  },
+  {
+    "Nummer": 1684,
+    "Namn": "Mjuk kaka sockerkaka fin"
+  },
+  {
+    "Nummer": 1685,
+    "Namn": "Mjuk kaka sockerkaka saftig"
+  },
+  {
+    "Nummer": 1686,
+    "Namn": "Kex digestive fullkorn"
+  },
+  {
+    "Nummer": 1687,
+    "Namn": "Mjuk kaka fruktkaka"
+  },
+  {
+    "Nummer": 1689,
+    "Namn": "Glass gräddglass"
+  },
+  {
+    "Nummer": 1690,
+    "Namn": "Glass vaniljsmak"
+  },
+  {
+    "Nummer": 1691,
+    "Namn": "Glass"
+  },
+  {
+    "Nummer": 1692,
+    "Namn": "Glass glasstrut"
+  },
+  {
+    "Nummer": 1693,
+    "Namn": "Glass glass med sötningsmed"
+  },
+  {
+    "Nummer": 1694,
+    "Namn": "Glass glasstrut våffla med vaniljglass daimbitar chokladöverdrag"
+  },
+  {
+    "Nummer": 1695,
+    "Namn": "Glass vaniljglass med chokladkex"
+  },
+  {
+    "Nummer": 1696,
+    "Namn": "Glass gräddglass"
+  },
+  {
+    "Nummer": 1697,
+    "Namn": "Glass"
+  },
+  {
+    "Nummer": 1698,
+    "Namn": "Glass glass"
+  },
+  {
+    "Nummer": 1699,
+    "Namn": "Glass glasspinne"
+  },
+  {
+    "Nummer": 1700,
+    "Namn": "Glass glasspinne med kakaoöverdrag"
+  },
+  {
+    "Nummer": 1701,
+    "Namn": "Glass glasspinnesplit med isöverdrag"
+  },
+  {
+    "Nummer": 1702,
+    "Namn": "Glass glasstrut"
+  },
+  {
+    "Nummer": 1703,
+    "Namn": "Glass mjukglass bägare"
+  },
+  {
+    "Nummer": 1705,
+    "Namn": "Glass glasstårta"
+  },
+  {
+    "Nummer": 1706,
+    "Namn": "Glass med maräng"
+  },
+  {
+    "Nummer": 1707,
+    "Namn": "Glass havreglass med vanilji"
+  },
+  {
+    "Nummer": 1708,
+    "Namn": "Glass parfait med bär"
+  },
+  {
+    "Nummer": 1712,
+    "Namn": "Matlagningsbas med havre"
+  },
+  {
+    "Nummer": 1713,
+    "Namn": "Gräddfil"
+  },
+  {
+    "Nummer": 1714,
+    "Namn": "Kaffegrädde"
+  },
+  {
+    "Nummer": 1715,
+    "Namn": "Vispgrädde"
+  },
+  {
+    "Nummer": 1716,
+    "Namn": "Mellangrädde"
+  },
+  {
+    "Nummer": 1717,
+    "Namn": "Matlagningsgrädde"
+  },
+  {
+    "Nummer": 1719,
+    "Namn": "Crème fraiche"
+  },
+  {
+    "Nummer": 1721,
+    "Namn": "Crème fraiche"
+  },
+  {
+    "Nummer": 1725,
+    "Namn": "Gräddersättning pulver"
+  },
+  {
+    "Nummer": 1726,
+    "Namn": "Gräddfilssås med kryddgrönt"
+  },
+  {
+    "Nummer": 1727,
+    "Namn": "Gräddfilssås"
+  },
+  {
+    "Nummer": 1728,
+    "Namn": "Gräddfilssås med crème fraiche"
+  },
+  {
+    "Nummer": 1729,
+    "Namn": "Rabarberkräm"
+  },
+  {
+    "Nummer": 1730,
+    "Namn": "Rabarbersoppa"
+  },
+  {
+    "Nummer": 1732,
+    "Namn": "Apelsinsoppa"
+  },
+  {
+    "Nummer": 1734,
+    "Namn": "Blåbärssoppa"
+  },
+  {
+    "Nummer": 1740,
+    "Namn": "Svartvinbärskräm"
+  },
+  {
+    "Nummer": 1741,
+    "Namn": "Äppelkompott"
+  },
+  {
+    "Nummer": 1742,
+    "Namn": "Äppelkräm"
+  },
+  {
+    "Nummer": 1743,
+    "Namn": "Äppelsoppa"
+  },
+  {
+    "Nummer": 1744,
+    "Namn": "Kräm med bärfrukt"
+  },
+  {
+    "Nummer": 1745,
+    "Namn": "Pajfyllning bär med socker"
+  },
+  {
+    "Nummer": 1746,
+    "Namn": "Saftkräm"
+  },
+  {
+    "Nummer": 1747,
+    "Namn": "Saftsoppa"
+  },
+  {
+    "Nummer": 1748,
+    "Namn": "Saftsås"
+  },
+  {
+    "Nummer": 1749,
+    "Namn": "Fruktdryck blåbär"
+  },
+  {
+    "Nummer": 1750,
+    "Namn": "Fruktsoppa pastöriserad ätf blandad torkad frukt"
+  },
+  {
+    "Nummer": 1751,
+    "Namn": "Nyponsoppa ätf pastöriseradpulver"
+  },
+  {
+    "Nummer": 1752,
+    "Namn": "Nyponsoppa ätf pulver osötad"
+  },
+  {
+    "Nummer": 1758,
+    "Namn": "Mjuk kaka med katrinplommon"
+  },
+  {
+    "Nummer": 1759,
+    "Namn": "Kalvdans med mjölkpulver ägg"
+  },
+  {
+    "Nummer": 1760,
+    "Namn": "Ostkaka med cottage cheese"
+  },
+  {
+    "Nummer": 1761,
+    "Namn": "Marängsviss hovdessert"
+  },
+  {
+    "Nummer": 1762,
+    "Namn": "Brylépudding"
+  },
+  {
+    "Nummer": 1763,
+    "Namn": "Vaniljsås med mellanmjölk matlagningsgrädde vispgrädde"
+  },
+  {
+    "Nummer": 1764,
+    "Namn": "Chokladpudding"
+  },
+  {
+    "Nummer": 1765,
+    "Namn": "Chokladpudding med vispad grädde"
+  },
+  {
+    "Nummer": 1766,
+    "Namn": "Chokladmousse"
+  },
+  {
+    "Nummer": 1767,
+    "Namn": "Fromage apelsincitron"
+  },
+  {
+    "Nummer": 1768,
+    "Namn": "Glassås choklad"
+  },
+  {
+    "Nummer": 1769,
+    "Namn": "Glassås kolasås"
+  },
+  {
+    "Nummer": 1770,
+    "Namn": "Vaniljpudding"
+  },
+  {
+    "Nummer": 1771,
+    "Namn": "Vaniljsås med grädde mjölk"
+  },
+  {
+    "Nummer": 1772,
+    "Namn": "Ostkaka"
+  },
+  {
+    "Nummer": 1773,
+    "Namn": "Ostkaka osötad"
+  },
+  {
+    "Nummer": 1775,
+    "Namn": "Fromage citron"
+  },
+  {
+    "Nummer": 1776,
+    "Namn": "Vaniljsås med havre"
+  },
+  {
+    "Nummer": 1777,
+    "Namn": "Vaniljsås pulver med mjölk"
+  },
+  {
+    "Nummer": 1778,
+    "Namn": "Glassås choklad"
+  },
+  {
+    "Nummer": 1779,
+    "Namn": "Glassås frukt"
+  },
+  {
+    "Nummer": 1781,
+    "Namn": "Rabarberpaj"
+  },
+  {
+    "Nummer": 1782,
+    "Namn": "Äppelpaj med lock"
+  },
+  {
+    "Nummer": 1783,
+    "Namn": "Cheesecake med digestivebotten frukt bär"
+  },
+  {
+    "Nummer": 1784,
+    "Namn": "Cheesecake med digestivebotten"
+  },
+  {
+    "Nummer": 1785,
+    "Namn": "Mannagrynskaka mannagrynspudding"
+  },
+  {
+    "Nummer": 1786,
+    "Namn": "Äppelsmulpaj"
+  },
+  {
+    "Nummer": 1788,
+    "Namn": "Katrinplommonsufflé"
+  },
+  {
+    "Nummer": 1789,
+    "Namn": "Äppelpaj friterad"
+  },
+  {
+    "Nummer": 1790,
+    "Namn": "Banan friterad"
+  },
+  {
+    "Nummer": 1791,
+    "Namn": "Äpple ugnsstekt med oljaflytande margarin socker mandelmassa valnötter"
+  },
+  {
+    "Nummer": 1792,
+    "Namn": "Banan friterad med glass på restaurang"
+  },
+  {
+    "Nummer": 1793,
+    "Namn": "Apelsinmarmelad"
+  },
+  {
+    "Nummer": 1794,
+    "Namn": "Gelé röda vinbär"
+  },
+  {
+    "Nummer": 1795,
+    "Namn": "Gelé svarta vinbär"
+  },
+  {
+    "Nummer": 1796,
+    "Namn": "Apelsinmarmelad sockrad"
+  },
+  {
+    "Nummer": 1797,
+    "Namn": "Marmelad olika smaker"
+  },
+  {
+    "Nummer": 1798,
+    "Namn": "Lingonsylt"
+  },
+  {
+    "Nummer": 1800,
+    "Namn": "Lingonsylt sötningsmed"
+  },
+  {
+    "Nummer": 1801,
+    "Namn": "Jordgubbssylt"
+  },
+  {
+    "Nummer": 1802,
+    "Namn": "Björnbärssylt"
+  },
+  {
+    "Nummer": 1803,
+    "Namn": "Blåbärssylt"
+  },
+  {
+    "Nummer": 1804,
+    "Namn": "Hallonsylt"
+  },
+  {
+    "Nummer": 1805,
+    "Namn": "Hjortronsylt"
+  },
+  {
+    "Nummer": 1806,
+    "Namn": "Krusbärssylt"
+  },
+  {
+    "Nummer": 1808,
+    "Namn": "Körsbärssylt"
+  },
+  {
+    "Nummer": 1809,
+    "Namn": "Äppelmos"
+  },
+  {
+    "Nummer": 1810,
+    "Namn": "Äppelmos sockrad"
+  },
+  {
+    "Nummer": 1811,
+    "Namn": "Äppelmos osötadsötningsmed"
+  },
+  {
+    "Nummer": 1812,
+    "Namn": "Cumberlandsås"
+  },
+  {
+    "Nummer": 1814,
+    "Namn": "Apelsinsaft konc"
+  },
+  {
+    "Nummer": 1815,
+    "Namn": "Apelsinsaft drickf"
+  },
+  {
+    "Nummer": 1817,
+    "Namn": "Saft sockrad konc"
+  },
+  {
+    "Nummer": 1818,
+    "Namn": "Måltidsdryck drickf"
+  },
+  {
+    "Nummer": 1819,
+    "Namn": "Blandsaft konc"
+  },
+  {
+    "Nummer": 1820,
+    "Namn": "Saft drickf"
+  },
+  {
+    "Nummer": 1821,
+    "Namn": "Svartvinbärssaft konc"
+  },
+  {
+    "Nummer": 1822,
+    "Namn": "Saft sötningsmed konc"
+  },
+  {
+    "Nummer": 1826,
+    "Namn": "Fruktdryck med kolsyra"
+  },
+  {
+    "Nummer": 1827,
+    "Namn": "Fruktdryckkolsyra"
+  },
+  {
+    "Nummer": 1828,
+    "Namn": "Läsk"
+  },
+  {
+    "Nummer": 1829,
+    "Namn": "Läsk cola"
+  },
+  {
+    "Nummer": 1830,
+    "Namn": "Läsk light"
+  },
+  {
+    "Nummer": 1831,
+    "Namn": "Läsk cola light"
+  },
+  {
+    "Nummer": 1832,
+    "Namn": "Sportdryck drickf"
+  },
+  {
+    "Nummer": 1834,
+    "Namn": "Saft sötningsmed drickf"
+  },
+  {
+    "Nummer": 1837,
+    "Namn": "Hallonsaft drickf"
+  },
+  {
+    "Nummer": 1838,
+    "Namn": "Svartvinbärssaft drickf"
+  },
+  {
+    "Nummer": 1840,
+    "Namn": "Lingondricka drickf"
+  },
+  {
+    "Nummer": 1841,
+    "Namn": "Äppeldricka drickf"
+  },
+  {
+    "Nummer": 1842,
+    "Namn": "Saft sötningsmed drickf"
+  },
+  {
+    "Nummer": 1843,
+    "Namn": "Glass isglass"
+  },
+  {
+    "Nummer": 1844,
+    "Namn": "Glass sorbet"
+  },
+  {
+    "Nummer": 1845,
+    "Namn": "Glass isglass saftis"
+  },
+  {
+    "Nummer": 1846,
+    "Namn": "Chokladdryck med"
+  },
+  {
+    "Nummer": 1847,
+    "Namn": "Chokladdryck drickf"
+  },
+  {
+    "Nummer": 1848,
+    "Namn": "Mjölkchoklad med hackade hasselnötter"
+  },
+  {
+    "Nummer": 1849,
+    "Namn": "Mjölkchoklad fylld med mandelkrokant"
+  },
+  {
+    "Nummer": 1850,
+    "Namn": "Mjölkchoklad med mjuk kolafyllning"
+  },
+  {
+    "Nummer": 1851,
+    "Namn": "Kex med mjölkchokladöverdrag"
+  },
+  {
+    "Nummer": 1852,
+    "Namn": "Kex med kola mjölkchokladöverdrag"
+  },
+  {
+    "Nummer": 1853,
+    "Namn": "Mjuk nougat med kolasås jordnötter mjölkchokladöverdrag"
+  },
+  {
+    "Nummer": 1854,
+    "Namn": "Mjuk chokladmaräng med kola mjölkchokladöverdrag"
+  },
+  {
+    "Nummer": 1855,
+    "Namn": "Choklad chokladpraliner"
+  },
+  {
+    "Nummer": 1858,
+    "Namn": "Chokladpralin"
+  },
+  {
+    "Nummer": 1859,
+    "Namn": "Mjuk kokos med mjölkchokladöverdrag"
+  },
+  {
+    "Nummer": 1860,
+    "Namn": "Nötkräm chokladkräm"
+  },
+  {
+    "Nummer": 1861,
+    "Namn": "Choklad sötningsmed"
+  },
+  {
+    "Nummer": 1863,
+    "Namn": "Gelékonfekt"
+  },
+  {
+    "Nummer": 1864,
+    "Namn": "Karameller syrliga"
+  },
+  {
+    "Nummer": 1865,
+    "Namn": "Kola"
+  },
+  {
+    "Nummer": 1866,
+    "Namn": "Lakritskonfekt"
+  },
+  {
+    "Nummer": 1867,
+    "Namn": "Marmeladkonfekt"
+  },
+  {
+    "Nummer": 1868,
+    "Namn": "Skumgodis"
+  },
+  {
+    "Nummer": 1869,
+    "Namn": "Polkagris"
+  },
+  {
+    "Nummer": 1870,
+    "Namn": "Tuggummi"
+  },
+  {
+    "Nummer": 1871,
+    "Namn": "Klubba chokladkola karamell"
+  },
+  {
+    "Nummer": 1873,
+    "Namn": "Saltlakrits"
+  },
+  {
+    "Nummer": 1874,
+    "Namn": "Supersalt lakrits"
+  },
+  {
+    "Nummer": 1875,
+    "Namn": "Chokladkola mörk med chokladöverdrag"
+  },
+  {
+    "Nummer": 1876,
+    "Namn": "Kex rån med chokladfyllning"
+  },
+  {
+    "Nummer": 1877,
+    "Namn": "Fruktkola"
+  },
+  {
+    "Nummer": 1878,
+    "Namn": "Skumbilar"
+  },
+  {
+    "Nummer": 1879,
+    "Namn": "Skumboll med chokladöverdrag kokos"
+  },
+  {
+    "Nummer": 1880,
+    "Namn": "Skumboll med chokladöverdrag"
+  },
+  {
+    "Nummer": 1881,
+    "Namn": "Bar energibar med choklad nötter"
+  },
+  {
+    "Nummer": 1882,
+    "Namn": "Karameller sockerfria"
+  },
+  {
+    "Nummer": 1884,
+    "Namn": "Tuggummi sockerfritt"
+  },
+  {
+    "Nummer": 1885,
+    "Namn": "Mandelmassa"
+  },
+  {
+    "Nummer": 1886,
+    "Namn": "Kakaopulver"
+  },
+  {
+    "Nummer": 1887,
+    "Namn": "Chokladdryckspulver med socker"
+  },
+  {
+    "Nummer": 1888,
+    "Namn": "Chokladboll"
+  },
+  {
+    "Nummer": 1891,
+    "Namn": "Måltidsersättning pulver chokladsmak"
+  },
+  {
+    "Nummer": 1892,
+    "Namn": "Socker"
+  },
+  {
+    "Nummer": 1893,
+    "Namn": "Brun farin"
+  },
+  {
+    "Nummer": 1894,
+    "Namn": "Ljus sirap"
+  },
+  {
+    "Nummer": 1896,
+    "Namn": "Honung"
+  },
+  {
+    "Nummer": 1897,
+    "Namn": "Druvsocker"
+  },
+  {
+    "Nummer": 1898,
+    "Namn": "Fruktsocker"
+  },
+  {
+    "Nummer": 1899,
+    "Namn": "Sorbitol med sackarin"
+  },
+  {
+    "Nummer": 1900,
+    "Namn": "Svagdricka vol"
+  },
+  {
+    "Nummer": 1901,
+    "Namn": "Öl öl vol"
+  },
+  {
+    "Nummer": 1902,
+    "Namn": "Öl pilsner folköl vol"
+  },
+  {
+    "Nummer": 1903,
+    "Namn": "Cider vol"
+  },
+  {
+    "Nummer": 1904,
+    "Namn": "Vin vitt vol"
+  },
+  {
+    "Nummer": 1905,
+    "Namn": "Vin röttrosé vol"
+  },
+  {
+    "Nummer": 1906,
+    "Namn": "Öl starkölexportöl vol"
+  },
+  {
+    "Nummer": 1907,
+    "Namn": "Vin rött vol"
+  },
+  {
+    "Nummer": 1908,
+    "Namn": "Vin vitt vol"
+  },
+  {
+    "Nummer": 1909,
+    "Namn": "Vin vittrhenvin vol"
+  },
+  {
+    "Nummer": 1912,
+    "Namn": "Glögg vin vol"
+  },
+  {
+    "Nummer": 1914,
+    "Namn": "Starkvin vol Madeira"
+  },
+  {
+    "Nummer": 1915,
+    "Namn": "Starkvin vitt rött vol Portvin"
+  },
+  {
+    "Nummer": 1916,
+    "Namn": "Starkvin halvtorr vol Sherry"
+  },
+  {
+    "Nummer": 1917,
+    "Namn": "Glögg starkvin vol"
+  },
+  {
+    "Nummer": 1918,
+    "Namn": "Brännvin renatvodka vol"
+  },
+  {
+    "Nummer": 1919,
+    "Namn": "Likör söt vol"
+  },
+  {
+    "Nummer": 1920,
+    "Namn": "Likör Kaptenlöjtnant vol"
+  },
+  {
+    "Nummer": 1921,
+    "Namn": "Konjakbrandy vol"
+  },
+  {
+    "Nummer": 1922,
+    "Namn": "Punsch vol"
+  },
+  {
+    "Nummer": 1923,
+    "Namn": "Rom vol"
+  },
+  {
+    "Nummer": 1924,
+    "Namn": "Brännvin kryddat vol"
+  },
+  {
+    "Nummer": 1925,
+    "Namn": "Gin vol"
+  },
+  {
+    "Nummer": 1926,
+    "Namn": "Whisky vol"
+  },
+  {
+    "Nummer": 1927,
+    "Namn": "Likör mindre söt vol"
+  },
+  {
+    "Nummer": 1929,
+    "Namn": "Kaffedrink Irish coffee medwhiskey vispad grädde"
+  },
+  {
+    "Nummer": 1930,
+    "Namn": "Bovetemjöl"
+  },
+  {
+    "Nummer": 1931,
+    "Namn": "Havremust pulver"
+  },
+  {
+    "Nummer": 1932,
+    "Namn": "Kornmjöl fullkorn"
+  },
+  {
+    "Nummer": 1933,
+    "Namn": "Majsmjöl gultgroddarpolenta"
+  },
+  {
+    "Nummer": 1934,
+    "Namn": "Rågmjöl fullkorn"
+  },
+  {
+    "Nummer": 1935,
+    "Namn": "Vetemjöl fullkorn grahamsmjöl"
+  },
+  {
+    "Nummer": 1936,
+    "Namn": "Vetediet"
+  },
+  {
+    "Nummer": 1938,
+    "Namn": "Vetemjöl bagerivetemjöl"
+  },
+  {
+    "Nummer": 1941,
+    "Namn": "Vetemjöl"
+  },
+  {
+    "Nummer": 1945,
+    "Namn": "Majsstärkelse"
+  },
+  {
+    "Nummer": 1946,
+    "Namn": "Potatismjöl"
+  },
+  {
+    "Nummer": 1947,
+    "Namn": "Samarinpulver"
+  },
+  {
+    "Nummer": 1948,
+    "Namn": "Samarin drickf"
+  },
+  {
+    "Nummer": 1949,
+    "Namn": " soda"
+  },
+  {
+    "Nummer": 1950,
+    "Namn": " vichy"
+  },
+  {
+    "Nummer": 1951,
+    "Namn": " mineral"
+  },
+  {
+    "Nummer": 1953,
+    "Namn": " kran"
+  },
+  {
+    "Nummer": 1955,
+    "Namn": "Snabbkaffe pulver"
+  },
+  {
+    "Nummer": 1956,
+    "Namn": "Snabbkaffe drickf"
+  },
+  {
+    "Nummer": 1957,
+    "Namn": "Kaffe bryggt"
+  },
+  {
+    "Nummer": 1958,
+    "Namn": "Kaffe espresso bryggt drickf"
+  },
+  {
+    "Nummer": 1959,
+    "Namn": "Snabbkaffe koffeinfritt drickf"
+  },
+  {
+    "Nummer": 1960,
+    "Namn": "Tepulver"
+  },
+  {
+    "Nummer": 1962,
+    "Namn": "Te bryggt"
+  },
+  {
+    "Nummer": 1963,
+    "Namn": "Örtte drickf"
+  },
+  {
+    "Nummer": 1964,
+    "Namn": "Nyponte drickf med svarta vinbär"
+  },
+  {
+    "Nummer": 1965,
+    "Namn": "Ättiksprit ättiksyra"
+  },
+  {
+    "Nummer": 1966,
+    "Namn": "Vinäger ättiksyra"
+  },
+  {
+    "Nummer": 1967,
+    "Namn": "Äppelcidervinäger ättiksyra"
+  },
+  {
+    "Nummer": 1968,
+    "Namn": "Chilisås tomat"
+  },
+  {
+    "Nummer": 1969,
+    "Namn": "Ketchup"
+  },
+  {
+    "Nummer": 1970,
+    "Namn": "Engelsk brown sauce HPsås"
+  },
+  {
+    "Nummer": 1971,
+    "Namn": "Grillsås"
+  },
+  {
+    "Nummer": 1972,
+    "Namn": "Senap svensk"
+  },
+  {
+    "Nummer": 1973,
+    "Namn": "Senap fransk"
+  },
+  {
+    "Nummer": 1974,
+    "Namn": "Sötsur sås"
+  },
+  {
+    "Nummer": 1975,
+    "Namn": "Salt med jod"
+  },
+  {
+    "Nummer": 1976,
+    "Namn": "Salt mineralsalt"
+  },
+  {
+    "Nummer": 1977,
+    "Namn": "Salt havssaltjod"
+  },
+  {
+    "Nummer": 1978,
+    "Namn": "Salt örtsalt"
+  },
+  {
+    "Nummer": 1979,
+    "Namn": "Jäst färsk"
+  },
+  {
+    "Nummer": 1980,
+    "Namn": "Jäst torkad"
+  },
+  {
+    "Nummer": 1981,
+    "Namn": "Bakpulver"
+  },
+  {
+    "Nummer": 1982,
+    "Namn": "Béchamelsås med mjölk"
+  },
+  {
+    "Nummer": 1983,
+    "Namn": "Ljus sås med mjölk"
+  },
+  {
+    "Nummer": 1984,
+    "Namn": "Ljus sås med mjölk"
+  },
+  {
+    "Nummer": 1985,
+    "Namn": "Béchamelsås"
+  },
+  {
+    "Nummer": 1986,
+    "Namn": "Gratängsåsost"
+  },
+  {
+    "Nummer": 1987,
+    "Namn": "Ljus sås med grädde"
+  },
+  {
+    "Nummer": 1988,
+    "Namn": "Ostsås"
+  },
+  {
+    "Nummer": 1989,
+    "Namn": "Ostsås med ädelost"
+  },
+  {
+    "Nummer": 1990,
+    "Namn": "Ostsås till moussaka"
+  },
+  {
+    "Nummer": 1991,
+    "Namn": "Brunsås med mjölk"
+  },
+  {
+    "Nummer": 1992,
+    "Namn": "Sky"
+  },
+  {
+    "Nummer": 1993,
+    "Namn": "Brunsås med buljong grädde"
+  },
+  {
+    "Nummer": 1994,
+    "Namn": "Brunsås med buljong"
+  },
+  {
+    "Nummer": 1995,
+    "Namn": "Currysås"
+  },
+  {
+    "Nummer": 1996,
+    "Namn": "Brunsås med kaffegrädde"
+  },
+  {
+    "Nummer": 1997,
+    "Namn": "Korintsås"
+  },
+  {
+    "Nummer": 1998,
+    "Namn": "Brunsås pulver med mjölk"
+  },
+  {
+    "Nummer": 1999,
+    "Namn": "Gräddsås pulver med mjölk smör"
+  },
+  {
+    "Nummer": 2000,
+    "Namn": "Tomatsås kryddstark"
+  },
+  {
+    "Nummer": 2001,
+    "Namn": "Dillsås"
+  },
+  {
+    "Nummer": 2002,
+    "Namn": "Äggsås med persilja"
+  },
+  {
+    "Nummer": 2003,
+    "Namn": "Pesto"
+  },
+  {
+    "Nummer": 2004,
+    "Namn": "Pesto med basilika pinjenötter cashewnötter"
+  },
+  {
+    "Nummer": 2006,
+    "Namn": "Dippmix pulver olika smaker"
+  },
+  {
+    "Nummer": 2007,
+    "Namn": "Sweet chilisås"
+  },
+  {
+    "Nummer": 2008,
+    "Namn": "Pastasås med tomat örtkryddor"
+  },
+  {
+    "Nummer": 2009,
+    "Namn": "Pastasås olika märken"
+  },
+  {
+    "Nummer": 2010,
+    "Namn": "Sötsur sås med grönsaker konserv"
+  },
+  {
+    "Nummer": 2011,
+    "Namn": "Orientalisk sås med grönsaker konserv"
+  },
+  {
+    "Nummer": 2012,
+    "Namn": "Teriyakisås"
+  },
+  {
+    "Nummer": 2024,
+    "Namn": "Frukostflingor müsli fullkorn med frukt"
+  },
+  {
+    "Nummer": 2025,
+    "Namn": "Frukostflingor müsli fullkorn med bär"
+  },
+  {
+    "Nummer": 2027,
+    "Namn": "Frukostflingor müsli fullkorn med socker med frukt nötter"
+  },
+  {
+    "Nummer": 2028,
+    "Namn": "Frukostflingor crunchy fullkorn med socker med russin kokos"
+  },
+  {
+    "Nummer": 2029,
+    "Namn": "Frukostflingor crunchy naturell med socker med kokos"
+  },
+  {
+    "Nummer": 2030,
+    "Namn": "Frukostflingor müsli fullkorn med socker med frukt kokos"
+  },
+  {
+    "Nummer": 2031,
+    "Namn": "Frukostflingor müsli fullkorn med socker med frukt bär"
+  },
+  {
+    "Nummer": 2032,
+    "Namn": "Frukostflingor müsli flingblandning fullkorn med frukt nötter"
+  },
+  {
+    "Nummer": 2033,
+    "Namn": "Frukostflingor müsli fullkorn med frukt banan"
+  },
+  {
+    "Nummer": 2035,
+    "Namn": "Surimi fisk"
+  },
+  {
+    "Nummer": 2036,
+    "Namn": "Matlagningsbas"
+  },
+  {
+    "Nummer": 2037,
+    "Namn": "Matlagningsbas"
+  },
+  {
+    "Nummer": 2039,
+    "Namn": "Vispgrädde ersättningsprod mjölk olja"
+  },
+  {
+    "Nummer": 2040,
+    "Namn": "Kaffegrädde ersättningsprod mjölk olja"
+  },
+  {
+    "Nummer": 2041,
+    "Namn": "Vaniljvisp"
+  },
+  {
+    "Nummer": 2043,
+    "Namn": "Crème fraiche smaksatt"
+  },
+  {
+    "Nummer": 2044,
+    "Namn": "Crème fraiche smaksatt"
+  },
+  {
+    "Nummer": 2046,
+    "Namn": "Mini fraiche"
+  },
+  {
+    "Nummer": 2047,
+    "Namn": "Mjukost smältost grevé"
+  },
+  {
+    "Nummer": 2048,
+    "Namn": "Filmjölk naturell"
+  },
+  {
+    "Nummer": 2049,
+    "Namn": "Fruktyoghurt olika smaker"
+  },
+  {
+    "Nummer": 2051,
+    "Namn": "Vit choklad"
+  },
+  {
+    "Nummer": 2052,
+    "Namn": "Mörk choklad kakao"
+  },
+  {
+    "Nummer": 2053,
+    "Namn": "Mörk choklad kakao lt"
+  },
+  {
+    "Nummer": 2054,
+    "Namn": "Bakchoklad mörk"
+  },
+  {
+    "Nummer": 2055,
+    "Namn": "Mjölkchoklad"
+  },
+  {
+    "Nummer": 2056,
+    "Namn": "Kebabkött"
+  },
+  {
+    "Nummer": 2057,
+    "Namn": "Ris avorio okokt"
+  },
+  {
+    "Nummer": 2058,
+    "Namn": "Lök rostad"
+  },
+  {
+    "Nummer": 2059,
+    "Namn": "Glass glasspinne med frukt mjölk"
+  },
+  {
+    "Nummer": 2060,
+    "Namn": "Glass glasspinne"
+  },
+  {
+    "Nummer": 2061,
+    "Namn": "Bar med fiber havre vete naturell"
+  },
+  {
+    "Nummer": 2062,
+    "Namn": "Knäckemacka vete olika fyllningar"
+  },
+  {
+    "Nummer": 2063,
+    "Namn": "Knäckemacka fullkorn råg olika fyllningar"
+  },
+  {
+    "Nummer": 2064,
+    "Namn": "Falafel kikärtskroketter"
+  },
+  {
+    "Nummer": 2065,
+    "Namn": "Pytt i panna med sojaprotein"
+  },
+  {
+    "Nummer": 2066,
+    "Namn": "Korv sojakorv"
+  },
+  {
+    "Nummer": 2067,
+    "Namn": "Soja och veteprotein bullar"
+  },
+  {
+    "Nummer": 2068,
+    "Namn": "Sojaprotein färs"
+  },
+  {
+    "Nummer": 2069,
+    "Namn": "Veteprotein grytbitar"
+  },
+  {
+    "Nummer": 2070,
+    "Namn": "Matlagningsbas med soja"
+  },
+  {
+    "Nummer": 2071,
+    "Namn": "Bar mslibar fullkorn med röd frukt"
+  },
+  {
+    "Nummer": 2072,
+    "Namn": "Bar mslibar med choklad"
+  },
+  {
+    "Nummer": 2073,
+    "Namn": "Jordnötssås"
+  },
+  {
+    "Nummer": 2075,
+    "Namn": "Coleslaw"
+  },
+  {
+    "Nummer": 2078,
+    "Namn": "Löksås med grädde"
+  },
+  {
+    "Nummer": 2079,
+    "Namn": "Nudlar äggnudlar kokta med salt"
+  },
+  {
+    "Nummer": 2080,
+    "Namn": "Nässlor stuvade"
+  },
+  {
+    "Nummer": 2081,
+    "Namn": "Kantarell stuvad"
+  },
+  {
+    "Nummer": 2083,
+    "Namn": "Gryta ratatouille"
+  },
+  {
+    "Nummer": 2085,
+    "Namn": "Potatisgratäng med matlagningsgrädde ost"
+  },
+  {
+    "Nummer": 2092,
+    "Namn": "Sjömansbiff"
+  },
+  {
+    "Nummer": 2093,
+    "Namn": "Gryta kreolsk gryta"
+  },
+  {
+    "Nummer": 2096,
+    "Namn": "Flygande Jakob kyckling med bacon jordnötter banan"
+  },
+  {
+    "Nummer": 2097,
+    "Namn": "Korv prinskorv stekt kött"
+  },
+  {
+    "Nummer": 2098,
+    "Namn": "Skinkröra kall"
+  },
+  {
+    "Nummer": 2099,
+    "Namn": "Hamburgare blandfärs stekt"
+  },
+  {
+    "Nummer": 2100,
+    "Namn": "Köttfärssås blandfärs"
+  },
+  {
+    "Nummer": 2101,
+    "Namn": "Nöt färs stekt med salt"
+  },
+  {
+    "Nummer": 2103,
+    "Namn": "Nötgris kött stekt"
+  },
+  {
+    "Nummer": 2104,
+    "Namn": "Carbonara pastasås"
+  },
+  {
+    "Nummer": 2107,
+    "Namn": "Skagenröra"
+  },
+  {
+    "Nummer": 2108,
+    "Namn": "Fisksoppa med rotfrukter"
+  },
+  {
+    "Nummer": 2123,
+    "Namn": "Havregrynsgröt fullkorn fiberhavregryn"
+  },
+  {
+    "Nummer": 2124,
+    "Namn": "Havregrynsgröt kokt med mjölk"
+  },
+  {
+    "Nummer": 2125,
+    "Namn": "Nudlar glasnudlar kokta med salt"
+  },
+  {
+    "Nummer": 2128,
+    "Namn": "Gröt"
+  },
+  {
+    "Nummer": 2133,
+    "Namn": "Pannkaka med sojadryck"
+  },
+  {
+    "Nummer": 2134,
+    "Namn": "Paj med broccoli skinka"
+  },
+  {
+    "Nummer": 2138,
+    "Namn": "Pizza med kebabkött"
+  },
+  {
+    "Nummer": 2142,
+    "Namn": "Ostsås med skinka"
+  },
+  {
+    "Nummer": 2144,
+    "Namn": "Tzatziki"
+  },
+  {
+    "Nummer": 2147,
+    "Namn": "Ris à la malta med mjölk mellangrädde"
+  },
+  {
+    "Nummer": 2160,
+    "Namn": "Rödkålssallad med äpple"
+  },
+  {
+    "Nummer": 2161,
+    "Namn": "Champinjon stekt"
+  },
+  {
+    "Nummer": 2162,
+    "Namn": "Palsternacka kokt med salt"
+  },
+  {
+    "Nummer": 2163,
+    "Namn": "Gratängsås med ost"
+  },
+  {
+    "Nummer": 2164,
+    "Namn": "Fänkål kokt med salt"
+  },
+  {
+    "Nummer": 2165,
+    "Namn": "Kroppkakorpotatispalt med fläsk"
+  },
+  {
+    "Nummer": 2173,
+    "Namn": "Currysås med crème fraiche"
+  },
+  {
+    "Nummer": 2174,
+    "Namn": "Korv stroganoff korv grädde"
+  },
+  {
+    "Nummer": 2184,
+    "Namn": "Ostkaka"
+  },
+  {
+    "Nummer": 2189,
+    "Namn": "Rapsolja"
+  },
+  {
+    "Nummer": 2190,
+    "Namn": "Matsblandning Bregott"
+  },
+  {
+    "Nummer": 2192,
+    "Namn": "margarin a"
+  },
+  {
+    "Nummer": 2197,
+    "Namn": "Äggröra"
+  },
+  {
+    "Nummer": 2205,
+    "Namn": "Ägg kokt"
+  },
+  {
+    "Nummer": 2214,
+    "Namn": "Aloe vera juice naturell"
+  },
+  {
+    "Nummer": 2216,
+    "Namn": "Aloe vera juice med grönt te"
+  },
+  {
+    "Nummer": 2217,
+    "Namn": "Aloe veradryck med tranbär äpple"
+  },
+  {
+    "Nummer": 2218,
+    "Namn": "Aloe veradryck naturell"
+  },
+  {
+    "Nummer": 2219,
+    "Namn": "Toscaglasyr"
+  },
+  {
+    "Nummer": 2220,
+    "Namn": "Pasta makaroner spagetti okokt glutenfri"
+  },
+  {
+    "Nummer": 2221,
+    "Namn": "Pasta fusilli lasagneplattor okokt glutenfri"
+  },
+  {
+    "Nummer": 2222,
+    "Namn": "Pepparkaka glutenfri"
+  },
+  {
+    "Nummer": 2223,
+    "Namn": "Kex digestive fullkorn glutenfri"
+  },
+  {
+    "Nummer": 2224,
+    "Namn": "Chokladkaka glutenfri"
+  },
+  {
+    "Nummer": 2225,
+    "Namn": "Hårt bröd glutenfritt fibrer grovknäcke"
+  },
+  {
+    "Nummer": 2226,
+    "Namn": "Pasta tagliatelle med ägg okokt glutenfri"
+  },
+  {
+    "Nummer": 2227,
+    "Namn": "Pasta okokt majs glutenfri"
+  },
+  {
+    "Nummer": 2228,
+    "Namn": "Bearnaisesås"
+  },
+  {
+    "Nummer": 2229,
+    "Namn": "Klassisk gräddsås"
+  },
+  {
+    "Nummer": 2230,
+    "Namn": "Ostsås"
+  },
+  {
+    "Nummer": 2231,
+    "Namn": "Bearnaisesås"
+  },
+  {
+    "Nummer": 2232,
+    "Namn": "Rödvinssås"
+  },
+  {
+    "Nummer": 2233,
+    "Namn": "Kebabsås vit"
+  },
+  {
+    "Nummer": 2234,
+    "Namn": "Svampsås"
+  },
+  {
+    "Nummer": 2236,
+    "Namn": "Korv varmkorv"
+  },
+  {
+    "Nummer": 2238,
+    "Namn": "Korv chorizo"
+  },
+  {
+    "Nummer": 2239,
+    "Namn": "Korv middagskorv kött"
+  },
+  {
+    "Nummer": 2240,
+    "Namn": "Påläggskorv salami"
+  },
+  {
+    "Nummer": 2242,
+    "Namn": "Fruktyoghurt sockrad"
+  },
+  {
+    "Nummer": 2243,
+    "Namn": "Fruktyoghurt sockrad laktosreducerad"
+  },
+  {
+    "Nummer": 2246,
+    "Namn": "Mintplattor med mörkchokladöverdrag"
+  },
+  {
+    "Nummer": 2255,
+    "Namn": "Ost mozzarella"
+  },
+  {
+    "Nummer": 2269,
+    "Namn": "Ingefära färsk"
+  },
+  {
+    "Nummer": 2301,
+    "Namn": "Fruktdryck nypon blåbär"
+  },
+  {
+    "Nummer": 2302,
+    "Namn": "Energidryck"
+  },
+  {
+    "Nummer": 2401,
+    "Namn": "Flytande margarin mjölkfri Carlshamn"
+  },
+  {
+    "Nummer": 2403,
+    "Namn": "Bordsmargarin mjölkfri Carlshamn"
+  },
+  {
+    "Nummer": 2404,
+    "Namn": "Hushållsmargarin mjölkfri Carlshamn"
+  },
+  {
+    "Nummer": 2413,
+    "Namn": "Lamm rygghals kokt med salt"
+  },
+  {
+    "Nummer": 2468,
+    "Namn": "Tilapia rå"
+  },
+  {
+    "Nummer": 2472,
+    "Namn": "margarin Mini a"
+  },
+  {
+    "Nummer": 2474,
+    "Namn": "Flytande margarin Becel"
+  },
+  {
+    "Nummer": 2475,
+    "Namn": "Ris basmati okokt"
+  },
+  {
+    "Nummer": 2477,
+    "Namn": "Ris jasmin okokt"
+  },
+  {
+    "Nummer": 2478,
+    "Namn": "Ris råris långkornigt okokt fullkorn"
+  },
+  {
+    "Nummer": 2479,
+    "Namn": "Ris grötris snabb okokt"
+  },
+  {
+    "Nummer": 2481,
+    "Namn": "Ris långkornigt okokt"
+  },
+  {
+    "Nummer": 2482,
+    "Namn": "Ris långkornigt parboiled okokt"
+  },
+  {
+    "Nummer": 2483,
+    "Namn": "Ris snabbris okokt salt"
+  },
+  {
+    "Nummer": 2484,
+    "Namn": "Ris snabbris okokt"
+  },
+  {
+    "Nummer": 2485,
+    "Namn": "Ris grötris rundkornigt okokt"
+  },
+  {
+    "Nummer": 2490,
+    "Namn": "Bordsmargarin Becel Gold"
+  },
+  {
+    "Nummer": 2492,
+    "Namn": "Blandfärs rå nöt gris"
+  },
+  {
+    "Nummer": 2499,
+    "Namn": "Blandfärs rå nöt gris"
+  },
+  {
+    "Nummer": 2506,
+    "Namn": "Kebab med bröd sallad sås"
+  },
+  {
+    "Nummer": 2507,
+    "Namn": "Kebabtallrik med pommes frites"
+  },
+  {
+    "Nummer": 2508,
+    "Namn": "Korv med mos ketchup senap bostongurka"
+  },
+  {
+    "Nummer": 2509,
+    "Namn": "Korv med bröd ketchup senap"
+  },
+  {
+    "Nummer": 2510,
+    "Namn": "Hamburgare dubbel med bröd ost inlagd gurka på restaurang"
+  },
+  {
+    "Nummer": 2511,
+    "Namn": "Hamburgare g med bröd tillbehör på restaurang"
+  },
+  {
+    "Nummer": 2512,
+    "Namn": "Hamburgare med bröd ost på restaurang"
+  },
+  {
+    "Nummer": 2513,
+    "Namn": "Ris basmati kokt med salt"
+  },
+  {
+    "Nummer": 2514,
+    "Namn": "Ris jasmin kokt med salt"
+  },
+  {
+    "Nummer": 2515,
+    "Namn": "Ris långkornigt kokt med salt"
+  },
+  {
+    "Nummer": 2516,
+    "Namn": "Ris långkornigt parboiled kokt"
+  },
+  {
+    "Nummer": 2517,
+    "Namn": "Ris råris långkornigt kokt med salt fullkorn"
+  },
+  {
+    "Nummer": 2518,
+    "Namn": "Ris snabbris kokt salt"
+  },
+  {
+    "Nummer": 2519,
+    "Namn": "Ris snabbris kokt med salt"
+  },
+  {
+    "Nummer": 2520,
+    "Namn": "Pasta tagliatelle med ägg kokt med salt glutenfri"
+  },
+  {
+    "Nummer": 2521,
+    "Namn": "Pasta makaroner spagetti kokt med salt glutenfri"
+  },
+  {
+    "Nummer": 2522,
+    "Namn": "Pasta kokt med salt majs glutenfri"
+  },
+  {
+    "Nummer": 2547,
+    "Namn": "Gröna ärtor kokta med salt"
+  },
+  {
+    "Nummer": 2548,
+    "Namn": "Gryta kalops älg"
+  },
+  {
+    "Nummer": 2552,
+    "Namn": "Älg högrev rå"
+  },
+  {
+    "Nummer": 2555,
+    "Namn": "Älg ryggbiff rå"
+  },
+  {
+    "Nummer": 2557,
+    "Namn": "Tacoskal"
+  },
+  {
+    "Nummer": 2559,
+    "Namn": "Romansallat"
+  },
+  {
+    "Nummer": 2561,
+    "Namn": "Ruccolasallat"
+  },
+  {
+    "Nummer": 2565,
+    "Namn": "Okra koktsalt"
+  },
+  {
+    "Nummer": 2883,
+    "Namn": "Saltjod"
+  },
+  {
+    "Nummer": 2899,
+    "Namn": "Ost halloumi stekt eller grillad"
+  },
+  {
+    "Nummer": 2973,
+    "Namn": "Dressing hamburgerdressing"
+  },
+  {
+    "Nummer": 3035,
+    "Namn": "Sill inlagd med gräddfilssås"
+  },
+  {
+    "Nummer": 3036,
+    "Namn": "Sill inlagd med senapssås"
+  },
+  {
+    "Nummer": 3051,
+    "Namn": "Hummus kikärtsröra"
+  },
+  {
+    "Nummer": 3069,
+    "Namn": "Chilinötter"
+  },
+  {
+    "Nummer": 3071,
+    "Namn": "Pinjefrö"
+  },
+  {
+    "Nummer": 3136,
+    "Namn": "Bulgur kokt med salt"
+  },
+  {
+    "Nummer": 3141,
+    "Namn": "Korv ren rå"
+  },
+  {
+    "Nummer": 3213,
+    "Namn": "Korv lamm rå"
+  },
+  {
+    "Nummer": 3243,
+    "Namn": "Kvarg naturell"
+  },
+  {
+    "Nummer": 3323,
+    "Namn": "Älg färs rå"
+  },
+  {
+    "Nummer": 3324,
+    "Namn": "Älg ytterlår"
+  },
+  {
+    "Nummer": 3433,
+    "Namn": "Linfröolja"
+  },
+  {
+    "Nummer": 3499,
+    "Namn": "Barnmat klämmis med yoghurt banan jordgubb konserv"
+  },
+  {
+    "Nummer": 3500,
+    "Namn": "Sill inlagd olika smaker"
+  },
+  {
+    "Nummer": 3518,
+    "Namn": "Quinoa röd kokt med salt"
+  },
+  {
+    "Nummer": 3564,
+    "Namn": "Bulgur koktsalt fullkorn"
+  },
+  {
+    "Nummer": 3620,
+    "Namn": "Lamm färs stekt med salt"
+  },
+  {
+    "Nummer": 3621,
+    "Namn": "Älg färs stekt med salt"
+  },
+  {
+    "Nummer": 3668,
+    "Namn": "Sojadryck"
+  },
+  {
+    "Nummer": 3752,
+    "Namn": "Couscous kokt med salt fullkorn"
+  },
+  {
+    "Nummer": 3756,
+    "Namn": "Pasta kokt med salt"
+  },
+  {
+    "Nummer": 3760,
+    "Namn": "Vita bönor torkade kokta med salt"
+  },
+  {
+    "Nummer": 3761,
+    "Namn": "Stora vita bönor konservlag"
+  },
+  {
+    "Nummer": 3762,
+    "Namn": "Kikärtor torkade kokta med salt"
+  },
+  {
+    "Nummer": 3765,
+    "Namn": "Sötpotatis rå"
+  },
+  {
+    "Nummer": 3786,
+    "Namn": "Dinkelmjöl fullkorn"
+  },
+  {
+    "Nummer": 3790,
+    "Namn": "Bröd rågsikt fibrer"
+  },
+  {
+    "Nummer": 3791,
+    "Namn": "Bröd vitt fibrer formfranska"
+  },
+  {
+    "Nummer": 3793,
+    "Namn": "Hårt bröd fullkorn råg fibrer Rågi"
+  },
+  {
+    "Nummer": 3794,
+    "Namn": "Bröd fullkorn vete råg fibrer"
+  },
+  {
+    "Nummer": 3795,
+    "Namn": "Bröd vitt fibrer limpa"
+  },
+  {
+    "Nummer": 3797,
+    "Namn": "Bröd fullkorn råg fibrer"
+  },
+  {
+    "Nummer": 3798,
+    "Namn": "Korvbröd grovt"
+  },
+  {
+    "Nummer": 3800,
+    "Namn": "Lax odlad Norge fjordlax rå över disk"
+  },
+  {
+    "Nummer": 3815,
+    "Namn": "Kikärtor konservlag"
+  },
+  {
+    "Nummer": 3816,
+    "Namn": "Kidneybönor röda bönor konservlag"
+  },
+  {
+    "Nummer": 3817,
+    "Namn": "Svarta bönor konservlag"
+  },
+  {
+    "Nummer": 3818,
+    "Namn": "Hamburgerbröd"
+  },
+  {
+    "Nummer": 3819,
+    "Namn": "Bröd vitt mjölk fibrer tekaka"
+  },
+  {
+    "Nummer": 3820,
+    "Namn": "Bruna bönor rullpack"
+  },
+  {
+    "Nummer": 3821,
+    "Namn": "Gröna linser torkade kokta med salt"
+  },
+  {
+    "Nummer": 3822,
+    "Namn": "Röda linser torkade kokta med salt"
+  },
+  {
+    "Nummer": 3823,
+    "Namn": "Röda linser konservlag"
+  },
+  {
+    "Nummer": 3824,
+    "Namn": "Gröna linser konservlag"
+  },
+  {
+    "Nummer": 3825,
+    "Namn": "Hamburgerbröd grovt"
+  },
+  {
+    "Nummer": 3828,
+    "Namn": "Pasta kokt med salt fullkorngt"
+  },
+  {
+    "Nummer": 3840,
+    "Namn": "Ägg rått eko"
+  },
+  {
+    "Nummer": 3841,
+    "Namn": "Äggula rå eko"
+  },
+  {
+    "Nummer": 3845,
+    "Namn": "Dinkel speltvete kokt med salt"
+  },
+  {
+    "Nummer": 4011,
+    "Namn": "Majskrokar"
+  },
+  {
+    "Nummer": 4052,
+    "Namn": "Mâchesallat"
+  },
+  {
+    "Nummer": 4074,
+    "Namn": "Hampfröolja"
+  },
+  {
+    "Nummer": 4095,
+    "Namn": "Hushållsmargarin mjölkfri Milda"
+  },
+  {
+    "Nummer": 4105,
+    "Namn": "margarin Coop"
+  },
+  {
+    "Nummer": 4107,
+    "Namn": "Bordsmargarin Ica Basic"
+  },
+  {
+    "Nummer": 4112,
+    "Namn": "Hushållsmargarin ICA"
+  },
+  {
+    "Nummer": 4117,
+    "Namn": "Nudlar kokta med kryddor"
+  },
+  {
+    "Nummer": 4131,
+    "Namn": "Palmolja"
+  },
+  {
+    "Nummer": 4134,
+    "Namn": "Ägg stekt eko"
+  },
+  {
+    "Nummer": 4135,
+    "Namn": "Ägg kokt eko"
+  },
+  {
+    "Nummer": 4183,
+    "Namn": "Färs stekt med salt"
+  },
+  {
+    "Nummer": 4226,
+    "Namn": "Pangasiusmal rå"
+  },
+  {
+    "Nummer": 4385,
+    "Namn": "Potatis Solist rå"
+  },
+  {
+    "Nummer": 4386,
+    "Namn": "Potatis Swift rå"
+  },
+  {
+    "Nummer": 4415,
+    "Namn": "Potatis Solist kokt med salt"
+  },
+  {
+    "Nummer": 4416,
+    "Namn": "Potatis Swift kokt med salt"
+  },
+  {
+    "Nummer": 4445,
+    "Namn": "Potatis Asterix rå"
+  },
+  {
+    "Nummer": 4447,
+    "Namn": "Nudlar risnudlar okokta"
+  },
+  {
+    "Nummer": 4448,
+    "Namn": "Nudlar risnudlar kokta"
+  },
+  {
+    "Nummer": 4456,
+    "Namn": "Havtorn"
+  },
+  {
+    "Nummer": 4457,
+    "Namn": "Potatis rå"
+  },
+  {
+    "Nummer": 4458,
+    "Namn": "Potatis kokt med salt"
+  },
+  {
+    "Nummer": 4504,
+    "Namn": "Grönkålssallad"
+  },
+  {
+    "Nummer": 4505,
+    "Namn": "Kålrotslåda"
+  },
+  {
+    "Nummer": 4511,
+    "Namn": "Potatis färsk kokt med salt"
+  },
+  {
+    "Nummer": 4512,
+    "Namn": "Potatis färsk rå"
+  },
+  {
+    "Nummer": 4513,
+    "Namn": "Potatis Inova rå"
+  },
+  {
+    "Nummer": 4514,
+    "Namn": "Potatis King Edward rå"
+  },
+  {
+    "Nummer": 4515,
+    "Namn": "Potatis mandelpotatis rå"
+  },
+  {
+    "Nummer": 4516,
+    "Namn": "Potatis kokt med salt i storkök"
+  },
+  {
+    "Nummer": 4518,
+    "Namn": "Potatis Asterix kokt med salt"
+  },
+  {
+    "Nummer": 4519,
+    "Namn": "Potatis Inova kokt med salt"
+  },
+  {
+    "Nummer": 4520,
+    "Namn": "Potatis King Edward kokt med salt"
+  },
+  {
+    "Nummer": 4521,
+    "Namn": "Potatis mandelpotatis kokt med salt"
+  },
+  {
+    "Nummer": 4579,
+    "Namn": "Gratäng broccoligratäng med cottage cheese tomat"
+  },
+  {
+    "Nummer": 4583,
+    "Namn": "Gris färs rå"
+  },
+  {
+    "Nummer": 4586,
+    "Namn": "Hoki rå"
+  },
+  {
+    "Nummer": 4588,
+    "Namn": "Aronia"
+  },
+  {
+    "Nummer": 4589,
+    "Namn": "Vinbär vita"
+  },
+  {
+    "Nummer": 4591,
+    "Namn": "Ris rundkornigt kokt med salt"
+  },
+  {
+    "Nummer": 4600,
+    "Namn": "Pilgrimsmussla"
+  },
+  {
+    "Nummer": 4601,
+    "Namn": "Laxbullar e med sås"
+  },
+  {
+    "Nummer": 4602,
+    "Namn": "Fiskpinnar ugnsstekta"
+  },
+  {
+    "Nummer": 4607,
+    "Namn": "Skarpsill"
+  },
+  {
+    "Nummer": 4608,
+    "Namn": "Sill inlagdlag"
+  },
+  {
+    "Nummer": 4609,
+    "Namn": "Sill höstsill inlagdlag"
+  },
+  {
+    "Nummer": 4610,
+    "Namn": "Sill inlagd senapssillsås"
+  },
+  {
+    "Nummer": 4611,
+    "Namn": "Kapkummel rå"
+  },
+  {
+    "Nummer": 4612,
+    "Namn": "Guldsparid rå"
+  },
+  {
+    "Nummer": 4613,
+    "Namn": "Havsabborre rå"
+  },
+  {
+    "Nummer": 4615,
+    "Namn": "Alaska pollock rå"
+  },
+  {
+    "Nummer": 4616,
+    "Namn": "Guldsparid grillad med salt"
+  },
+  {
+    "Nummer": 4617,
+    "Namn": "Havsabborre grillad med salt"
+  },
+  {
+    "Nummer": 4659,
+    "Namn": "Olivolja extra jungfruolja"
+  },
+  {
+    "Nummer": 4661,
+    "Namn": "Rapsolja kallpressad"
+  },
+  {
+    "Nummer": 4662,
+    "Namn": "Flytande matsblandning Arla smör och rapsolja"
+  },
+  {
+    "Nummer": 4663,
+    "Namn": "Matsblandning Bregott mindre"
+  },
+  {
+    "Nummer": 4736,
+    "Namn": "Pastasås med tonfisk curry"
+  },
+  {
+    "Nummer": 4937,
+    "Namn": "Tomat körsbärstomat röd"
+  },
+  {
+    "Nummer": 4938,
+    "Namn": "Tomat torkad med olja avrunnen"
+  },
+  {
+    "Nummer": 4939,
+    "Namn": "Broccoli koktsalt"
+  },
+  {
+    "Nummer": 4941,
+    "Namn": "Spenat färsk"
+  },
+  {
+    "Nummer": 4942,
+    "Namn": "Mangold röd småbladig färsk"
+  },
+  {
+    "Nummer": 4946,
+    "Namn": "Kruksallat"
+  },
+  {
+    "Nummer": 4947,
+    "Namn": "Lök röd"
+  },
+  {
+    "Nummer": 5007,
+    "Namn": "Kantarell gul rå"
+  },
+  {
+    "Nummer": 5043,
+    "Namn": "Hjort kronhjort kött rå"
+  },
+  {
+    "Nummer": 5044,
+    "Namn": "Hjort dovhjort färs rå"
+  },
+  {
+    "Nummer": 5045,
+    "Namn": "Ren kött kallrökt rå"
+  },
+  {
+    "Nummer": 5046,
+    "Namn": "Hjort skav rå"
+  },
+  {
+    "Nummer": 5047,
+    "Namn": "Korv hjort rå"
+  },
+  {
+    "Nummer": 5048,
+    "Namn": "Vildsvin bog rå"
+  },
+  {
+    "Nummer": 5049,
+    "Namn": "Vildsvin filé rå"
+  },
+  {
+    "Nummer": 5050,
+    "Namn": "Rådjur stek rå"
+  },
+  {
+    "Nummer": 5058,
+    "Namn": "Vildsvin stek rå"
+  },
+  {
+    "Nummer": 5059,
+    "Namn": "Korv kycklingkorv"
+  },
+  {
+    "Nummer": 5060,
+    "Namn": "Vildsvin kött rå"
+  },
+  {
+    "Nummer": 5064,
+    "Namn": "Rådjur bog rå"
+  },
+  {
+    "Nummer": 5065,
+    "Namn": "Ren kött rå"
+  },
+  {
+    "Nummer": 5066,
+    "Namn": "Nöt kött rå"
+  },
+  {
+    "Nummer": 5067,
+    "Namn": "Lamm kött rå"
+  },
+  {
+    "Nummer": 5068,
+    "Namn": "Lamm grytbitar rå"
+  },
+  {
+    "Nummer": 5085,
+    "Namn": "Bordsmargarin Flora original"
+  },
+  {
+    "Nummer": 5087,
+    "Namn": "Flytande matsblandning Ica raps och smörolja"
+  },
+  {
+    "Nummer": 5136,
+    "Namn": "Potatis höst koktsalt"
+  },
+  {
+    "Nummer": 5147,
+    "Namn": "Julmust påskmust"
+  },
+  {
+    "Nummer": 5149,
+    "Namn": "Slush drickf"
+  },
+  {
+    "Nummer": 5150,
+    "Namn": "Mandeldryck"
+  },
+  {
+    "Nummer": 5152,
+    "Namn": "Alkoläsk kolsyrad dryck vol"
+  },
+  {
+    "Nummer": 5153,
+    "Namn": "Potatis koktsalt"
+  },
+  {
+    "Nummer": 5155,
+    "Namn": "Lasagne med svarta bönor"
+  },
+  {
+    "Nummer": 5184,
+    "Namn": "Tranbärsdryck drickf"
+  },
+  {
+    "Nummer": 5188,
+    "Namn": "Barngröt ätf flerkorn med frukt"
+  },
+  {
+    "Nummer": 5189,
+    "Namn": "Barngröt ätf med fullkorn frukt bär"
+  },
+  {
+    "Nummer": 5190,
+    "Namn": "Barngröt ätf med frukt"
+  },
+  {
+    "Nummer": 5191,
+    "Namn": "Barngröt ätf ris mjölkfri"
+  },
+  {
+    "Nummer": 5192,
+    "Namn": "Barngröt ätf med fullkorn frukt müsli"
+  },
+  {
+    "Nummer": 5193,
+    "Namn": "Barngröt ätf med yoghurt frukt"
+  },
+  {
+    "Nummer": 5194,
+    "Namn": "Barngröt ätf havre med frukt"
+  },
+  {
+    "Nummer": 5195,
+    "Namn": "Barngröt ätf havre naturell"
+  },
+  {
+    "Nummer": 5196,
+    "Namn": "Barngröt ätf havre med frukt bär"
+  },
+  {
+    "Nummer": 5218,
+    "Namn": "Pepparsås"
+  },
+  {
+    "Nummer": 5305,
+    "Namn": "Saffransris"
+  },
+  {
+    "Nummer": 5447,
+    "Namn": "Gris kött rå"
+  },
+  {
+    "Nummer": 5452,
+    "Namn": "Gratäng zucchinigratäng med kalvfärs"
+  },
+  {
+    "Nummer": 5665,
+    "Namn": "Pastagratäng med kyckling"
+  },
+  {
+    "Nummer": 5727,
+    "Namn": "Minimjölk lt"
+  },
+  {
+    "Nummer": 5753,
+    "Namn": "Örtagårdssås med gräddfil"
+  },
+  {
+    "Nummer": 5756,
+    "Namn": "Köttfärssås Bolognese med nötfärs bacon"
+  },
+  {
+    "Nummer": 5758,
+    "Namn": "Aioli"
+  },
+  {
+    "Nummer": 5759,
+    "Namn": "Guacamole"
+  },
+  {
+    "Nummer": 5804,
+    "Namn": "Pasta carbonara med pasta fläsk grädde"
+  },
+  {
+    "Nummer": 5837,
+    "Namn": "Fisk med apelsin chili ugnsstekt"
+  },
+  {
+    "Nummer": 5847,
+    "Namn": "Pulled pork gris med marinad"
+  },
+  {
+    "Nummer": 5859,
+    "Namn": "Tropisk juice drickf"
+  },
+  {
+    "Nummer": 5860,
+    "Namn": "Sojabönor färska förvälldaskal"
+  },
+  {
+    "Nummer": 5861,
+    "Namn": "Sparris grön kokt med salt"
+  },
+  {
+    "Nummer": 5862,
+    "Namn": "Kålrot kokt"
+  },
+  {
+    "Nummer": 5863,
+    "Namn": "Brysselkål kokt"
+  },
+  {
+    "Nummer": 5864,
+    "Namn": "Rotselleri kokt"
+  },
+  {
+    "Nummer": 5865,
+    "Namn": "Gula ärtor kokta med salt"
+  },
+  {
+    "Nummer": 5866,
+    "Namn": "Bruna bönor torkade kokta med salt"
+  },
+  {
+    "Nummer": 5867,
+    "Namn": "Gråärtor kokta med salt"
+  },
+  {
+    "Nummer": 5868,
+    "Namn": "Åkerbönor torkade kokta med salt"
+  },
+  {
+    "Nummer": 5869,
+    "Namn": "Äpple Aroma rött"
+  },
+  {
+    "Nummer": 5870,
+    "Namn": "Äpple Ingrid Marie rött"
+  },
+  {
+    "Nummer": 5871,
+    "Namn": "Äpple Frida"
+  },
+  {
+    "Nummer": 5872,
+    "Namn": "Äpple Golden delicious Granny Smith grönt"
+  },
+  {
+    "Nummer": 5875,
+    "Namn": "Kyckling pulled chicken med marinad"
+  },
+  {
+    "Nummer": 5916,
+    "Namn": "Tacosås"
+  },
+  {
+    "Nummer": 5926,
+    "Namn": "Hälleflundra odlad Atlanten rå"
+  },
+  {
+    "Nummer": 5935,
+    "Namn": "Korngryn koktsalt"
+  },
+  {
+    "Nummer": 5942,
+    "Namn": "Julmust light"
+  },
+  {
+    "Nummer": 5956,
+    "Namn": "Havregurt naturell"
+  },
+  {
+    "Nummer": 5957,
+    "Namn": "Fraiche med havre"
+  },
+  {
+    "Nummer": 5961,
+    "Namn": "Havrebaserat pålägg naturell"
+  },
+  {
+    "Nummer": 5963,
+    "Namn": "Havredryck med apelsin mango"
+  },
+  {
+    "Nummer": 5965,
+    "Namn": "Korv grillkorv grillad kött"
+  },
+  {
+    "Nummer": 5966,
+    "Namn": "Korv falukorv kött"
+  },
+  {
+    "Nummer": 5967,
+    "Namn": "Korv bratwurst kryddig kött"
+  },
+  {
+    "Nummer": 5968,
+    "Namn": "Blodpudding blodkorv"
+  },
+  {
+    "Nummer": 5969,
+    "Namn": "Gris sidfläskstekfläsk rimmat stekt"
+  },
+  {
+    "Nummer": 5970,
+    "Namn": "Korv kabanoss kryddig kött"
+  },
+  {
+    "Nummer": 5973,
+    "Namn": "Kryddblandning taco"
+  },
+  {
+    "Nummer": 5974,
+    "Namn": "Bröd vitt vetetortilla"
+  },
+  {
+    "Nummer": 5978,
+    "Namn": "Gris färs salt"
+  },
+  {
+    "Nummer": 5999,
+    "Namn": "Gris skinka innanlår"
+  },
+  {
+    "Nummer": 6002,
+    "Namn": "Gris skinkstek salt"
+  },
+  {
+    "Nummer": 6003,
+    "Namn": "Gris ytterfilé"
+  },
+  {
+    "Nummer": 6004,
+    "Namn": "Gris fläskkotlett"
+  },
+  {
+    "Nummer": 6005,
+    "Namn": "Gris fläskfilé"
+  },
+  {
+    "Nummer": 6006,
+    "Namn": "Nöt kalv lever"
+  },
+  {
+    "Nummer": 6007,
+    "Namn": "Kyckling lever ugnsstekt"
+  },
+  {
+    "Nummer": 6008,
+    "Namn": "Gris lever"
+  },
+  {
+    "Nummer": 6009,
+    "Namn": "Kalkon rökt tunna skivor"
+  },
+  {
+    "Nummer": 6010,
+    "Namn": "Korv soja och veteprotein middagskorv"
+  },
+  {
+    "Nummer": 6038,
+    "Namn": "Gratäng med korv rotfrukt"
+  },
+  {
+    "Nummer": 6052,
+    "Namn": "Pastasås med lax crème fraiche grädde dill"
+  },
+  {
+    "Nummer": 6053,
+    "Namn": "Cashewnötter rostade med salt"
+  },
+  {
+    "Nummer": 6057,
+    "Namn": "Gris kassler"
+  },
+  {
+    "Nummer": 6058,
+    "Namn": "Kyckling bröstfilé skinn"
+  },
+  {
+    "Nummer": 6069,
+    "Namn": "Drickyoghurt smaksatt"
+  },
+  {
+    "Nummer": 6070,
+    "Namn": "Ost hårdost eko"
+  },
+  {
+    "Nummer": 6071,
+    "Namn": "Vaniljsås ätf"
+  },
+  {
+    "Nummer": 6076,
+    "Namn": "Yoghurt naturell eko"
+  },
+  {
+    "Nummer": 6079,
+    "Namn": "Pannkaka tunn helfabrikat"
+  },
+  {
+    "Nummer": 6081,
+    "Namn": "Hårt bröd fullkorn råg fiber sport"
+  },
+  {
+    "Nummer": 6083,
+    "Namn": "Bröd vitt grovt med nyckelhål formfranska"
+  },
+  {
+    "Nummer": 6084,
+    "Namn": "Bröd vitt levain"
+  },
+  {
+    "Nummer": 6086,
+    "Namn": "Frukostflingor müsli vete havre råg korn fullkorn med frukt nötter fröer"
+  },
+  {
+    "Nummer": 6087,
+    "Namn": "Mandelmjöl"
+  },
+  {
+    "Nummer": 6088,
+    "Namn": "Filmjölk eko"
+  },
+  {
+    "Nummer": 6089,
+    "Namn": "Kvarg drickf olika smaker"
+  },
+  {
+    "Nummer": 6090,
+    "Namn": "Kvarg smaksatt sötningsmed"
+  },
+  {
+    "Nummer": 6091,
+    "Namn": "Kvarg smaksatt med socker"
+  },
+  {
+    "Nummer": 6092,
+    "Namn": "Drickyoghurt smaksatt socker"
+  },
+  {
+    "Nummer": 6093,
+    "Namn": "Drickyoghurt smaksatt socker"
+  },
+  {
+    "Nummer": 6110,
+    "Namn": "Frukostflingor fullkorn Specialflingor"
+  },
+  {
+    "Nummer": 6113,
+    "Namn": "Yoghurt naturell"
+  },
+  {
+    "Nummer": 6120,
+    "Namn": "Pizza med köttfärs"
+  },
+  {
+    "Nummer": 6121,
+    "Namn": "Pizza med köttstek"
+  },
+  {
+    "Nummer": 6122,
+    "Namn": "Pizza med tomat mozzarella"
+  },
+  {
+    "Nummer": 6131,
+    "Namn": "Noni fruktpuré"
+  },
+  {
+    "Nummer": 6132,
+    "Namn": "Fisk Bordelaise"
+  },
+  {
+    "Nummer": 6133,
+    "Namn": "Ostkräm"
+  },
+  {
+    "Nummer": 6134,
+    "Namn": "Äppeljuice konc"
+  },
+  {
+    "Nummer": 6145,
+    "Namn": "Matvete kokt med salt"
+  },
+  {
+    "Nummer": 6146,
+    "Namn": "Mathavre kokt med salt"
+  },
+  {
+    "Nummer": 6154,
+    "Namn": "Psylliumfröskal"
+  },
+  {
+    "Nummer": 6157,
+    "Namn": "Chiafrö"
+  },
+  {
+    "Nummer": 6158,
+    "Namn": "Hampafrö med skal"
+  },
+  {
+    "Nummer": 6159,
+    "Namn": "Hampafröskal"
+  },
+  {
+    "Nummer": 6160,
+    "Namn": "Vallmofrö"
+  },
+  {
+    "Nummer": 6164,
+    "Namn": "Senap sötstark"
+  },
+  {
+    "Nummer": 6165,
+    "Namn": "Kokosolja"
+  },
+  {
+    "Nummer": 6166,
+    "Namn": "Majonnäs med sojabönolja"
+  },
+  {
+    "Nummer": 6167,
+    "Namn": "Majonnäs med solrosolja"
+  },
+  {
+    "Nummer": 6168,
+    "Namn": "Kräfta kräftstjärtar konservlag"
+  },
+  {
+    "Nummer": 6169,
+    "Namn": "Sikrom Nordamerikansk"
+  },
+  {
+    "Nummer": 6170,
+    "Namn": "Påläggskaviar med färskost"
+  },
+  {
+    "Nummer": 6171,
+    "Namn": "Tångkaviar röd"
+  },
+  {
+    "Nummer": 6172,
+    "Namn": "Tångkaviar påläggskaviar"
+  },
+  {
+    "Nummer": 6173,
+    "Namn": "Lax vildfångad Sverige rå"
+  },
+  {
+    "Nummer": 6174,
+    "Namn": "Lax odlad Norge fjordlax rå"
+  },
+  {
+    "Nummer": 6225,
+    "Namn": "Lax odlad Norge fjordlax rå förpackad"
+  },
+  {
+    "Nummer": 6231,
+    "Namn": "Välling för barn pulver fullkorn osötad"
+  },
+  {
+    "Nummer": 6234,
+    "Namn": "Välling för barn pulver havre osötad"
+  },
+  {
+    "Nummer": 6235,
+    "Namn": "Välling för barn pulver majs osötad"
+  },
+  {
+    "Nummer": 6236,
+    "Namn": "Välling för barn pulver havre mjölkfri osötad"
+  },
+  {
+    "Nummer": 6239,
+    "Namn": "Barngröt pulver havre med banan äpple mjölkfri osötad"
+  },
+  {
+    "Nummer": 6240,
+    "Namn": "Barngröt pulver naturell fullkorn osötad"
+  },
+  {
+    "Nummer": 6245,
+    "Namn": "Barnmat pasta couscous med kyckling konserv"
+  },
+  {
+    "Nummer": 6246,
+    "Namn": "Barnmat spagetti med köttfärssås konserv"
+  },
+  {
+    "Nummer": 6247,
+    "Namn": "Barnmat potatis med nötköttsgryta konserv"
+  },
+  {
+    "Nummer": 6248,
+    "Namn": "Barnmat pastagratäng med fläskkött konserv"
+  },
+  {
+    "Nummer": 6249,
+    "Namn": "Barnmat fiskgryta konserv"
+  },
+  {
+    "Nummer": 6251,
+    "Namn": "Barnmat lasagne pastagratäng med grönsaker konserv"
+  },
+  {
+    "Nummer": 6252,
+    "Namn": "Barnmat frukt bär med yoghurt konserv"
+  },
+  {
+    "Nummer": 6253,
+    "Namn": "Barnmat frukt bär med yoghurt konserv"
+  },
+  {
+    "Nummer": 6254,
+    "Namn": "Fruktstång fruktgodis"
+  },
+  {
+    "Nummer": 6255,
+    "Namn": "Fruktstång fruktgodis"
+  },
+  {
+    "Nummer": 6256,
+    "Namn": "Barnmat klämmis med gröt päron mango havre hirs konserv"
+  },
+  {
+    "Nummer": 6257,
+    "Namn": "Välling för barn drickf fullkorn osötad"
+  },
+  {
+    "Nummer": 6259,
+    "Namn": "Välling för barn drickf mild havre osötad"
+  },
+  {
+    "Nummer": 6260,
+    "Namn": "Välling för barn drickf majs osötad"
+  },
+  {
+    "Nummer": 6261,
+    "Namn": "Välling för barn drickf havre mjölkfri osötad"
+  },
+  {
+    "Nummer": 6262,
+    "Namn": "Barngröt ätf havre med banan äpple mjölkfri osötad"
+  },
+  {
+    "Nummer": 6263,
+    "Namn": "Barngröt ätf naturell fullkorn osötad"
+  },
+  {
+    "Nummer": 6264,
+    "Namn": "Sojaprotein bitar Tzay®"
+  },
+  {
+    "Nummer": 6265,
+    "Namn": "Sojaprotein bitar Oumph®"
+  },
+  {
+    "Nummer": 6266,
+    "Namn": "Havreprotein pulled havre strimlor"
+  },
+  {
+    "Nummer": 6267,
+    "Namn": "Sojaprotein färs"
+  },
+  {
+    "Nummer": 6268,
+    "Namn": "Soja och veteprotein färs"
+  },
+  {
+    "Nummer": 6269,
+    "Namn": "Ärtprotein färs"
+  },
+  {
+    "Nummer": 6270,
+    "Namn": "Sojaprotein bullar"
+  },
+  {
+    "Nummer": 6272,
+    "Namn": "Svampprotein bullar"
+  },
+  {
+    "Nummer": 6273,
+    "Namn": "Svampprotein nugget"
+  },
+  {
+    "Nummer": 6274,
+    "Namn": "Sojaprotein nugget"
+  },
+  {
+    "Nummer": 6275,
+    "Namn": "Soja och veteprotein nugget"
+  },
+  {
+    "Nummer": 6276,
+    "Namn": "Soja och veteprotein nugget"
+  },
+  {
+    "Nummer": 6277,
+    "Namn": "Soja och veteprotein baconimitation"
+  },
+  {
+    "Nummer": 6279,
+    "Namn": "Soja och veteprotein schnitzel"
+  },
+  {
+    "Nummer": 6280,
+    "Namn": "Soja och veteprotein schnitzel"
+  },
+  {
+    "Nummer": 6281,
+    "Namn": "Svampprotein schnitzel"
+  },
+  {
+    "Nummer": 6282,
+    "Namn": "Svampprotein färs bitar filé stekt"
+  },
+  {
+    "Nummer": 6283,
+    "Namn": "Falafel kikärtskroketter stekta"
+  },
+  {
+    "Nummer": 6284,
+    "Namn": "Falafel kikärtskroketter ugnsstekta"
+  },
+  {
+    "Nummer": 6285,
+    "Namn": "Soja och veteprotein bullar stekta"
+  },
+  {
+    "Nummer": 6286,
+    "Namn": "Soja och veteprotein bullar ugnsstekta"
+  },
+  {
+    "Nummer": 6287,
+    "Namn": "Sojaprotein färs stekt"
+  },
+  {
+    "Nummer": 6288,
+    "Namn": "Sojaprotein bitar stekta Tzay®"
+  },
+  {
+    "Nummer": 6289,
+    "Namn": "Sojaprotein bitar stekta Oumph®"
+  },
+  {
+    "Nummer": 6290,
+    "Namn": "Havreprotein pulled havre strimlor stekt"
+  },
+  {
+    "Nummer": 6291,
+    "Namn": "Sojaprotein färs stekt"
+  },
+  {
+    "Nummer": 6292,
+    "Namn": "Soja och veteprotein färs stekt"
+  },
+  {
+    "Nummer": 6293,
+    "Namn": "Ärtprotein färs stekt"
+  },
+  {
+    "Nummer": 6294,
+    "Namn": "Sojaprotein bullar stekta"
+  },
+  {
+    "Nummer": 6295,
+    "Namn": "Sojaprotein bullar ugnsstekta"
+  },
+  {
+    "Nummer": 6298,
+    "Namn": "Svampprotein bullar stekta"
+  },
+  {
+    "Nummer": 6299,
+    "Namn": "Svampprotein nugget stekt"
+  },
+  {
+    "Nummer": 6300,
+    "Namn": "Svampprotein nugget ugnsstekt"
+  },
+  {
+    "Nummer": 6301,
+    "Namn": "Sojaprotein nugget stekt"
+  },
+  {
+    "Nummer": 6302,
+    "Namn": "Sojaprotein nugget ugnsstekt"
+  },
+  {
+    "Nummer": 6303,
+    "Namn": "Soja och veteprotein nugget stekt"
+  },
+  {
+    "Nummer": 6304,
+    "Namn": "Soja och veteprotein nugget ugnsstekt"
+  },
+  {
+    "Nummer": 6305,
+    "Namn": "Soja och veteprotein nugget stekt"
+  },
+  {
+    "Nummer": 6306,
+    "Namn": "Soja och veteprotein nugget ugnsstekt"
+  },
+  {
+    "Nummer": 6307,
+    "Namn": "Soja och veteprotein baconimitation stekt"
+  },
+  {
+    "Nummer": 6309,
+    "Namn": "Soja och veteprotein schnitzel stekt"
+  },
+  {
+    "Nummer": 6310,
+    "Namn": "Soja och veteprotein schnitzel ugnsstekt"
+  },
+  {
+    "Nummer": 6311,
+    "Namn": "Soja och veteprotein schnitzel stekt"
+  },
+  {
+    "Nummer": 6312,
+    "Namn": "Soja och veteprotein schnitzel ugnsstekt"
+  },
+  {
+    "Nummer": 6313,
+    "Namn": "Svampprotein schnitzel ugnsstekt"
+  },
+  {
+    "Nummer": 6314,
+    "Namn": "Äggstanning"
+  },
+  {
+    "Nummer": 6330,
+    "Namn": "Jams koktsalt"
+  },
+  {
+    "Nummer": 6333,
+    "Namn": "Vindruvor gröna"
+  },
+  {
+    "Nummer": 6334,
+    "Namn": "Vindruvor röda"
+  },
+  {
+    "Nummer": 6336,
+    "Namn": "Dressing hamburgerdressing"
+  },
+  {
+    "Nummer": 6337,
+    "Namn": "Majonnäs äggfri"
+  },
+  {
+    "Nummer": 6338,
+    "Namn": "Sås mango curry med majonnäs"
+  },
+  {
+    "Nummer": 6341,
+    "Namn": "Ostsås med kalkon"
+  },
+  {
+    "Nummer": 6342,
+    "Namn": "Lasagne med zucchini aubergine nötfärs"
+  },
+  {
+    "Nummer": 6345,
+    "Namn": "Karlssons frestelse med nötfärs"
+  },
+  {
+    "Nummer": 6348,
+    "Namn": "Skinkfrestelse med grädde"
+  },
+  {
+    "Nummer": 6349,
+    "Namn": "Lök stekt med flytande mat"
+  },
+  {
+    "Nummer": 6352,
+    "Namn": "Tzatziki med morot"
+  },
+  {
+    "Nummer": 6353,
+    "Namn": "Mango currysås"
+  },
+  {
+    "Nummer": 6355,
+    "Namn": "Kycklingpanna med citron örter crème fraiche"
+  },
+  {
+    "Nummer": 6356,
+    "Namn": "Cowboysoppa med potatis köttfärs"
+  },
+  {
+    "Nummer": 6357,
+    "Namn": "Fransk bondsoppa med fläsk rotfrukter"
+  },
+  {
+    "Nummer": 6358,
+    "Namn": "Kycklingpanna med lime honung crème fraiche"
+  },
+  {
+    "Nummer": 6359,
+    "Namn": "Hedvigsoppa med vitkål nötfärs morot"
+  },
+  {
+    "Nummer": 6360,
+    "Namn": "Nikkaluoktasoppa med vitkål nötfärs"
+  },
+  {
+    "Nummer": 6361,
+    "Namn": "Mexicanasoppa med kyckling majs"
+  },
+  {
+    "Nummer": 6362,
+    "Namn": "Kycklingpanna med oliv basilika citron grädde"
+  },
+  {
+    "Nummer": 6364,
+    "Namn": "Färsruta med fetaost ugnsstekt"
+  },
+  {
+    "Nummer": 6366,
+    "Namn": "Fisk cornflakesfisk panerad ugnsstekt"
+  },
+  {
+    "Nummer": 6367,
+    "Namn": "Gryta fiskgryta med torsk kokosmjölk curry"
+  },
+  {
+    "Nummer": 6368,
+    "Namn": "Rödbetshummus"
+  },
+  {
+    "Nummer": 6369,
+    "Namn": "Ajvaryoghurt"
+  },
+  {
+    "Nummer": 6370,
+    "Namn": "KarlAlfredsås med yoghurt spenat"
+  },
+  {
+    "Nummer": 6372,
+    "Namn": "Chili och mangosås"
+  },
+  {
+    "Nummer": 6373,
+    "Namn": "Fisk med fänkål tomat crème fraiche ångkokt"
+  },
+  {
+    "Nummer": 6374,
+    "Namn": "Bondomelett med bönor"
+  },
+  {
+    "Nummer": 6375,
+    "Namn": "Grönsaksbiff Caribbean stekt"
+  },
+  {
+    "Nummer": 6377,
+    "Namn": "Gräddsås med persilja"
+  },
+  {
+    "Nummer": 6378,
+    "Namn": "Köttfärs och grönsaksbiff stekt"
+  },
+  {
+    "Nummer": 6379,
+    "Namn": "Grönsaksbiff broccolibiff stekt"
+  },
+  {
+    "Nummer": 6380,
+    "Namn": "Gryta kycklinggryta med bönor kakao"
+  },
+  {
+    "Nummer": 6381,
+    "Namn": "Fisk Björkeby med ströbröd smör persilja ugnsstekt"
+  },
+  {
+    "Nummer": 6382,
+    "Namn": "Fisk med soltorkad tomat persilja vitlök"
+  },
+  {
+    "Nummer": 6383,
+    "Namn": "Gratäng djungelgratäng med kyckling banan mango chutney crème fraiche"
+  },
+  {
+    "Nummer": 6384,
+    "Namn": "Mango chutney"
+  },
+  {
+    "Nummer": 6385,
+    "Namn": "Gratäng med kassler ananas ost"
+  },
+  {
+    "Nummer": 6386,
+    "Namn": "Gryta fiskgryta brasiliansk fiskgryta med kokosmjölk krossad tomat paprika"
+  },
+  {
+    "Nummer": 6387,
+    "Namn": "Gryta mormors kycklinggryta med svamp"
+  },
+  {
+    "Nummer": 6388,
+    "Namn": "Gryta köttgryta med fransk senap pepparrot gräddfil"
+  },
+  {
+    "Nummer": 6389,
+    "Namn": "Gryta fisk med crème fraiche curry apelsin"
+  },
+  {
+    "Nummer": 6390,
+    "Namn": "Korv falukorv ugnsstekt med ajvar"
+  },
+  {
+    "Nummer": 6391,
+    "Namn": "Gryta kyckling tikka masala"
+  },
+  {
+    "Nummer": 6392,
+    "Namn": "Senapskräm"
+  },
+  {
+    "Nummer": 6393,
+    "Namn": "Köttfärslåda"
+  },
+  {
+    "Nummer": 6395,
+    "Namn": "Gryta svampprotein med crème fraiche bambuskott haricot verts paprika"
+  },
+  {
+    "Nummer": 6396,
+    "Namn": "Gryta svampprotein tikka masala"
+  },
+  {
+    "Nummer": 6397,
+    "Namn": "Gryta svampprotein med fransk senap pepparrot gräddfil"
+  },
+  {
+    "Nummer": 6398,
+    "Namn": "Grönsaksburgare stekt"
+  },
+  {
+    "Nummer": 6399,
+    "Namn": "Grönsaksbiff rödbetsbiff stekt"
+  },
+  {
+    "Nummer": 6400,
+    "Namn": "Grönsaksbiff morotsbiff stekt"
+  },
+  {
+    "Nummer": 6401,
+    "Namn": "Grönsaksbiff zucchinibiff med ost stekt"
+  },
+  {
+    "Nummer": 6402,
+    "Namn": "Grönsaksbiff ärt och kålrotsbiff stekt"
+  },
+  {
+    "Nummer": 6403,
+    "Namn": "Grönsaksbiff kikärtsbiff stekt"
+  },
+  {
+    "Nummer": 6404,
+    "Namn": "Gryta chili sin carne med zucchini paprika"
+  },
+  {
+    "Nummer": 6405,
+    "Namn": "Gryta chili sin carne med svampprotein"
+  },
+  {
+    "Nummer": 6406,
+    "Namn": "Gryta chili con soja"
+  },
+  {
+    "Nummer": 6407,
+    "Namn": "Svampproteinfärssås"
+  },
+  {
+    "Nummer": 6408,
+    "Namn": "Gryta böngryta provencale med potatis rotselleri vitt vin crème fraiche"
+  },
+  {
+    "Nummer": 6409,
+    "Namn": "Gryta halloumigryta med linser"
+  },
+  {
+    "Nummer": 6410,
+    "Namn": "Halloumi stroganoff"
+  },
+  {
+    "Nummer": 6411,
+    "Namn": "Gryta halloumigryta med aubergine"
+  },
+  {
+    "Nummer": 6412,
+    "Namn": "Gryta svampprotein med grönsaker"
+  },
+  {
+    "Nummer": 6413,
+    "Namn": "Gryta kalops med svampprotein"
+  },
+  {
+    "Nummer": 6414,
+    "Namn": "Gryta indonesisk kycklinggryta med mango chutney"
+  },
+  {
+    "Nummer": 6415,
+    "Namn": "Gryta svampprotein indonesisk gryta med mango chutney"
+  },
+  {
+    "Nummer": 6416,
+    "Namn": "Gryta svampprotein med persika"
+  },
+  {
+    "Nummer": 6417,
+    "Namn": "Bön stroganoff"
+  },
+  {
+    "Nummer": 6418,
+    "Namn": "Gryta med gröna linser rotfrukter kokosmjölk"
+  },
+  {
+    "Nummer": 6419,
+    "Namn": "Gryta gulasch med bönor"
+  },
+  {
+    "Nummer": 6420,
+    "Namn": "Grönsaker ugnsstekta"
+  },
+  {
+    "Nummer": 6421,
+    "Namn": "Majssås"
+  },
+  {
+    "Nummer": 6422,
+    "Namn": "Gryta kikärtsgryta med aprikos blandade grönsaker"
+  },
+  {
+    "Nummer": 6423,
+    "Namn": "Svamp stroganoff"
+  },
+  {
+    "Nummer": 6424,
+    "Namn": "Broccolisås"
+  },
+  {
+    "Nummer": 6425,
+    "Namn": "Gryta indisk lammgryta"
+  },
+  {
+    "Nummer": 6426,
+    "Namn": "Sojafärssås"
+  },
+  {
+    "Nummer": 6427,
+    "Namn": "Sojafärssås med linser"
+  },
+  {
+    "Nummer": 6429,
+    "Namn": "Tikka masala med potatis grönsaker"
+  },
+  {
+    "Nummer": 6430,
+    "Namn": "Medelhavssås med grädde soltorkad tomat"
+  },
+  {
+    "Nummer": 6431,
+    "Namn": "Sås med grädde soltorkad tomat basilika vitlök"
+  },
+  {
+    "Nummer": 6433,
+    "Namn": "Gryta currygryta med grönsaker"
+  },
+  {
+    "Nummer": 6434,
+    "Namn": "Pasta carbonara med pasta sojabönor"
+  },
+  {
+    "Nummer": 6436,
+    "Namn": "Lasagne med linser"
+  },
+  {
+    "Nummer": 6437,
+    "Namn": "Lasagne med grönsaker"
+  },
+  {
+    "Nummer": 6438,
+    "Namn": "Grönsaksbas grönsakspasta"
+  },
+  {
+    "Nummer": 6439,
+    "Namn": "Tomatsås med grädde"
+  },
+  {
+    "Nummer": 6440,
+    "Namn": "Morotssås"
+  },
+  {
+    "Nummer": 6441,
+    "Namn": "Ajvar och spenatsås"
+  },
+  {
+    "Nummer": 6442,
+    "Namn": "Paprika grillad"
+  },
+  {
+    "Nummer": 6446,
+    "Namn": "Lasagne med cottage cheese"
+  },
+  {
+    "Nummer": 6447,
+    "Namn": "Paj med fetaost sötpotatis"
+  },
+  {
+    "Nummer": 6448,
+    "Namn": "Grynblandning havre råg vete korn kokt med salt"
+  },
+  {
+    "Nummer": 6449,
+    "Namn": "Soppa med kokosmjölk blomkål potatis spenat"
+  },
+  {
+    "Nummer": 6450,
+    "Namn": "Sötpotatissoppa med linser chili kokosmjölk"
+  },
+  {
+    "Nummer": 6451,
+    "Namn": "Rysk kålsoppa"
+  },
+  {
+    "Nummer": 6452,
+    "Namn": "Vegestronesoppa"
+  },
+  {
+    "Nummer": 6453,
+    "Namn": "Gratäng med svampprotein ananas"
+  },
+  {
+    "Nummer": 6454,
+    "Namn": "Pumpasoppa"
+  },
+  {
+    "Nummer": 6455,
+    "Namn": "Gryta chiligryta med bönor linser sojakorv"
+  },
+  {
+    "Nummer": 6456,
+    "Namn": "Lasagne med skinka"
+  },
+  {
+    "Nummer": 6457,
+    "Namn": "Pastasås med kyckling paprika"
+  },
+  {
+    "Nummer": 6458,
+    "Namn": "Pastagratäng Rossini med kycklingfärs ananas paprika squash tomat purjolök"
+  },
+  {
+    "Nummer": 6459,
+    "Namn": "Köttfärssås Vivaldi nöt med squash majs paprika rödlök ost"
+  },
+  {
+    "Nummer": 6461,
+    "Namn": "Chiapudding"
+  },
+  {
+    "Nummer": 6462,
+    "Namn": "Korv stroganoff"
+  },
+  {
+    "Nummer": 6463,
+    "Namn": "Lasagne"
+  },
+  {
+    "Nummer": 6468,
+    "Namn": "Havremjöl fullkorn"
+  },
+  {
+    "Nummer": 6478,
+    "Namn": "Öring Sverige höst rå"
+  },
+  {
+    "Nummer": 6479,
+    "Namn": "Taco tortilla med köttfärs grönsaker ost"
+  },
+  {
+    "Nummer": 6480,
+    "Namn": "Kornflingor ångprep fullkorn"
+  },
+  {
+    "Nummer": 6481,
+    "Namn": "Rågflingor ångprep fullkorn"
+  },
+  {
+    "Nummer": 6482,
+    "Namn": "Veteflingor ångprep fullkorn"
+  },
+  {
+    "Nummer": 6494,
+    "Namn": "Dinkelmjöl"
+  },
+  {
+    "Nummer": 6506,
+    "Namn": "Grönsaksbiff jordnötsbiff"
+  },
+  {
+    "Nummer": 6542,
+    "Namn": "Vetemjöl durum"
+  },
+  {
+    "Nummer": 6574,
+    "Namn": "Mjölblandning vete korn råg havre"
+  },
+  {
+    "Nummer": 6576,
+    "Namn": "Mjölblandning rågsikt"
+  },
+  {
+    "Nummer": 6651,
+    "Namn": "Rapsolja"
+  },
+  {
+    "Nummer": 6676,
+    "Namn": "Durraandra sorghumarter mjöl"
+  },
+  {
+    "Nummer": 6677,
+    "Namn": "Amarant mjöl"
+  },
+  {
+    "Nummer": 6682,
+    "Namn": "Sojasås shoyu"
+  },
+  {
+    "Nummer": 6701,
+    "Namn": "Insalata Caprese"
+  },
+  {
+    "Nummer": 6702,
+    "Namn": "Waldorfsallad"
+  },
+  {
+    "Nummer": 6703,
+    "Namn": "Jordnötter med chokladöverdrag"
+  },
+  {
+    "Nummer": 6704,
+    "Namn": "Chokladkex med vaniljfyllning"
+  },
+  {
+    "Nummer": 6705,
+    "Namn": "Risotto med kyckling spenat"
+  },
+  {
+    "Nummer": 6790,
+    "Namn": "Havregurt hallon"
+  },
+  {
+    "Nummer": 6791,
+    "Namn": "Havregurt blåbär hallon"
+  },
+  {
+    "Nummer": 6792,
+    "Namn": "Havregurt jordgubb"
+  },
+  {
+    "Nummer": 6793,
+    "Namn": "Havregurt vanilj"
+  },
+  {
+    "Nummer": 6797,
+    "Namn": "Havredryck eko"
+  },
+  {
+    "Nummer": 6801,
+    "Namn": "Havregurt naturell"
+  },
+  {
+    "Nummer": 6802,
+    "Namn": "Glass havreglass chokladfudge"
+  },
+  {
+    "Nummer": 6803,
+    "Namn": "Glass havreglass karamell hasselnöt"
+  },
+  {
+    "Nummer": 6804,
+    "Namn": "Glass havreglass karamell vanilj"
+  },
+  {
+    "Nummer": 6807,
+    "Namn": "Havrebaserat pålägg tomat basilika"
+  },
+  {
+    "Nummer": 6808,
+    "Namn": "Havrebaserat pålägg vitlök gurka"
+  },
+  {
+    "Nummer": 6809,
+    "Namn": "Havredryck choklad"
+  },
+  {
+    "Nummer": 6812,
+    "Namn": "Havregurt smaksatt"
+  },
+  {
+    "Nummer": 6813,
+    "Namn": "Havredryck"
+  },
+  {
+    "Nummer": 6814,
+    "Namn": "Glass havreglass smaksatt"
+  },
+  {
+    "Nummer": 6815,
+    "Namn": "Havrebaserat pålägg smaksatt"
+  }
+]

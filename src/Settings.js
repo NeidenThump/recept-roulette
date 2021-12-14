@@ -12,7 +12,8 @@ import CardContent from '@mui/material/CardContent';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 //Dropdown
-function BasicMenu() {
+function BasicMenu({setOption}) {
+  /*
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -22,16 +23,12 @@ function BasicMenu() {
     setAnchorEl(null);
     generateRecipe(id);
   };
-
-  const [getIngr, setGetIngr] = useState(window.localStorage.getItem("getFromDB").toString());
-  const handleChange = (event) => {
-    setGetIngr(event.target.value);
-    window.localStorage.setItem("getFromDB", event.target.value)
-  };
-
+*/
+  
   return (
-    <div>
+    
       {/*
+        <div>
       <Button
         sx={{ backgroundColor: '#222165', color: "white"}}
         id="basic-button"
@@ -56,7 +53,7 @@ function BasicMenu() {
         <MenuItem onClick={() => handleClose("egen")}>Egna ingredienser</MenuItem>
         <MenuItem onClick={() => handleClose("blanda")}>Blanda</MenuItem>
       </Menu>
-      */}
+      
       <Typography sx={{mb:2, mt: 5}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
       <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas från för att skapa recept.</Typography>
       <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
@@ -73,8 +70,8 @@ function BasicMenu() {
           </Select>
         </FormControl>
       </Box>
-    </div>
-  );
+      </div>*/}
+  )
 }
 
 
@@ -107,11 +104,17 @@ export default function InputTags() {
   const tagRef = useRef();
   const [inputText, SetinputText] = useState("");
 
+  const [option, setOption] = useState(window.localStorage.getItem("getFromDB"));
+
   const handleDelete = (value, key) => {
     const newtags = tags.filter((val) => val !== value);
     SetTags(newtags);
     t.splice(t.indexOf(value),1);
     window.localStorage.setItem('Tag', JSON.stringify(t));
+    if(tags.length <= 3){
+      window.localStorage.setItem("getFromDB", "livs");
+      setOption("livs");
+    }
   };
 
   const handleOnSubmit = (e) => {
@@ -129,6 +132,13 @@ export default function InputTags() {
     }
   };
 
+  const [getIngr, setGetIngr] = useState(option);
+  const handleChangeOption = (event) => {
+    setGetIngr(event.target.value);
+    window.localStorage.setItem("getFromDB", event.target.value)
+  };
+
+
   const handleChange = (e) => {
     SetinputText(e.target.value)
   }
@@ -139,7 +149,24 @@ export default function InputTags() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"/>
         
         <div className="menu">
-          <BasicMenu/>
+          <div>
+          <Typography sx={{mb:2, mt: 5}} align="center" variant="h5" fontWeight="bold">Databas för ingredienser</Typography>
+          <Typography sx={{mb:3, ml: 5, mr: 5}}>Här kan du välja varifrån ingredienserna ska hämtas från för att skapa recept.</Typography>
+          <Box sx={{ minWidth: 250, maxWidth:300, ml:5 }}>
+            <FormControl fullWidth >
+              <InputLabel>Hämta från</InputLabel>
+              <Select
+                value={getIngr}
+                label="Hämta från"
+                onChange={handleChangeOption}
+              >
+                <MenuItem value={"livs"}>Standard databas</MenuItem>
+                <MenuItem value={"egen"}>Egna ingredienser</MenuItem>
+                <MenuItem value={"blanda"}>Både egna och standard</MenuItem>
+              </Select>
+            </FormControl>
+          </Box>
+          </div>
         </div>
 
         <Typography sx={{mb:3, mt: 10}} align="center" variant="h5" fontWeight="bold">Lägg till egna ingredienser</Typography>
